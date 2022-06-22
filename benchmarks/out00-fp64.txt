@@ -1,0 +1,23 @@
+nelems = 105288
+Using sw2d cuda on NVIDIA GeForce RTX 2080
+
+iter 100/2000, cputime=0.042s, ETA=0.24s, 104.867 us/iter
+iter 200/2000, cputime=0.052s, ETA=0.24s, 102.400 us/iter
+iter 300/2000, cputime=0.222s, ETA=2.20s, 1163.822 us/iter
+iter 400/2000, cputime=0.616s, ETA=5.11s, 2809.217 us/iter
+iter 500/2000, cputime=1.011s, ETA=6.71s, 3800.654 us/iter
+iter 600/2000, cputime=1.406s, ETA=6.93s, 3944.762 us/iter
+iter 700/2000, cputime=1.800s, ETA=6.93s, 3947.688 us/iter
+iter 800/2000, cputime=2.195s, ETA=6.93s, 3946.426 us/iter
+iter 900/2000, cputime=2.589s, ETA=6.93s, 3945.990 us/iter
+iter 1000/2000, cputime=2.984s, ETA=6.93s, 3945.944 us/iter
+iter 1100/2000, cputime=3.379s, ETA=6.93s, 3946.136 us/iter
+iter 1200/2000, cputime=3.773s, ETA=6.93s, 3945.568 us/iter
+iter 1300/2000, cputime=4.168s, ETA=6.93s, 3945.383 us/iter
+iter 1400/2000, cputime=4.562s, ETA=6.93s, 3945.079 us/iter
+iter 1500/2000, cputime=4.957s, ETA=6.93s, 3945.002 us/iter
+iter 1600/2000, cputime=5.351s, ETA=6.93s, 3945.024 us/iter
+iter 1700/2000, cputime=5.745s, ETA=6.93s, 3944.941 us/iter
+iter 1800/2000, cputime=6.140s, ETA=6.93s, 3944.929 us/iter
+iter 1900/2000, cputime=6.534s, ETA=6.93s, 3944.781 us/iter
+iter 2000/2000, cputime=6.929s, ETA=6.93s, 3944.894 us/iter

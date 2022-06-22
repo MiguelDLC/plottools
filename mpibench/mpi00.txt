@@ -1,0 +1,132 @@
+rank 1, nelems = 52903
+rank 0, nelems = 52907
+Cuda Device :  <pycuda._driver.Device object at 0x7f95ad48e1f0>
+Using sw2d cuda on device 1/2 : NVIDIA GeForce RTX 2080
+Cuda Device :  <pycuda._driver.Device object at 0x7f4172b561f0>
+Using sw2d cuda on device 0/2 : NVIDIA GeForce RTX 2080
+(52903, 3, 3)
+neigh (52642, 3, 2)
+(52907, 3, 3)
+neigh (52646, 3, 2)
+(24, 52903)   C_CONTIGUOUS : True
+  F_CONTIGUOUS : False
+  OWNDATA : True
+  WRITEABLE : True
+  ALIGNED : True
+  WRITEBACKIFCOPY : False
+  UPDATEIFCOPY : False
+
+(24, 52907)   C_CONTIGUOUS : True
+  F_CONTIGUOUS : False
+  OWNDATA : True
+  WRITEABLE : True
+  ALIGNED : True
+  WRITEBACKIFCOPY : False
+  UPDATEIFCOPY : False
+
+
+iter 100/10000, cputime=0.102s, ETA=6.52s, 647.853 us/iter, fact=3087.12
+iter 200/10000, cputime=0.173s, ETA=7.08s, 704.612 us/iter, fact=2838.44
+iter 300/10000, cputime=0.243s, ETA=7.14s, 710.972 us/iter, fact=2813.05
+iter 400/10000, cputime=0.320s, ETA=7.38s, 735.531 us/iter, fact=2719.12
+iter 500/10000, cputime=0.388s, ETA=7.18s, 714.844 us/iter, fact=2797.81
+iter 600/10000, cputime=0.459s, ETA=7.22s, 718.739 us/iter, fact=2782.65
+iter 700/10000, cputime=0.537s, ETA=7.28s, 725.322 us/iter, fact=2757.39
+iter 800/10000, cputime=0.607s, ETA=7.20s, 716.240 us/iter, fact=2792.36
+iter 900/10000, cputime=0.677s, ETA=7.19s, 715.212 us/iter, fact=2796.37
+iter 1000/10000, cputime=0.753s, ETA=7.32s, 729.149 us/iter, fact=2742.92
+iter 1100/10000, cputime=0.823s, ETA=7.26s, 722.803 us/iter, fact=2767.01
+iter 1200/10000, cputime=0.892s, ETA=7.24s, 721.457 us/iter, fact=2772.17
+iter 1300/10000, cputime=0.962s, ETA=7.14s, 710.643 us/iter, fact=2814.35
+iter 1400/10000, cputime=1.032s, ETA=7.11s, 706.968 us/iter, fact=2828.98
+iter 1500/10000, cputime=1.105s, ETA=7.13s, 709.000 us/iter, fact=2820.87
+iter 1600/10000, cputime=1.182s, ETA=7.22s, 718.622 us/iter, fact=2783.11
+iter 1700/10000, cputime=1.261s, ETA=7.29s, 725.784 us/iter, fact=2755.64
+iter 1800/10000, cputime=1.336s, ETA=7.34s, 732.043 us/iter, fact=2732.08
+iter 1900/10000, cputime=1.412s, ETA=7.36s, 734.585 us/iter, fact=2722.63
+iter 2000/10000, cputime=1.481s, ETA=7.31s, 728.029 us/iter, fact=2747.14
+iter 2100/10000, cputime=1.550s, ETA=7.27s, 724.170 us/iter, fact=2761.78
+iter 2200/10000, cputime=1.620s, ETA=7.27s, 724.162 us/iter, fact=2761.81
+iter 2300/10000, cputime=1.694s, ETA=7.28s, 725.788 us/iter, fact=2755.62
+iter 2400/10000, cputime=1.767s, ETA=7.31s, 729.160 us/iter, fact=2742.88
+iter 2500/10000, cputime=1.837s, ETA=7.29s, 726.815 us/iter, fact=2751.73
+iter 2600/10000, cputime=1.906s, ETA=7.28s, 726.019 us/iter, fact=2754.75
+iter 2700/10000, cputime=1.974s, ETA=7.25s, 722.972 us/iter, fact=2766.36
+iter 2800/10000, cputime=2.047s, ETA=7.27s, 724.836 us/iter, fact=2759.25
+iter 2900/10000, cputime=2.124s, ETA=7.29s, 726.992 us/iter, fact=2751.06
+iter 3000/10000, cputime=2.195s, ETA=7.28s, 726.924 us/iter, fact=2751.32
+iter 3100/10000, cputime=2.264s, ETA=7.26s, 723.941 us/iter, fact=2762.65
+iter 3200/10000, cputime=2.333s, ETA=7.22s, 719.457 us/iter, fact=2779.88
+iter 3300/10000, cputime=2.402s, ETA=7.19s, 714.812 us/iter, fact=2797.94
+iter 3400/10000, cputime=2.470s, ETA=7.16s, 710.613 us/iter, fact=2814.47
+iter 3500/10000, cputime=2.535s, ETA=7.13s, 707.018 us/iter, fact=2828.78
+iter 3600/10000, cputime=2.601s, ETA=7.10s, 702.772 us/iter, fact=2845.88
+iter 3700/10000, cputime=2.668s, ETA=7.07s, 698.314 us/iter, fact=2864.04
+iter 3800/10000, cputime=2.736s, ETA=7.06s, 696.811 us/iter, fact=2870.22
+iter 3900/10000, cputime=2.809s, ETA=7.07s, 698.005 us/iter, fact=2865.31
+iter 4000/10000, cputime=2.877s, ETA=7.07s, 698.087 us/iter, fact=2864.97
+iter 4100/10000, cputime=2.947s, ETA=7.07s, 698.635 us/iter, fact=2862.73
+iter 4200/10000, cputime=3.016s, ETA=7.07s, 698.396 us/iter, fact=2863.70
+iter 4300/10000, cputime=3.087s, ETA=7.07s, 698.789 us/iter, fact=2862.09
+iter 4400/10000, cputime=3.155s, ETA=7.06s, 697.912 us/iter, fact=2865.69
+iter 4500/10000, cputime=3.222s, ETA=7.05s, 695.411 us/iter, fact=2876.00
+iter 4600/10000, cputime=3.291s, ETA=7.04s, 694.373 us/iter, fact=2880.30
+iter 4700/10000, cputime=3.359s, ETA=7.03s, 693.444 us/iter, fact=2884.15
+iter 4800/10000, cputime=3.429s, ETA=7.03s, 692.732 us/iter, fact=2887.12
+iter 4900/10000, cputime=3.499s, ETA=7.03s, 691.858 us/iter, fact=2890.77
+iter 5000/10000, cputime=3.569s, ETA=7.03s, 692.767 us/iter, fact=2886.97
+iter 5100/10000, cputime=3.639s, ETA=7.04s, 693.376 us/iter, fact=2884.44
+iter 5200/10000, cputime=3.708s, ETA=7.04s, 693.197 us/iter, fact=2885.18
+iter 5300/10000, cputime=3.780s, ETA=7.04s, 694.048 us/iter, fact=2881.65
+iter 5400/10000, cputime=3.849s, ETA=7.04s, 694.296 us/iter, fact=2880.61
+iter 5500/10000, cputime=3.919s, ETA=7.04s, 694.384 us/iter, fact=2880.25
+iter 5600/10000, cputime=3.987s, ETA=7.04s, 693.102 us/iter, fact=2885.58
+iter 5700/10000, cputime=4.058s, ETA=7.03s, 691.785 us/iter, fact=2891.07
+iter 5800/10000, cputime=4.126s, ETA=7.02s, 690.156 us/iter, fact=2897.90
+iter 5900/10000, cputime=4.197s, ETA=7.02s, 689.772 us/iter, fact=2899.51
+iter 6000/10000, cputime=4.267s, ETA=7.03s, 690.596 us/iter, fact=2896.05
+iter 6100/10000, cputime=4.335s, ETA=7.03s, 690.065 us/iter, fact=2898.28
+iter 6200/10000, cputime=4.404s, ETA=7.03s, 690.357 us/iter, fact=2897.05
+iter 6300/10000, cputime=4.471s, ETA=7.02s, 689.661 us/iter, fact=2899.97
+iter 6400/10000, cputime=4.540s, ETA=7.02s, 689.905 us/iter, fact=2898.95
+iter 6500/10000, cputime=4.609s, ETA=7.02s, 689.337 us/iter, fact=2901.34
+iter 6600/10000, cputime=4.678s, ETA=7.02s, 689.682 us/iter, fact=2899.89
+iter 6700/10000, cputime=4.746s, ETA=7.02s, 689.311 us/iter, fact=2901.45
+iter 6800/10000, cputime=4.819s, ETA=7.03s, 690.980 us/iter, fact=2894.44
+iter 6900/10000, cputime=4.889s, ETA=7.03s, 691.635 us/iter, fact=2891.70
+iter 7000/10000, cputime=4.961s, ETA=7.04s, 693.163 us/iter, fact=2885.32
+iter 7100/10000, cputime=5.033s, ETA=7.05s, 693.922 us/iter, fact=2882.17
+iter 7200/10000, cputime=5.102s, ETA=7.05s, 694.711 us/iter, fact=2878.89
+iter 7300/10000, cputime=5.173s, ETA=7.05s, 695.159 us/iter, fact=2877.04
+iter 7400/10000, cputime=5.243s, ETA=7.05s, 695.957 us/iter, fact=2873.74
+iter 7500/10000, cputime=5.315s, ETA=7.06s, 696.946 us/iter, fact=2869.66
+iter 7600/10000, cputime=5.385s, ETA=7.06s, 697.074 us/iter, fact=2869.14
+iter 7700/10000, cputime=5.460s, ETA=7.07s, 698.381 us/iter, fact=2863.77
+iter 7800/10000, cputime=5.531s, ETA=7.07s, 697.996 us/iter, fact=2865.35
+iter 7900/10000, cputime=5.603s, ETA=7.07s, 698.331 us/iter, fact=2863.97
+iter 8000/10000, cputime=5.672s, ETA=7.07s, 698.716 us/iter, fact=2862.39
+iter 8100/10000, cputime=5.744s, ETA=7.07s, 699.021 us/iter, fact=2861.14
+iter 8200/10000, cputime=5.813s, ETA=7.07s, 699.004 us/iter, fact=2861.22
+iter 8300/10000, cputime=5.886s, ETA=7.08s, 699.806 us/iter, fact=2857.94
+iter 8400/10000, cputime=5.955s, ETA=7.07s, 699.592 us/iter, fact=2858.81
+iter 8500/10000, cputime=6.028s, ETA=7.08s, 700.457 us/iter, fact=2855.28
+iter 8600/10000, cputime=6.098s, ETA=7.08s, 700.193 us/iter, fact=2856.36
+iter 8700/10000, cputime=6.167s, ETA=7.08s, 700.062 us/iter, fact=2856.89
+iter 8800/10000, cputime=6.238s, ETA=7.08s, 700.666 us/iter, fact=2854.43
+iter 8900/10000, cputime=6.308s, ETA=7.08s, 700.755 us/iter, fact=2854.07
+iter 9000/10000, cputime=6.377s, ETA=7.08s, 701.021 us/iter, fact=2852.98
+iter 9100/10000, cputime=6.446s, ETA=7.08s, 700.807 us/iter, fact=2853.85
+iter 9200/10000, cputime=6.518s, ETA=7.08s, 701.512 us/iter, fact=2850.99
+iter 9300/10000, cputime=6.588s, ETA=7.08s, 701.506 us/iter, fact=2851.01
+iter 9400/10000, cputime=6.660s, ETA=7.08s, 702.259 us/iter, fact=2847.95
+iter 9500/10000, cputime=6.728s, ETA=7.08s, 701.912 us/iter, fact=2849.36
+iter 9600/10000, cputime=6.800s, ETA=7.08s, 702.246 us/iter, fact=2848.00
+iter 9700/10000, cputime=6.869s, ETA=7.08s, 701.798 us/iter, fact=2849.82
+iter 9800/10000, cputime=6.941s, ETA=7.08s, 702.417 us/iter, fact=2847.31
+iter 9900/10000, cputime=7.011s, ETA=7.08s, 702.579 us/iter, fact=2846.65
+iter 10000/10000, cputime=7.081s, ETA=7.08s, 702.345 us/iter, fact=2847.61
+
+raw      : median=666.380 us, mean=709.252 us std=514.581 us
+raw      : median=666.618 us, mean=708.080 us std=404.755 us
+filtered : median=663.519 us, mean=660.937 us std=18.194 us
+filtered : median=663.757 us, mean=661.107 us std=18.108 us
