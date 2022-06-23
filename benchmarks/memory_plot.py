@@ -8,7 +8,6 @@ import matplotlib.patches as mpatch
 import cmocean
 import os
 #matplotlib.rc("text", usetex=True)
-#matplotlib.rc("font", family="serif")
 
 # matplotlib.rc("text.latex", preamble=r"""
 # \usepackage{amsmath}
@@ -16,19 +15,20 @@ import os
 # \DeclareMathOperator{\newdiff}{d} % use \dif instead
 # \newcommand{\dif}{\newdiff\!} %the correct way to do derivatives
 # """)
+plt.rcParams["font.family"] = "calibri"
+
+
+colors = [u'#1f77b4', u'#ff7f0e', u'#2ca02c', u'#d62728', u'#9467bd', u'#8c564b', u'#e377c2', u'#7f7f7f', u'#bcbd22', u'#17becf']
 
 def slabel(t):
     if t < 1e3:
-        return "%.2f" % t
+        return "%0.f" % t
     if t < 1e6:
-        return "%.2f K" % (t*1e-3)
+        return "%0.f K" % (t*1e-3)
     if t < 1e9:
-        return "%.2f M" % (t*1e-6)
-    if t < 1e12:
-        return "%.2f G" % (t*1e-9)
+        return "%0.f M" % (t*1e-6)
     else:
-        return "%.2f T" % (t*1e-12)
-
+        return "%0.f G" % (t*1e-9)
 
 arrowprop = {
     "linewidth" : 2.3,
@@ -239,42 +239,42 @@ def doplot(all, outfname, cbar=True):
     fig = plt.figure(figsize=(17,4))
     ax = plt.gca()
     #kernel
-    addrec(0, 0, 0.5, 4, linewidth=1, edgecolor='k', facecolor='limegreen')
-    addtxt(0, 0, "Kernel", rotation=90)
+    addrec(0, 0, 0.5, 4, linewidth=1, edgecolor='k', facecolor=u"#4db748")
+    addtxt(0, 0, "Registers", rotation=90)
 
     #global
-    addrec(glspos, (2-glsh), 2*glsw,2*glsh, linewidth=1, edgecolor='k', facecolor='limegreen')
+    addrec(glspos, (2-glsh), 2*glsw,2*glsh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
     addtxt(glspos, (2-glsh), "Global")
     harrow(0.25, glspos-glsw, (2-glsh), False, txt=slabel(kern_global_inst) + " Inst")
     harrow(l1pos-l1w, glspos+glsw, 2-glsh+txthsep, True, txt=slabel(kern_global_load_req) + " Req", color=cmap(kern_global_load_req_ratio))
     harrow(glspos+glsw, l1pos-l1w, 2-glsh-txthsep, True, txt=slabel(kern_global_stor_req) + " Req", txtargs={"under" : -1}, color=cmap(kern_global_stor_req_ratio))
 
     #local
-    addrec(glspos, -(2-glsh), 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor='limegreen')
+    addrec(glspos, -(2-glsh), 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
     addtxt(glspos, -(2-glsh), "Local")
     harrow(0.25, glspos-glsw, -(2-glsh), False, txt=slabel(kern_lo_inst) + " Inst")
     harrow(l1pos-l1w, glspos+glsw, -(2-glsh)+txthsep, True, txt=slabel(kern_local_load_req) + " Req", color=cmap(kern_global_load_req_ratio))
     harrow(glspos+glsw, l1pos-l1w, -(2-glsh)-txthsep, True, txt=slabel(kern_local_stor_req) + " Req", txtargs={"under" : -1}, color=cmap(kern_global_stor_req_ratio))
 
     #L1
-    addrec(l1pos, 0, 2*l1w, 4, linewidth=1, edgecolor='k', facecolor='darkblue')
-    addtxt(l1pos, 0, "L1/TEX\nCache\n\nHit rate:\n%.2f" % (L1_cache_hit_ratio*100) + "%", color="w")
+    addrec(l1pos, 0, 2*l1w, 4, linewidth=1, edgecolor='k', facecolor=colors[0])
+    addtxt(l1pos, 0, "L1/TEX\nCache\n\nHit rate:\n%0.f" % (L1_cache_hit_ratio*100) + "%", color="w")
     harrow(l2pos-l2w, l1pos+l1w,  txthsep, True, txt=slabel(l1_l2_read ) + "B", color=cmap(l1_l2_read_ratio))
     harrow(l1pos+l1w, l2pos-l2w, -txthsep, True, txt=slabel(l1_l2_write) + "B", txtargs={"under" : -1}, color=cmap(l1_l2_write_ratio))
 
     #L2
-    addrec(l2pos, 0, 2*l2w, 4, linewidth=1, edgecolor='k', facecolor='darkblue')
-    addtxt(l2pos, 0, "L2 Cache\n\nHit rate:\n%.2f" % (l2_hit_ratio*100) + "%", color="w")
+    addrec(l2pos, 0, 2*l2w, 4, linewidth=1, edgecolor='k', facecolor=colors[0])
+    addtxt(l2pos, 0, "L2 Cache\n\nHit rate:\n%0.f" % (l2_hit_ratio*100) + "%", color="w")
     harrow(drampos-0.25, l2pos+l2w, txthsep, True, txt=slabel(dram_read ) + "B", color=cmap(dram_read_ratio))
     harrow(l2pos+l2w, drampos-0.25, -txthsep, True, txt=slabel(dram_write) + "B", txtargs={"under" : -1}, color=cmap(dram_write_ratio))
 
     #dram
-    addrec(drampos, 0, 0.5, 4, linewidth=1, edgecolor='k', facecolor='darkblue')
+    addrec(drampos, 0, 0.5, 4, linewidth=1, edgecolor='k', facecolor=colors[0])
     addtxt(drampos, 0, "Device memory", rotation=90, color="w")
     loopx = np.array([ 0,  1, 1, 0])*0.1 + drampos - 0.25
     loopy = np.array([-3, -2.5, 2.5, 3])*0.14
 
-    plt.fill(loopx, loopy, color=cmap(dram_read_ratio + dram_write_ratio))
+    # plt.fill(loopx, loopy, color=cmap(dram_read_ratio + dram_write_ratio))
 
 
 
@@ -355,54 +355,54 @@ def doplot2(all, outfname, cbar=False):
     fig = plt.figure(figsize=(17,4))
     ax = plt.gca()
     #kernel
-    addrec(0, 0, 0.5, 2*kernh, linewidth=1, edgecolor='k', facecolor='limegreen')
-    addtxt(0, 0, "Kernel", rotation=90)
+    addrec(0, 0, 0.5, 2*kernh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
+    addtxt(0, 0, "Registers", rotation=90)
 
     #global
-    addrec(glspos, (kernh-glsph), 2*glsw,2*glsh, linewidth=1, edgecolor='k', facecolor='limegreen')
+    addrec(glspos, (kernh-glsph), 2*glsw,2*glsh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
     addtxt(glspos, (kernh-glsph), "Global")
     harrow(0.25, glspos-glsw, (kernh-glsph), False, txt=slabel(kern_global_inst) + " Inst")
     harrow(l1pos-l1w, glspos+glsw, kernh-glsph+txthsep, True, txt=slabel(kern_global_load_req) + " Req", color=cmap(kern_global_load_req_ratio))
     harrow(glspos+glsw, l1pos-l1w, kernh-glsph-txthsep, True, txt=slabel(kern_global_stor_req) + " Req", txtargs={"under" : -1}, color=cmap(kern_global_stor_req_ratio))
 
     #local
-    addrec(glspos, 0, 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor='limegreen')
+    addrec(glspos, 0, 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
     addtxt(glspos, 0, "Local")
     harrow(0.25, glspos-glsw, 0, False, txt=slabel(kern_lo_inst) + " Inst")
     harrow(l1pos-l1w, glspos+glsw, +txthsep, True, txt=slabel(kern_local_load_req) + " Req", color=cmap(kern_global_load_req_ratio))
     harrow(glspos+glsw, l1pos-l1w, -txthsep, True, txt=slabel(kern_local_stor_req) + " Req", txtargs={"under" : -1}, color=cmap(kern_global_stor_req_ratio))
 
     #shared
-    addrec(glspos, -(kernh-glsph), 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor='limegreen')
+    addrec(glspos, -(kernh-glsph), 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
     addtxt(glspos, -(kernh-glsph), "Shared")
     harrow(0.25, glspos-glsw, -(kernh-glsph), False, txt=slabel(kern_shared_inst) + " Inst")
     harrow(l1pos-l1w, glspos+glsw, -(kernh-glsph)+txthsep, True, txt=slabel(kern_shared_load_req) + " Req", color=cmap(kern_shared_load_req_ratio))
     harrow(glspos+glsw, l1pos-l1w, -(kernh-glsph)-txthsep, True, txt=slabel(kern_shared_stor_req) + " Req", txtargs={"under" : -1}, color=cmap(kern_shared_stor_req_ratio))
 
     #L1
-    addrec(l1pos, kernh/2-glsph/2, 2*l1w, kernh+glsph, linewidth=1, edgecolor='k', facecolor='darkblue')
-    addtxt(l1pos, kernh/2-glsph/2, "L1/TEX\nCache\n\nHit rate:\n%.2f" % (L1_cache_hit_ratio*100) + "%", color="w")
+    addrec(l1pos, kernh/2-glsph/2, 2*l1w, kernh+glsph, linewidth=1, edgecolor='k', facecolor=colors[0])
+    addtxt(l1pos, kernh/2-glsph/2, "L1/TEX\nCache\n\nHit rate:\n%0.f" % (L1_cache_hit_ratio*100) + "%", color="w")
     harrow(l2pos-l2w, l1pos+l1w, 1.5-glsh/2+txthsep, True, txt=slabel(l1_l2_read ) + "B", color=cmap(l1_l2_read_ratio))
     harrow(l1pos+l1w, l2pos-l2w, 1.5-glsh/2-txthsep, True, txt=slabel(l1_l2_write) + "B", txtargs={"under" : -1}, color=cmap(l1_l2_write_ratio))
 
     #shared (L1-level)
-    addrec(l1pos, -(kernh-glsph), 2*l1w, 2*glsph, linewidth=1, edgecolor='k', facecolor='darkblue')
+    addrec(l1pos, -(kernh-glsph), 2*l1w, 2*glsph, linewidth=1, edgecolor='k', facecolor=colors[0])
     addtxt(l1pos, -(kernh-glsph), "Shared\nmemory", color="w")
 
 
     #L2
-    addrec(l2pos, 0, 2*l2w, 2*kernh, linewidth=1, edgecolor='k', facecolor='darkblue')
-    addtxt(l2pos, 0, "L2 Cache\n\nHit rate:\n%.2f" % (l2_hit_ratio*100) + "%", color="w")
+    addrec(l2pos, 0, 2*l2w, 2*kernh, linewidth=1, edgecolor='k', facecolor=colors[0])
+    addtxt(l2pos, 0, "L2 Cache\n\nHit rate:\n%0.f" % (l2_hit_ratio*100) + "%", color="w")
     harrow(drampos-0.25, l2pos+l2w, txthsep, True, txt=slabel(dram_read ) + "B", color=cmap(dram_read_ratio))
     harrow(l2pos+l2w, drampos-0.25, -txthsep, True, txt=slabel(dram_write) + "B", txtargs={"under" : -1}, color=cmap(dram_write_ratio))
 
     #dram
-    addrec(drampos, 0, 0.5, 2*kernh, linewidth=1, edgecolor='k', facecolor='darkblue')
+    addrec(drampos, 0, 0.5, 2*kernh, linewidth=1, edgecolor='k', facecolor=colors[0])
     addtxt(drampos, 0, "Device memory", rotation=90, color="w")
     loopx = np.array([ 0,  1, 1, 0])*0.1 + drampos - 0.25
     loopy = np.array([-3, -2.5, 2.5, 3])*0.14
 
-    plt.fill(loopx, loopy, color=cmap(dram_read_ratio + dram_write_ratio))
+    # plt.fill(loopx, loopy, color=cmap(dram_read_ratio + dram_write_ratio))
 
 
 
@@ -469,45 +469,45 @@ def doplot3(outfname):
     fig = plt.figure(figsize=(10,4))
     ax = plt.gca()
     #kernel
-    addrec(0, 0, 0.5, 2*kernh, linewidth=1, edgecolor='k', facecolor='limegreen')
-    addtxt(0, 0, "Kernel", rotation=90)
+    addrec(0, 0, 0.5, 2*kernh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
+    addtxt(0, 0, "Registers", rotation=90)
 
     #global
-    addrec(glspos, (kernh-glsph), 2*glsw,2*glsh, linewidth=1, edgecolor='k', facecolor='limegreen')
+    addrec(glspos, (kernh-glsph), 2*glsw,2*glsh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
     addtxt(glspos, (kernh-glsph), "Global")
     harrow(0.25, glspos-glsw, (kernh-glsph), False)
     harrow(l1pos-l1w, glspos+glsw, kernh-glsph, False)
 
     #local
-    addrec(glspos, 0, 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor='limegreen')
+    addrec(glspos, 0, 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
     addtxt(glspos, 0, "Local")
     harrow(0.25, glspos-glsw, 0, False)
     harrow(l1pos-l1w, glspos+glsw, 0, False)
 
     #shared
-    addrec(glspos, -(kernh-glsph), 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor='limegreen')
+    addrec(glspos, -(kernh-glsph), 2*glsw, 2*glsh, linewidth=1, edgecolor='k', facecolor=u"#4db748")
     addtxt(glspos, -(kernh-glsph), "Shared")
     harrow(0.25, glspos-glsw, -(kernh-glsph), False)
     harrow(l1pos-l1w, glspos+glsw, -(kernh-glsph), False)
 
     #L1
-    addrec(l1pos, kernh/2-glsph/2, 2*l1w, kernh+glsph, linewidth=1, edgecolor='k', facecolor='darkblue')
-    addtxt(l1pos, kernh/2-glsph/2, "L1/TEX\nCache", color="w")
+    addrec(l1pos, kernh/2-glsph/2, 2*l1w, kernh+glsph, linewidth=1, edgecolor='k', facecolor=colors[0])
+    addtxt(l1pos, kernh/2-glsph/2, "L1/TEX\nCache", color="w", weight="bold")
     harrow(l2pos-l2w, l1pos+l1w, 1.5-glsh/2, False, txt=slabel(1450e9) + "B/s", linewidth=6, txtargs={"under" : 2}, color=cmap(0.5))
 
     #shared (L1-level)
-    addrec(l1pos, -(kernh-glsph), 2*l1w, 2*glsph, linewidth=1, edgecolor='k', facecolor='darkblue')
-    addtxt(l1pos, -(kernh-glsph), "Shared\nmemory", color="w")
+    addrec(l1pos, -(kernh-glsph), 2*l1w, 2*glsph, linewidth=1, edgecolor='k', facecolor=colors[0])
+    addtxt(l1pos, -(kernh-glsph), "Shared\nmemory", color="w", weight="bold")
 
 
     #L2
-    addrec(l2pos, 0, 2*l2w, 2*kernh, linewidth=1, edgecolor='k', facecolor='darkblue')
-    addtxt(l2pos, 0, "L2 Cache", color="w")
-    harrow(drampos-0.25, l2pos+l2w, 0, False, txt="448.0 GB/s", linewidth=3, txtargs={"under" : 2}, color=cmap(0.5))
+    addrec(l2pos, 0, 2*l2w, 2*kernh, linewidth=1, edgecolor='k', facecolor=colors[0])
+    addtxt(l2pos, 0, "L2 Cache", color="w", weight="bold")
+    harrow(drampos-0.25, l2pos+l2w, 0, False, txt="448 GB/s", linewidth=3, txtargs={"under" : 2}, color=cmap(0.5))
 
     #dram
-    addrec(drampos, 0, 0.5, 2*kernh, linewidth=1, edgecolor='k', facecolor='darkblue')
-    addtxt(drampos, 0, "Device memory", rotation=90, color="w")
+    addrec(drampos, 0, 0.5, 2*kernh, linewidth=1, edgecolor='k', facecolor=colors[0])
+    addtxt(drampos, 0, "Device memory", rotation=90, color="w", weight="bold")
 
     plt.xlim([-1, 10])
     plt.ylim([-4.2, 4.2])
