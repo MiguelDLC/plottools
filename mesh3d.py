@@ -144,7 +144,7 @@ Y = xy[:,1]
 
 
 colors = [u'#1f77b4', u'#ff7f0e', u'#2ca02c', u'#d62728', u'#9467bd', u'#8c564b', u'#e377c2', u'#7f7f7f', u'#bcbd22', u'#17becf']
-for alay in range(6):
+for alay in range(7):
     plt.figure(figsize=(6, 9))
     nlayers = [6, 6, 4, 2, 2, 4]
     for i, tri in enumerate(triangles):
@@ -160,7 +160,7 @@ for alay in range(6):
     
     plt.gca().set_aspect(1)
     plt.axis('off')
-    fname = "Figures/bloc_struct_l-%d.png" % alay
+    fname = "Figures/bloc_struct_l-%d.pdf" % alay
     plt.tight_layout()
     plt.savefig(fname)
     os.system("pdfcrop %s %s" % (fname, fname))
@@ -183,7 +183,7 @@ for part in range(2):
     
     plt.gca().set_aspect(1)
     plt.axis('off')
-    fname = "Figures/bloc_struct_p-%d.png" % part
+    fname = "Figures/bloc_struct_p-%d.pdf" % part
     plt.tight_layout()
     plt.savefig(fname)
     os.system("pdfcrop %s %s" % (fname, fname))
