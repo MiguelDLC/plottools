@@ -1,0 +1,1150 @@
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,API support,API support
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+STG-2000,"May 22, 1995",NV1,SGS 500 nm,1,90,PCI,12,75,1:1:1,12,12,12,0,24,0.6,EDOVRAM,64,n/a,n/a
+Riva 128,"August 25, 1997",NV3,SGS 350 nm,4,90,"AGP 1x, PCI",100,100,1:1:1,100,100,100,0,4,1.6,SDR,128,5.0,1.0
+Riva 128ZX,"February 23, 1998",NV3,SGS/TSMC 350 nm,4,90,"AGP 2x, PCI",100,100,1:1:1,100,100,100,0,8,1.6,SDR,128,5.0,1.0
+Riva TNT,"June 15, 1998",NV4,TSMC 350 nm,7,90,"AGP 2x, PCI",90,110,2:2:2,180,180,180,0,816,1.76,SDR,128,6.0,1.2
+Vanta,"March 22, 1999",NV6,TSMC 250 nm,,,"AGP 4x, PCI",100,125,2:2:2,200,200,200,0,16,1,SDR,64,6.0,1.2
+Vanta LT,March 2000,NV6,TSMC 250 nm,,,AGP 2x,80,100,2:2:2,160,160,160,0,816,0.8,SDR,64,6.0,1.2
+Riva TNT2 M64,October 1999,NV6,TSMC 250 nm,,,"AGP 4x, PCI",125,150,2:2:2,250,250,250,0,8 16 32,1.2,SDR,64,6.0,1.2
+Riva TNT2,"March 15, 1999",NV5,TSMC 250 nm,15,90,"AGP 4x, PCI",125,150,2:2:2,250,250,250,0,1632,2.4,SDR,128,6.0,1.2
+Riva TNT2 Pro,"October 12, 1999",NV5,TSMC 220 nm,15,90,"AGP 4x, PCI",143,166,2:2:2,286,286,286,0,1632,2.656,SDR,128,6.0,1.2
+Riva TNT2 Ultra,"March 15, 1999",NV5,TSMC 250 nm,15,90,"AGP 4x, PCI",150,183,2:2:2,300,300,300,0,1632,2.928,SDR,128,6.0,1.2
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,API support,API support
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Single precision
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision
+GeForce 256 SDR,"October 11, 1999",NV10,TSMC 220 nm,17,139,"AGP 4x, PCI",120,166,4:4:4,480,480,480,0,3264,2.656,SDR,128,50
+GeForce 256 DDR,"December 13, 1999",NV10,TSMC 220 nm,17,139,"AGP 4x, PCI",120,150,4:4:4,480,480,480,0,3264,4.8,DDR,128,50
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce2 MX IGP + nForce 220/420,"June 4, 2001",NV1A (IGP) / NV11 (MX),TSMC 180 nm,20,64,FSB,175,133,2:4:2,350,350,700,0,Up to 32 system RAM,2.1284.256,DDR,64128
+GeForce2 MX200,"March 3, 2001",NV1A (IGP) / NV11 (MX),TSMC 180 nm,20,64,"AGP 4x, PCI",175,166,2:4:2,350,350,700,0,3264,1.328,SDR,64
+GeForce2 MX,"June 28, 2000",NV1A (IGP) / NV11 (MX),TSMC 180 nm,20,64,"AGP 4x, PCI",175,166,2:4:2,350,350,700,0,3264,2.656,SDR,128
+GeForce2 MX400,"March 3, 2001",NV1A (IGP) / NV11 (MX),TSMC 180 nm,20,64,"AGP 4x, PCI",200,"166,200 (SDR)166 (DDR)",2:4:2,400,400,800,0,3264,"2.656, 3.200",SDRDDR,128 (SDR)64 (DDR)
+GeForce2 GTS,"April 26, 2000",NV15,TSMC 180 nm,25,88,AGP 4x,200,166,4:8:4,800,800,1600,0,3264,5.312,DDR,128
+GeForce2 Pro,"December 5, 2000",NV15,TSMC 180 nm,25,88,AGP 4x,200,200,4:8:4,800,800,1600,0,3264,6.4,DDR,128
+GeForce2 Ti,"October 1, 2001",NV15,TSMC 150 nm,25,88,AGP 4x,250,200,4:8:4,1000,1000,2000,0,3264,6.4,DDR,128
+GeForce2 Ultra,"August 14, 2000",NV16,TSMC 180 nm,,,AGP 4x,250,230,4:8:4,1000,1000,2000,0,64,7.36,DDR,128
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce3 Ti200,"October 1, 2001",NV20,TSMC 150 nm,57,128,"AGP 4x, PCI",175,200,4:1:8:4,700,700,1400,42.75,64128,6.4,DDR,128
+GeForce3,"February 27, 2001",NV20,TSMC 150 nm,57,128,"AGP 4x, PCI",200,230,4:1:8:4,800,800,1600,50,64,7.36,DDR,128
+GeForce3 Ti500,"October 1, 2001",NV20,TSMC 150 nm,57,128,"AGP 4x, PCI",240,250,4:1:8:4,960,960,1920,60,64128,8,DDR,128
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+GeForce4 MX IGP + nForce2,"October 1, 2002",NV1F,TSMC 150 nm,? ?,,FSB,250,133200,2:0:4:2,500,500,1000,0,Up to 128 system RAM,2.1286.4,DDR,64128,7.0,1.2
+GeForce4 MX420,"February 6, 2002",NV17,TSMC 150 nm,29,65,AGP 4xPCI,250,166,2:0:4:2,500,500,1000,0,64,2.656,SDR DDR,128 (SDR) 64 (DDR),7.0,1.2
+GeForce4 MX440 SE,2002,NV17,TSMC 150 nm,29,65,AGP 4xPCI,250,166,2:0:4:2,500,500,1000,0,64128,5.312,DDR,128,7.0,1.2
+GeForce MX4000,"December 14, 2003",NV18B,TSMC 150 nm,29,65,AGP 8xPCI,250,166,2:0:4:2,500,500,1000,0,64128,2.656,DDR,64,7.0,1.2
+GeForce PCX4300,"February 19, 2004",NV18B,TSMC 150 nm,29,65,PCIe x16,250,166,2:0:4:2,500,500,1000,0,128,2.656,DDR,64,7.0,1.2
+GeForce4 MX440,"February 6, 2002",NV17,TSMC 150 nm,29,65,AGP 4xPCI,275,200,2:0:4:2,550,550,1100,0,64128,6.4,DDR,128,7.0,1.2
+GeForce4 MX440 8x,"September 25, 2002",NV18,TSMC 150 nm,29,65,AGP 8xPCI,275,250,2:0:4:2,550,550,1100,0,64128,8,DDR,128,7.0,1.2
+GeForce4 MX460,"February 6, 2002",NV17,TSMC 150 nm,29,65,AGP 4xPCI,300,275,2:0:4:2,600,600,1200,0,64128,8,DDR,128,7.0,1.2
+GeForce4 Ti4200,"April 16, 2002",NV25,TSMC 150 nm,63,142,AGP 4x,250,222 (128 MB)250 (64 MB),4:2:8:4,1000,1000,2000,125,64128,7.104 (128 MB)8 (64 MB),DDR,128,8.0a,1.3
+GeForce4 Ti4200 8x,"September 25, 2002",NV28,TSMC 150 nm,36,101,AGP 8x,250,250,4:2:8:4,1000,1000,2000,125,128,8,DDR,128,8.0a,1.3
+GeForce4 Ti4400,"February 6, 2002",NV25,TSMC 150 nm,63,142,AGP 4x,275,275,4:2:8:4,1100,1100,2200,137.5,128,8.8,DDR,128,8.0a,1.3
+GeForce4 Ti4400 8x (Ti4800SE2),"January 20, 2003",NV28,TSMC 150 nm,36,101,AGP 8x,275,275,4:2:8:4,1100,1100,2200,137.5,128,8.8,DDR,128,8.0a,1.3
+GeForce4 Ti4600,"February 6, 2002",NV25,TSMC 150 nm,63,142,AGP 4x,300,325,4:2:8:4,1200,1200,2400,150,128,10.4,DDR,128,8.0a,1.3
+GeForce4 Ti4600 8x (Ti48003),"January 20, 2003",NV28,TSMC 150 nm,36,101,AGP 8x,300,325,4:2:8:4,1200,1200,2400,150,128,10.4,DDR,128,8.0a,1.3
+
+Model,Features,Features
+Model,nFiniteFX II Engine,Video Processing Engine (VPE)
+GeForce4 MX420,No,Yes
+GeForce4 MX440 SE,No,Yes
+GeForce4 MX4000,No,Yes
+GeForce4 PCX4300,No,Yes
+GeForce4 MX440,No,Yes
+GeForce4 MX440 8X,No,Yes
+GeForce4 MX460,No,Yes
+GeForce4 Ti4200,Yes,No
+GeForce4 Ti4200 8x,Yes,No
+GeForce4 Ti4400,Yes,No
+GeForce4 Ti4400 8x,Yes,No
+GeForce4 Ti4600,Yes,No
+GeForce4 Ti4600 8x,Yes,No
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce FX 5100,March 2003,NV34,TSMC 150 nm,45,124,AGP 8x,200,166,4:2:4:4,800,800,800,50,64  128,2.7,DDR,64
+GeForce FX 5200 LE,March 2003,NV34,TSMC 150 nm,45,124,AGP 8x,250,166,4:2:4:4,1000,1000,1000,62.5,64128256,2.7  5.3,DDR,64128
+GeForce FX 5200,March 2003,NV34,TSMC 150 nm,45,124,AGP 8xPCI,250,200,4:2:4:4,1000,1000,1000,62.5,64128256,3.26.4,DDR,64128
+GeForce FX 5200 Ultra,"March 6, 2003",NV34,TSMC 150 nm,45,124,AGP 8x,325,325,4:2:4:4,1300,1300,1300,81.25,64128256,10.4,DDR,128
+GeForce PCX 5300,"March 17, 2004",NV34,TSMC 150 nm,45,124,PCIe x16,250,166,4:2:4:4,1000,1000,1000,62.5,128 256,2.7,DDR,64
+GeForce FX 5500,March 2004,NV34B,TSMC 140 nm,45,91,AGP 8xAGP 4xPCI,270,200,4:2:4:4,1080,1080,1080,67.5,64 128 256,3.2 6.4,DDR,64 128
+GeForce FX 5600 XT,October 2003,NV31,TSMC 130 nm,80,121,AGP 8x,235,200,4:2:4:4,940,940,940,58.75,64 128,3.2 6.4,DDR,64 128
+GeForce FX 5600,March 2003,NV31,TSMC 130 nm,80,121,AGP 8xPCI,325,275,4:2:4:4,1300,1300,1300,81.25,64128256,8.8,DDR,128
+GeForce FX 5600 Ultra,"March 6, 2003",NV31,TSMC 130 nm,80,121,AGP 8x,350,350,4:2:4:4,1400,1400,1400,87.5,64128,11.2,DDR,128
+GeForce FX 5600 Ultra Rev.2,"March 6, 2003",NV31,TSMC 130 nm,80,121,AGP 8x,400,400,4:2:4:4,1600,1600,1600,100,64128,12.8,DDR,128
+GeForce FX 5700 VE,September 2004,NV36,IBM 130 nm,82,133,AGP 8x,235,200,4:3:4:4,940,940,940,106.5,128256,3.2 6.4,DDR,64128
+GeForce FX 5700 LE,March 2004,NV36,IBM 130 nm,82,133,AGP 8xPCI,250,200,4:3:4:4,1000,1000,1000,187.5,128256,3.2 6.4,DDR,64128
+GeForce FX 5700,2003,NV36,IBM 130 nm,82,133,AGP 8x,425,250,4:3:4:4,1700,1700,1700,318.75,128256,8,DDR,128
+GeForce PCX 5750,"March 17, 2004",NV36,IBM 130 nm,82,133,PCIe x16,425,250,4:3:4:4,1700,1700,1700,318.75,128,8,DDR,128
+GeForce FX 5700 Ultra,"October 23, 2003",NV36,IBM 130 nm,82,133,AGP 8x,475,450,4:3:4:4,1900,1900,1900,356.25,128256,14.4,GDDR2,128
+GeForce FX 5700 Ultra GDDR3,"March 15, 2004",NV36,IBM 130 nm,82,133,AGP 8x,475,475,4:3:4:4,1900,1900,1900,356.25,128256,15.2,GDDR3,128
+GeForce FX 5800,"January 27, 2003",NV30,TSMC 130 nm,125,199,AGP 8x,400,400,4:2:8:4,1600,1600,3200,200,128,12.8,GDDR2,128
+GeForce FX 5800 Ultra,"January 27, 2003",NV30,TSMC 130 nm,125,199,AGP 8x,500,500,4:2:8:4,2000,2000,4000,200,128,16,GDDR2,128
+GeForce FX 5900 ZT,"December 15, 2003",NV35,TSMC 130 nm,135,207,AGP 8x,325,350,4:3:8:4,1300,1300,2600,343.75,128,22.4,DDR,256
+GeForce FX 5900 XT,"December 15, 2003",NV35,TSMC 130 nm,135,207,AGP 8x,390,350,4:3:8:4,1600,1600,3200,300,128,22.4,DDR,256
+GeForce FX 5900,May 2003,NV35,TSMC 130 nm,135,207,AGP 8x,400,425,4:3:8:4,1600,1600,3200,300,128,27.2,DDR,256
+GeForce FX 5900 Ultra,"May 12, 2003",NV35,TSMC 130 nm,135,207,AGP 8x,450,425,4:3:8:4,1800,1800,3600,337.5,128256,27.2,DDR,256
+GeForce PCX 5900,"March 17, 2004",NV35,TSMC 130 nm,135,207,PCIe x16,450,425,4:3:8:4,1800,1800,3600,337.5,128256,27.2,DDR,256
+GeForce FX 5950 Ultra,"October 23, 2003",NV38,TSMC 130 nm,135,207,AGP 8x,475,475,4:3:8:4,1900,1900,3800,356.25,256,30.4,DDR,256
+GeForce PCX 5950,"February 17, 2004",NV38,TSMC 130 nm,135,207,PCIe x16,475,475,4:3:8:4,1900,1900,3800,356.25,256,30.4,GDDR3,256
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+
+Model,Launch,Code name,Fab (nm),Transistors (million) Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Fab (nm),Transistors (million) Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce 6100 + nForce 410,"October 20, 2005",MCP51,TSMC 90 nm,,HyperTransport,425,100-200 (DDR)200-533 (DDR2),2:1:2:1,850,425,850,106.25,Up to 256 system RAM,1.6-6.4 (DDR)3.2-17.056 (DDR2),DDRDDR2,64128
+GeForce 6150 SE + nForce 430,June 2006,MCP61,TSMC 90 nm,,HyperTransport,425,200400,2:1:2:1,850,425,850,106.25,Up to 256 system RAM,3.216.0,DDR2,64128
+GeForce 6150 LE + nForce 430,June 2006,MCP61,TSMC 90 nm,,HyperTransport,425,100-200 (DDR)200-533 (DDR2),2:1:2:1,850,425,850,106.25,Up to 256 system RAM,1.6-6.4 (DDR)3.2-17.056 (DDR2),DDRDDR2,64128
+GeForce 6150 + nForce 430,"October 20, 2005",MCP51,TSMC 90 nm,,HyperTransport,475,100-200 (DDR)200-533 (DDR2),2:1:2:1,950,475,950,118.75,Up to 256 system RAM,1.6-6.4 (DDR)3.2-17.056 (DDR2),DDRDDR2,64128
+GeForce 6200 LE,2005,NV44,TSMC 110 nm,75 110,AGP 8xPCIe x16,350,266,2:1:2:1,700,700,700,87.5,128256,4.256,DDR,64
+GeForce 6200A,"April 4, 2005",NV44A,TSMC 110 nm,75 110,AGP 8x,350,250533 (DDR2),4:3:4:2,1400,700,1400,175225 (DDR2),128256 (DDR2)512 (DDR2),413.3 (DDR2),DDRDDR2,64
+GeForce 6200,"October 12, 2004 (PCIe)January 17, 2005 (AGP)",NV43,TSMC 110 nm,146 154,AGP 8xPCIPCIe x16,300,275,4:3:4:4,1200,1200,1200,225,128256,8.8,DDR2,128
+GeForce 6200 TurboCache,"December 15, 2004",NV44,TSMC 110 nm,75 110,PCIe x16,350,350,4:3:4:2,1400,700,1400,262.5,128-256 System RAM incl.16/32-64/128 onboard,5.6,DDR,64
+GeForce 6500,"October 1, 2005",NV44,TSMC 110 nm,75 110,PCIe x16,400,333,4:3:4:2,1600,800,1600,300,128256,5.328,DDR,64
+GeForce 6600 LE,2005,NV43,TSMC 110 nm,146 154,AGP 8xPCIe x16,300,200,4:3:4:4,1200,1200,1200,225,128256,6.4,DDR,128
+GeForce 6600,"August 12, 2004",NV43,TSMC 110 nm,146 154,AGP 8xPCIe x16,300,275 400,8:3:8:4,2400,1200,2400,225,128256,8.8 12.8,DDR DDR2,128
+GeForce 6600 GT,"August 12, 2004 (PCIe)November 14, 2004 (AGP)",NV43,TSMC 110 nm,146 154,AGP 8xPCIe x16,500,475 (AGP)500 (PCIe),8:3:8:4,4000,2000,4000,375,128256,15.2 (AGP)16 (PCIe),GDDR3,128
+GeForce 6800 LE,"July 22, 2004 (AGP)January 16, 2005 (PCIe)","NV40 (AGP)NV41, NV42 (PCIe)",IBM 130 nm,222 287 (NV40) 222 225 (NV41) 198 222 (NV42),AGP 8xPCIe x16,320 (AGP)325 (PCIe),350,8:4:8:8,2560 (AGP)2600 (PCIe),2560 (AGP)2600 (PCIe),2560 (AGP)2600 (PCIe),320 (AGP)325 (PCIe),128,22.4,DDR,256
+GeForce 6800 XT,"September 30, 2005","NV40 (AGP)NV41, NV42 (PCIe)",IBM 130 nm,222 287 (NV40) 222 225 (NV41) 198 222 (NV42),AGP 8xPCIe x16,300 (64 Bit) 325,266 (64 Bit) 350 500 (GDDR3),8:4:8:8,2400 2600,2400 2600,2400 2600,300 325,256,4.256 11.2 22.4 32 (GDDR3),DDR DDR2 GDDR3,64 128 256
+GeForce 6800,"April 14, 2004 (AGP)November 8, 2004 (PCIe)","NV40 (AGP)NV41, NV42 (PCIe)",IBM 130 nm,222 287 (NV40) 222 225 (NV41) 198 222 (NV42),AGP 8xPCIe x16,325,350,12:5:12:12,3900,3900,3900,406.25,128256,22.4,DDR,256
+GeForce 6800 GTO,"April 14, 2004",NV45,IBM 130 nm,222 287 (NV45),PCIe x16,,450,12:5:12:12,4200,4200,4200,437.5,256,28.8,GDDR3,256
+GeForce 6800 GS,"November 7, 2005 (PCIe)December 8, 2005 (AGP)",NV42 (PCIe)NV40 (AGP),TSMC 110 nm,222 287 (NV40) 198 222 (NV42),AGP 8xPCIe x16,425 (PCIe)350 (AGP),500,12:5:12:12,5100,5100,5100,531.25,128256,32,GDDR3,256
+GeForce 6800 GT,"May 4, 2004 (AGP)June 28, 2004 (PCIe)",NV40 (AGP)NV45 (PCIe),IBM 130 nm,222 287 (NV40) 222 287 (NV45),AGP 8xPCIe x16,350,500,16:6:16:16,5600,5600,5600,525,128256,32,GDDR3,256
+GeForce 6800 Ultra,"May 4, 2004 (AGP)June 28, 2004 (PCIe)March 14, 2005 (512 MB)",NV40 (AGP)NV45 (PCIe),IBM 130 nm,222 287 (NV40) 222 287 (NV45),AGP 8xPCIe x16,400,525 (512 MB)550 (256 MB),16:6:16:16,6400,6400,6400,600,256512,33.6 (512 MB)35.2 (256 MB),GDDR3,256
+GeForce 6800 Ultra Extreme Edition,"May 4, 2004",NV40,IBM 130 nm,222 287 (NV40),AGP 8x,450,600,16:6:16:16,7200,7200,7200,675,256,35.2,GDDR3,256
+Model,Launch,Code name,Fab (nm),Transistors (million) Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Fab (nm),Transistors (million) Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+
+Model,Features,Features,Features,Features
+Model,OpenEXR HDR,Scalable Link Interface (SLI),TurboCache,PureVideo WMV9 Decoding
+GeForce 6100,No,No,No,Limited
+GeForce 6150 SE,No,No,Driver-Side Only,Limited
+GeForce 6150,No,No,No,Yes
+GeForce 6150 LE,No,No,Driver-Side Only,Yes
+GeForce 6200,No,No,Yes (PCIe only),Yes
+GeForce 6500,No,Yes,Yes,Yes
+GeForce 6600 LE,Yes,Yes (No SLI Connector),No,Yes
+GeForce 6600,Yes,Yes (SLI Connector or PCIe Interface),No,Yes
+GeForce 6600 DDR2,Yes,Yes (SLI Connector or PCIe Interface),No,Yes
+GeForce 6600 GT,Yes,Yes,No,Yes
+GeForce 6800 LE,Yes,No,No,No
+GeForce 6800 XT,Yes,Yes (PCIe only),No,Yes (NV42 only)
+GeForce 6800,Yes,Yes (PCIe only),No,"Yes (NV41, NV42 only)"
+GeForce 6800 GTO,Yes,Yes,No,No
+GeForce 6800 GS,Yes,Yes (PCIe only),No,Yes (NV42 only)
+GeForce 6800 GT,Yes,Yes (PCIe only),No,No
+GeForce 6800 Ultra,Yes,Yes (PCIe only),No,No
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce 7025 + nForce 630a,July 2007,MCP68S,TSMC 110 nm,,,HyperTransport,425,200 (DDR) 400 (DDR2) 933 (DDR3),2:1:2:2,850,850,850,106.25,Up to 256 system RAM,6.4 12.8 34,DDR DDR2 DDR3,64 128
+GeForce 7050PV + nForce 630a,July 2007,MCP67QV,TSMC 110 nm,,,HyperTransport,425,200 (DDR) 400 (DDR2) 933 (DDR3),2:1:2:2,850,850,850,106.25,Up to 256 system RAM,6.4 12.8 34,DDR DDR2 DDR3,64 128
+GeForce 7050 + nForce 610i/630i,July 2007,MCP73,TSMC 90 nm,,,HyperTransport/FSB,500,333,2:1:2:2,1000,1000,1000,125,Up to 256 system RAM,5.336,DDR2,64
+GeForce 7100 + nForce 630i,July 2007,MCP76,TSMC 90 nm,,,FSB,600,400,2:1:2:2,1200,1200,1200,150,Up to 256 system RAM,6.4,DDR2,64
+GeForce 7150 + nForce 630i,July 2007,MCP76,TSMC 90 nm,,,FSB,630,400,2:1:2:2,1260,1260,1260,157.5,Up to 256 system RAM,6.4,DDR2,64
+GeForce 7100 GS,"August 8, 2006",NV44,TSMC 110 nm,75,110,PCIe x16,350,300,4:3:4:2,1400,700,1400,262.5,128256,2.4 4.8,DDR DDR2,32 64
+GeForce 7200 GS,"January 18, 2006",G72,TSMC 90 nm,112,81,PCIe x16,450,400,2:2:4:2,1800,900,1800,337.5,128256,3.2 6.4,DDR2,32 64
+GeForce 7300 SE,"March 22, 2006",G72,TSMC 90 nm,112,81,PCIe x16,350,333,4:3:4:2,1800,900,1800,337.5,128,2.656 5.328,DDR2,32 64
+GeForce 7300 LE,"March 22, 2006",G72,TSMC 90 nm,112,81,PCIe x16,350,333,4:3:4:2,1800,900,1800,337.5,128,2.656 5.328,DDR2,32 64
+GeForce 7300 GS,"January 18, 2006",G72,TSMC 90 nm,112,81,PCIe x16,550,400,4:3:4:2,2200,1100,2200,412.5,128256,6.4,DDR2,64
+GeForce 7300 GT,"May 15, 2006",G73,TSMC 90 nm,177,125,AGP 8xPCIe x16,350,325 (DDR2) 700 (GDDR3),8:5:8:4,2800,1400,2800,437.5,128256,10.4 22.4,DDR2 GDDR3,128
+GeForce 7500 LE,2006,G72,TSMC 90 nm,112,81,PCIe x16,475550,405324,4:3:4:2,2200,1100,2200,593.8,64128256,6.4805.2,DDR2,64
+GeForce 7600 GS,"March 22, 2006 (PCIe)July 1, 2006 (AGP)",G73,TSMC 90 nm,177,125,AGP 8xPCIe x16,400,400 (DDR2) 700 (GDDR3),12:5:12:8,4800,3200,4800,500,256,12.8 22.4,DDR2 GDDR3,128
+GeForce 7600 GT,"March 9, 2006 (PCIe)July 15, 2006 (AGP)",G73,TSMC 90 nm,177,125,AGP 8xPCIe x16,560,400 (DDR2) 700 (GDDR3),12:5:12:8,6720,4480,6720,700,256,12.8 22.4,DDR2 GDDR3,128
+GeForce 7600 GT 80 nm,"January 8, 2007",G73-B1,TSMC 80 nm,177,125,AGP 8xPCIe x16,560,400 (DDR2) 700 (GDDR3),12:5:12:8,6720,4480,6720,700,256,12.8 22.4,DDR2 GDDR3,128
+GeForce 7650 GS,"March 22, 2006",G73,TSMC 80 nm,177,125,PCIe x16,450,400,12:5:12:8,5400,3600,5400,562.5,256,12.7,DDR2,128
+GeForce 7800 GS,"February 2, 2006",G70,TSMC 110 nm,302,333,AGP 8x,375,600,16:8:16:8,6000,3000,6000,750,256,38.4,GDDR3,256
+GeForce 7800 GT,"August 11, 2005",G70,TSMC 110 nm,302,333,PCIe x16,400,500,20:7:20:16,8000,6400,8000,700,256,32,GDDR3,256
+GeForce 7800 GTX,"June 22, 2005 (256 MB)November 14, 2005 (512 MB)",G70,TSMC 110 nm,302,333,PCIe x16,430 (256 MB)550 (512 MB),600 (256 MB)850 (512 MB),24:8:24:16,10320 (256 MB)13200 (512 MB),6880 (256 MB)8800 (512 MB),10320 (256 MB)13200 (512 MB),860 (256 MB)1100 (512 MB),256512,38.4 (256 MB) 54.4 (512 MB),GDDR3,256
+GeForce 7900 GS,"May 2006 (PCIe)April 2, 2007 (AGP)",G71,TSMC 90 nm,278,196,AGP 8xPCIe x16,450,660,20:7:20:16,9000,7200,9000,787.5,256,42.24,GDDR3,256
+GeForce 7900 GT,"March 9, 2006",G71,TSMC 90 nm,278,196,PCIe x16,450,660,24:8:24:16,10800,7200,10800,900,256,42.24,GDDR3,256
+GeForce 7900 GTO,"October 1, 2006",G71,TSMC 90 nm,278,196,PCIe x16,650,660,24:8:24:16,15600,10400,15600,1300,512,42.24,GDDR3,256
+GeForce 7900 GTX,"March 9, 2006",G71,TSMC 90 nm,278,196,PCIe x16,650,800,24:8:24:16,15600,10400,15600,1300,512,51.2,GDDR3,256
+GeForce 7900 GX2,"March 9, 2006",2x G71,TSMC 90 nm,278,196,PCIe x16,500,600,2x 24:8:24:16,24000,16000,24000,2000,2x 512,2x 38.4,GDDR3,256
+GeForce 7950 GT,"September 6, 2006 (PCIe)April 2, 2007 (AGP)",G71,TSMC 90 nm,278,196,AGP 8xPCIe x16,550,700,24:8:24:16,13200,8800,13200,1100,512,44.8,GDDR3,256
+GeForce 7950 GX2,"June 5, 2006",2x G71,TSMC 90 nm,278,196,PCIe x16,500,600,2x 24:8:24:16,24000,16000,24000,2000,2x 512,2x 38.4,GDDR3,256
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm²),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+
+Model,Features,Features,Features,Features,Features
+Model,Gamma-correct antialiasing,64-bit OpenEXR HDR,Scalable Link Interface (SLI),TurboCache,Dual Link DVI
+GeForce 7100 GS,No,No,"Yes (PCIe only, No SLI bridge)",Yes,No
+GeForce 7200 GS,Yes,Yes,No,Yes,No
+GeForce 7300 SE,Yes,Yes,No,Yes,No
+GeForce 7300 LE,Yes,Yes,No,Yes,No
+GeForce 7300 GS,Yes,Yes,Yes (PCIe only),Yes,No
+GeForce 7300 GT,Yes,Yes,"Yes (PCIe only, No SLI bridge)",No,One port
+GeForce 7600 GS,Yes,Yes,Yes (PCIe only),No,One port
+GeForce 7600 GT,Yes,Yes,Yes (PCIe only),No,One port
+GeForce 7600 GT (80 nm),Yes,Yes,Yes,No,One port
+GeForce 7650 GS (80 nm),Yes,Yes,Yes (Depending on OEM Design),No,One port
+GeForce 7800 GS,Yes,Yes,No,No,One port
+GeForce 7800 GT,Yes,Yes,Yes,No,One port
+GeForce 7800 GTX,Yes,Yes,Yes,No,One port
+GeForce 7800 GTX 512,Yes,Yes,Yes,No,One port
+GeForce 7900 GS,Yes,Yes,Yes (PCIe only),No,Two ports
+GeForce 7900 GT,Yes,Yes,Yes,No,Two ports
+GeForce 7900 GTO,Yes,Yes,Yes,No,Two ports
+GeForce 7900 GTX,Yes,Yes,Yes,No,Two ports
+GeForce 7900 GX2 (GTX Duo),Yes,Yes,Yes,No,Two ports
+GeForce 7950 GT,Yes,Yes,Yes (PCIe only),No,Two ports
+GeForce 7950 GX2,Yes,Yes,Yes,No,Two ports
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)3,TDP (Watts),Comments
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments
+GeForce 8100 mGPU,2008,MCP78,TSMC 80 nm,Un­known,Un­known,PCIe 2.0 x16,8:8:4,500,1200,400(system memory),2,4,Up to 512 from system memory,6.412.8,DDR2,64128,10.0,3.3,28.8,Un­known,The block of decoding of HD-video PureVideo HD is disconnected
+GeForce 8200 mGPU,2008,MCP78,TSMC 80 nm,Un­known,Un­known,PCIe 2.0 x16,8:8:4,500,1200,400(system memory),2,4,gt,6.412.8,DDR2,64128,10.0,3.3,28.8,Un­known,PureVideo 3 with VP3
+GeForce 8300 mGPU,2008,MCP78,TSMC 80 nm,Un­known,Un­known,PCIe 2.0 x16,8:8:4,500,1500,400(system memory),2,4,Up to 512 from system memory,6.412.8,DDR2,64128,10.0,3.3,36,Un­known,PureVideo 3 with VP3
+GeForce 8300 GS,July 2007,G86,TSMC 80 nm,210,127,PCIe 1.0 x16,8:8:4,450,900,400,1.8,3.6,128512,6.4,DDR2,64,10.0,3.3,14.4,40,OEM only
+GeForce 8400 GS,"June 15, 2007",G86,TSMC 80 nm,210,127,PCIe 1.0 x16PCI,16:8:4,450,900,400,1.8,3.6,128256512,6.4,DDR2,64,10.0,3.3,28.8,40,
+GeForce 8400 GS rev.2,"December 10, 2007",G98,TSMC 65 nm,210,86,PCIe 2.0 x16PCIe x1PCI,8:8:4,567,1400,400,2.268,4.536,128256512,6.4,DDR2,64,10.0,3.3,22.4,25,
+GeForce 8400 GS rev.3,"July 12, 2010",GT218,TSMC 40 nm,260,57,PCIe 2.0 x16,8:4:4,520589,1230,400 (DDR2) 600 (DDR3),2.082.356,2.082.356,5121024,4.8 6.49.6,DDR2 DDR3,3264,10.1,3.3,19.7,25,
+GeForce 8500 GT,"April 17, 2007",G86,TSMC 80 nm,210,127,PCIe 1.0 x16PCI,16:8:4,450,900,400,1.8,3.6,2565121024,12.8,DDR2,128,10.0,3.3,28.8,45,
+GeForce 8600 GS,April 2007,G84,TSMC 80 nm,289,169,PCIe 1.0 x16,16:8:8,540,1180,400,4.32,4.32,256512,12.8,DDR2,128,10.0,3.3,75.5,47,OEM only
+GeForce 8600 GT,"April 17, 2007",G84,TSMC 80 nm,289,169,PCIe 1.0 x16PCI,32:16:8,540,1188,400700,4.32,8.64,2565121024,12.822.4,DDR2GDDR3,128,10.0,3.3,76,47,
+GeForce 8600 GTS,"April 17, 2007",G84,TSMC 80 nm,289,169,PCIe 1.0 x16,32:16:8,675,1450,1000,5.4,10.8,256512,32,GDDR3,128,10.0,3.3,92.8,71,
+GeForce 8800 GS,January 2008,G92,TSMC 65 nm,754,324,PCIe 2.0 x16,96:48:12,550,1375,800,6.6,26.4,384768,38.4,GDDR3,192,10.0,3.3,264,105,
+GeForce 8800 GTS (G80),"February 12, 2007 (320) November 8, 2006 (640)",G80,TSMC 90 nm,681,484,PCIe 1.0 x16,96:24:20,513,1188,800,10.3,12.3,320640,64,GDDR3,320,10.0,3.3,228,146,
+GeForce 8800 GTS 112 (G80),"November 19, 2007",G80,TSMC 90 nm,681,484,PCIe 1.0 x16,112:282:20,500,1200,800,10,14,640,64,GDDR3,320,10.0,3.3,268.8,150,"only XFX, EVGA and BFG models, very short-lived"
+GeForce 8800 GT,"October 29, 2007 (512)December 11, 2007 (256, 1024)",G92,TSMC 65 nm,754,324,PCIe 2.0 x16,112:56:16,600,1500,"700 (256)900 (512, 1024)",9.6,33.6,2565121024,57.6,GDDR3,256,10.0,3.3,336,125,
+GeForce 8800 GTS (G92),"December 11, 2007",G92,TSMC 65 nm,754,324,PCIe 2.0 x16,128:64:16,650,1625,970,10.4,41.6,512,62.1,GDDR3,256,10.0,3.3,416,135,
+GeForce 8800 GTX,"November 8, 2006",G80,TSMC 90 nm,681,484,PCIe 1.0 x16,128:322:24,575,1350,900,13.8,18.4,768,86.4,GDDR3,384,10.0,3.3,345.6,145,
+GeForce 8800 Ultra,"May 2, 2007",G80,TSMC 90 nm,681,484,PCIe 1.0 x16,128:322:24,612,1500,1080,14.7,19.6,768,103.7,GDDR3,384,10.0,3.3,384,175,
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)3,TDP (Watts),Comments
+
+Model,Features,Features,Features,Features,Features,Features,Features
+Model,ScalableLinkInterface(SLI),3-WaySLI,PureVideo HDwith VP1,"PureVideo 2 with VP2, BSP Engine, and AES128 Engine","PureVideo 3 with VP3, BSP Engine, and AES128 Engine",PureVideo 4 with VP4,Computeability
+GeForce 8300 GS (G86),No,No,No,Yes,No,No,1.1
+GeForce 8400 GS Rev. 2 (G98),No,No,No,No,Yes,No,1.1
+GeForce 8400 GS Rev. 3 (GT218),No,No,No,No,No,Yes,1.2
+GeForce 8500 GT,Yes,No,No,Yes,No,No,1.1
+GeForce 8600 GT,Yes,No,No,Yes,No,No,1.1
+GeForce 8600 GTS,Yes,No,No,Yes,No,No,1.1
+GeForce 8800 GS (G92),Yes,No,No,Yes,No,No,1.1
+GeForce 8800 GTS (G80),Yes,No,Yes,No,No,No,1.0
+GeForce 8800 GTS Rev. 2 (G80),Yes,No,Yes,No,No,No,1.0
+GeForce 8800 GT (G92),Yes,No,No,Yes,No,No,1.1
+GeForce 8800 GTS (G92),Yes,No,No,Yes,No,No,1.1
+GeForce 8800 GTX,Yes,Yes,Yes,No,No,No,1.0
+GeForce 8800 Ultra,Yes,Yes,Yes,No,No,No,1.0
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Comments
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments
+GeForce 9300 mGPU,October 2008,MCP7A-S,65 nm,282,162,PCIe 2.0 x16,16:8:4,450,1200,400666,1.8,3.6,Up to 512 from system memory,6.4/12.810.664/21.328,DDR2DDR3,64128,10.0,3.3,57.6,Un­known,based on 8400 GS
+GeForce 9400 mGPU,October 2008,MCP7A-U,65 nm,282,162,PCIe 2.0 x16,16:8:4,580,1400,400666,2.32,4.64,Up to 512 from system memory,6.4/12.810.664/21.328,DDR2DDR3,64128,10.0,3.3,67.2,12,based on 8400 GS
+GeForce 9300 GE,June 2008,G98,TSMC 65 nm,210,86,PCIe 2.0 x16,8:8:4,540,1300,500,2.16,4.32,256,8.0,DDR2,64,10.0,3.3,20.8,25,
+GeForce 9300 GS,June 2008,G98,TSMC 65 nm,210,86,PCIe 2.0 x16,8:8:4,567,1400,500,2.268,4.536,256,8.0,DDR2,64,10.0,3.3,22.4,25,
+GeForce 9400 GT,"August 27, 2008",G96-200-c1G96aG96b,TSMC 55 nm,314,144,PCIe 2.0 x16PCI,16:8:4,550,1400,400800,2.2,4.4,2565121024,12.825.6,DDR2GDDR3,128,10.0,3.3,44.8,50,
+GeForce 9500 GT,"July 29, 2008",G96-300-C1,UMC 65 nm,314,144,PCIe 2.0 x16PCI,32:16:8,550,1400,500800,4.4,8.8,2565121024,16.025.6,DDR2GDDR3,128,10.0,3.3,89.6,50,
+GeForce 9600 GS,"July 29, 2008",G94a,TSMC 65 nm,505,240,PCIe 2.0 x16PCI,48:24:12,500,1250,500,6,12,768,24.0,DDR2,192,10.0,3.3,120,Un­known,OEM
+GeForce 9600 GSO,May 2008,G92-150-A2,TSMC 65 nm,754,324,PCIe 2.0 x16,96:48:12,550,1375,800,6.6,26.4,3847681536,38.4,GDDR3,192,10.0,3.3,264,84,
+GeForce 9600 GSO 512,October 2008,G94aG94b,TSMC 65 nmTSMC 55 nm,505,240196?,PCIe 2.0 x16,48:24:16,650,1625,900,10.4,15.6,512,57.6,GDDR3,256,10.0,3.3,156,90,
+GeForce 9600 GT Green Edition,2009,G94b,TSMC 55 nm,505,196?,PCIe 2.0 x16,64:32:16,600-625,1500-1625,700-900-900,9.610.0,19.220.0,5121024,44.8/57.657.6,GDDR3,256,10.0,3.3,192-208,59,Core Voltage = 1.00v
+GeForce 9600 GT,"February 21, 2008",G94-300-A1,TSMC 65 nm,505,240196?,PCIe 2.0 x16,64:32:16,650,1625,900,10.4,20.8,5121024,57.6,GDDR3,256,10.0,3.3,208,95,
+GeForce 9800 GT Green Edition,2009,G92a2 G92b,TSMC/UMC 65 nmTSMC/UMC 55 nm,754,324 260,PCIe 2.0 x16,112:56:16,550,1375,700800900,8.8,30.8,5121024,44.851.257.6,GDDR3,256,10.0,3.3,308,75,Core Voltage = 1.00v
+GeForce 9800 GT,July 2008,G92aG92b,UMC 55 nm,754,324 260,PCIe 2.0 x16,112:56:16,600,1500,900,9.6,33.6,5121024,57.6,GDDR3,256,10.0,3.3,336,125105,
+GeForce 9800 GTX,"April 1, 2008",G92-420-A2,TSMC 65 nm,754,324,PCIe 2.0 x16,128:64:16,675,1688,1100,10.8,43.2,512,70.4,GDDR3,256,10.0,3.3,432,140,
+GeForce 9800 GTX+,"July 16, 2008",G92b,TSMC 55 nm,754,260,PCIe 2.0 x16,128:64:16,738,1836,1100,11.808,47.232,5121024,70.4,GDDR3,256,10.0,3.3,470,141,
+GeForce 9800 GX2,"March 18, 2008",2x G92,TSMC/UMC 65 nm,2x 754,2x 324,PCIe 2.0 x16,2x 128:64:16,600,1500,1000,2x 9.6,2x 38.4,2x 512,2x 64.0,GDDR3,2x 256,10.0,3.3,2x 384,197,
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Comments
+
+Model,Features,Features,Features
+Model,Scalable Link Interface (SLI),"PureVideo 2 with VP2, BSP Engine, and AES128 Engine","PureVideo 3 with VP3, BSP Engine, and AES128 Engine"
+GeForce 9300 GE (G98),Yes,No,Yes
+GeForce 9300 GS (G98),Yes,No,Yes
+GeForce 9400 GT,Yes,Yes,No
+GeForce 9500 GT,Yes,Yes,No
+GeForce 9600 GSO,Yes,Yes,No
+GeForce 9600 GT,Yes,Yes,No
+GeForce 9800 GT,Yes,Yes,No
+GeForce 9800 GTX,Yes3-way,Yes,No
+GeForce 9800 GTX+,Yes3-way,Yes,No
+GeForce 9800 GX2,Yes,Yes,No
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Comments
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments
+GeForce G 100,"March 10, 2009",G98,TSMC 65 nm,210,86,PCIe 2.0 x16,8:8:4,567,1400,500,2.15,4.3,512,8.0,DDR2,64,10.0,3.3,22.4,35,OEM products
+GeForce GT 120,"March 10, 2009",G96b,TSMC 55 nm,314,121,PCIe 2.0 x16,32:16:8,500,1400,800,4.4,8.8,512,16.0,DDR2,128,10.0,3.3,89.6,50,OEM products
+GeForce GT 130,"March 10, 2009",G94b,TSMC 55 nm,505,196,PCIe 2.0 x16,48:24:12,500,1250,500,6,12,1536,24.0,DDR2,192,10.0,3.3,120,75,OEM products
+GeForce GT 140,"March 10, 2009",G94b,TSMC 55 nm,505,196,PCIe 2.0 x16,64:32:16,650,1625,1800,10.4,20.8,512 1024,57.6,GDDR3,256,10.0,3.3,208,105,OEM products
+GeForce GTS 150,"March 10, 2009",G92b,TSMC 55 nm,754,260,PCIe 2.0 x16,128:64:16,738,1836,1000,11.808,47.232,1024,64.0,GDDR3,256,10.0,3.3,470,141,OEM products
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Comments,Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments,Release Price (USD)
+GeForce 205,"November 26, 2009",GT218,TSMC 40 nm,260,57,PCIe 2.0 x16,8:4:4,589,1402,1000,2.356,2.356,512,8,DDR2,64,10.1,3.3,22.4,30.5,OEM only
+GeForce 210,"October 12, 2009",GT218-325-B1,TSMC 40 nm,260,57,PCIe 2.0 x16PCIe x1PCI,16:8:4,520589,12301402,1000-1600,2.356,4.712,5121024,4.08.012.8,DDR2DDR3,3264,10.1,3.3,36.4-44.9,30.5,
+GeForce GT 220,"October 12, 2009",GT216-300-A2,TSMC 40 nm,486,100,PCIe 2.0 x16,48:16:8,615(OEM)625,1335(OEM)1360,10001580,5,10,5121024,16.025.3,DDR2DDR3,64128,10.1,3.3,128.2-130.6,58,
+GeForce GT 230,"October 12, 2009",G94b,TSMC/UMC 55 nm,505,196?,PCIe 2.0 x16,48:24:16,650,1625,1800,10.4,15.6,5121024,57.6,GDDR3,256,10,3.3,156,75,OEM only
+GeForce GT 230,"April 27, 2009",G92b,TSMC/UMC 55 nm,754,260,PCIe 2.0 x16,96:48:12,500,1242,1000,6,24,1536,24,DDR2,192,10,3.3,238.5,75,OEM only
+GeForce GT 240,"November 17, 2009",GT215-450-A2,TSMC 40 nm,727,139,PCIe 2.0 x16,96:32:8,550,1340,180020003400(GDDR5),4.4,17.6,5121024,28.8(OEM)3254.4(GDDR5),DDR3GDDR3GDDR5,128,10.1,3.3,257.3,69,
+GeForce GTS 240,"July 1, 2009",G92aG92b,TSMC 65 nmTSMC/UMC 55 nm,754,324260,PCIe 2.0 x16,112:56:16,675,1620,2200,10.8,37.8,1024,70.4,GDDR3,256,10.0,3.3,362.9,120,OEM only
+GeForce GTS 250,2009,G92b,TSMC/UMC 55 nm,754,260,PCIe 2.0 x16,128:64:16,702,1512,2000,11.2,44.9,5121024,64.0,GDDR3,256,10.0,3.3,387,130,
+GeForce GTS 250,"March 3, 2009",G92-428-B1,TSMC 65 nmTSMC/UMC 55 nm,754,260,PCIe 2.0 x16,128:64:16,738,1836,20002200,11.808,47.232,5121024,64.070.4,GDDR3,256,10.0,3.3,470,150,Some cards are rebranded GeForce 9800 GTX+,$150($130 512MB)
+GeForce GTX 260,"June 16, 2008",GT200-100-A2,65 nm,1400,576,PCIe 2.0 x16,192:64:28,576,1242,1998,16.128,36.864,896,111.9,GDDR3,448,10.0,3.3,477,182,Replaced by GTX 260 Core 216,$400 (dropped to $270 after 3 months)
+GeForce GTX 260,"September 16, 2008 November 27, 2008 (55nm)",GT200-103-A2,65 nm55 nm,1400,576470,PCIe 2.0 x16,216:72:28,576,1242 1350,1998,16.128,41.472,896 (1792),111.9,GDDR3,448,10.0,3.3,536.5-583.2,182-171,,$300
+GeForce GTX 275,"April 9, 2009",GT200-105-B3,TSMC/UMC 55 nm,1400,470,PCIe 2.0 x16,240:80:28,633,1404,2268,17.724,50.6,896 (1792),127.0,GDDR3,448,10.0,3.3,674,219,Effectively one-half of the GTX 295,$250
+GeForce GTX 280,"June 17, 2008",GT200-300-A2,65 nm,1400,576,PCIe 2.0 x16,240:80:32,602,1296,2214,19.264,48.16,1024,141.7,GDDR3,512,10.0,3.3,622,236,Replaced by GTX 285,$650 (dropped to $430 after 3 months)
+GeForce GTX 285,"January 15, 2009",GT200-350-B3,TSMC/UMC 55 nm,1400,470,PCIe 2.0 x16,240:80:32,648,1476,2484,20.736,51.84,1024 (2048*),159.0,GDDR3,512,10.0,3.3,708.48,204,"Palit, BFG and EVGA launched 2 GB versions. EVGA GTX285 Classified supports 4-way SLI",$400
+GeForce GTX 295,"January 8, 2009",2x GT200-400-B3,TSMC/UMC 55 nm,2x 1400,2x 470,PCIe 2.0 x16,2x 240:80:28,576,1242,1998,2x 16.128,2x 46.08,2x 896,2x 111.9,GDDR3,2x 448,10.0,3.3,1192.3,289,Dual PCB models were replaced with a single PCB model with 2 GPUs,$500
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments,Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Comments,Release Price (USD)
+
+Model,Features,Features,Features
+Model,Scalable Link Interface (SLI),PureVideo 2 with VP2 Engine: (BSP and 240 AES),PureVideo 4 with VP4 Engine
+GeForce 210,No,No,Yes,Yes,Yes
+GeForce GT 220,No,No,Yes,Yes,Yes
+GeForce GT 240,No,No,Yes,Yes,Yes
+GeForce GTS 250,Yes3-Way (4-way for EVGA 285 Classified),Yes,No
+GeForce GTX 260,Yes3-Way (4-way for EVGA 285 Classified),Yes,No
+GeForce GTX 260 Core 216,Yes3-Way (4-way for EVGA 285 Classified),Yes,No
+GeForce GTX 260 Core 216 (55 nm),Yes3-Way (4-way for EVGA 285 Classified),Yes,No
+GeForce GTX 275,Yes3-Way (4-way for EVGA 285 Classified),Yes,No
+GeForce GTX 280,Yes3-Way (4-way for EVGA 285 Classified),Yes,No
+GeForce GTX 285,Yes3-Way (4-way for EVGA 285 Classified),Yes,No
+GeForce GTX 295,Yes,Yes,No
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Processing power (GFLOPS)2,TDP (Watts),Comments
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Single precision,TDP (Watts),Comments
+GeForce 310,"November 27, 2009",GT218,TSMC 40 nm,260,57,PCIe 2.0 x16,16:8:4,589,1402,1000,2.356,4.712,512,8,DDR2,64,44.8,30.5,"OEM Card, similar to Geforce 210"
+GeForce 315,February 2010,GT216,TSMC 40 nm,486,100,PCIe 2.0 x16,48:16:4,475,1100,1580,3.8,7.6,512,12.6,DDR3,64,105.6,33,"OEM Card, similar to Geforce GT220"
+GeForce GT 320,February 2010,GT215,TSMC 40 nm,727,144,PCIe 2.0 x16,72:24:8,540,1302,1580,4.32,12.96,1024,25.3,GDDR3,128,187.5,43,OEM Card
+GeForce GT 330,February 2010,GT215-301-A3,TSMC 40 nm,727,144,PCIe 2.0 x16,96:32:8,550,1350,,4.40,17.60,512,32.00,GDDR3,128,257.3,75,"Specifications vary depending on OEM, similar to GT230 v2."
+GeForce GT 330,February 2010,G92,TSMC 40 nm,727,144,PCIe 2.0 x16,96:32:8,500,1250,,4.000,24.00,256,51.20,GDDR3,256,240.0,75,"Specifications vary depending on OEM, similar to GT230 v2."
+GeForce GT 330,February 2010,G92B,TSMC 40 nm,727,144,PCIe 2.0 x16,96:32:16,500,1250,,8.000,24.00,1024,16.32,DDR2,128,240.0,75,"Specifications vary depending on OEM, similar to GT230 v2."
+GeForce GT 340,February 2010,GT215,TSMC 40 nm,727,144,PCIe 2.0 x16,96:32:8,550,1340,3400,,,5121024,54.4,GDDR5,128,257.3,69,"OEM Card, similar to GT240"
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)2,Processing power (GFLOPS)2,TDP (Watts)4,Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,TDP (Watts)4,Release Price (USD)
+GeForce 4057,"September 16, 2011",GT216GT218,40 nm,486260,10057,1,48:16:816:8:4,475589,11001402,800790,3.82.36,7.64.71,5121024,12.6,DDR3,64,n/a,10.1,3.3,1.1,105.6-44.86,Un­known,30.5,OEM
+GeForce GT 420,"September 3, 2010",GF108,TSMC 40 nm,585,116,1,48:4:4,700,1400,1800,2.8,2.8,512,28.8,GDDR3,128,n/a,12 FL 11_1,4.6,1.1,134.4,Un­known,50,OEM
+GeForce GT 430,"October 11, 2010",GF108GF108-300-A1,TSMC 40 nm,585,116,2,96:16:4,700,1400,16001800,2.8,11.2,512,25.628.8,GDDR3,128,n/a,12 FL 11_1,4.6,1.2,268.8,Un­known,60,OEM
+GeForce GT 430,"October 11, 2010",GF108GF108-300-A1,TSMC 40 nm,585,116,2,96:16:4,700,1400,1800,2.8,11.2,5121024 2048,28.8,GDDR3,128,n/a,12 FL 11_1,4.6,1.1,268.8,Unknown,49,$79
+GeForce GT 430,"October 11, 2010",GF108GF108-300-A1,TSMC 40 nm,585,116,2,96:16:4,700,1400,1300,2.8,11.2,5121024 2048,10.4,GDDR3,64,n/a,12 FL 11_1,4.6,1.1,268.8,Unknown,49,$79
+GeForce GT 440,"February 1, 2011",GF108,TSMC 40 nm,585,116,2,96:16:4,810,1620,18003200,3.2,12.9,1024,28.851.2,GDDR3GDDR5,128,n/a,12 FL 11_1,4.6,1.1,311.04,Un­known,65,$100
+GeForce GT 440,"October 11, 2010",GF106,TSMC 40 nm,1170,238,3,144:24:24,810,1620,1800,4.8,19.4,15363072,43.2,DDR3,192,n/a,12 FL 11_1,4.6,1.1,342.43,Un­known,56,OEM
+GeForce GTS 450,"October 11, 2010",GF106,TSMC 40 nm,1170,238,3,144:24:24,790,1580,4000,4.7,18.9,1536,96.0,GDDR5,192,n/a,12 FL 11_1,4.6,1.1,455.04,Un­known,106,OEM
+GeForce GTS 450,"September 13, 2010March 15, 2011",GF106-250GF116-200,TSMC 40 nm,1170,238,4,192:32:16,783,1566,3608,6.2,25.0,5121024,57.7,GDDR5,128,n/a,12 FL 11_1,4.6,1.1,601.34,Un­known,106,$129
+GeForce GTX 460 SE,"November 15, 2010",GF104-225-A1,TSMC 40 nm,1950,332,6,288:48:32,650,1300,3400,7.8,31.2,1024,108.8,GDDR5,256,n/a,12 FL 11_1,4.6,1.1,748.8,Un­known,150,$160
+GeForce GTX 460,"October 11, 2010",GF104,TSMC 40 nm,1950,332,7,336:56:32,650,1300,3400,9.1,36.4,1024,108.8,GDDR5,256,n/a,12 FL 11_1,4.6,1.1,873.6,Un­known,150,OEM
+GeForce GTX 460,"July 12, 2010",GF104-300-KB-A1,TSMC 40 nm,1950,332,7,336:56:24,675,1350,3600,9.4,37.8,768,86.4,GDDR5,192,n/a,12 FL 11_1,4.6,1.1,907.2,Unknown,150,$199
+GeForce GTX 460,"July 12, 2010",GF104-300-KB-A1,TSMC 40 nm,1950,332,7,336:56:32,675,1350,3600,9.4,37.8,10242048,115.2,GDDR5,256,n/a,12 FL 11_1,4.6,1.1,907.2,Unknown,160,$229
+GeForce GTX 460,"September 24, 2011",GF114,TSMC 40 nm,1950,332,7,336:56:24,779,1557,4008,10.9,43.6,1024,96.2,GDDR5,192,n/a,12 FL 11_1,4.6,1.1,1045.6,Un­known,160,$199
+GeForce GTX 465,"May 31, 2010",GF100-030-A3,TSMC 40 nm,3000,529,11,352:44:32,608,1215,3206,13.3,26.7,1024,102.7,GDDR5,256,n/a,12 FL 11_1,4.6,1.2,855.36,106.92,2004,$279
+GeForce GTX 470,"March 26, 2010",GF100-275-A3,TSMC 40 nm,3000,529,14,448:56:40,608,1215,3348,17.0,34.0,1280,133.9,GDDR5,320,n/a,12 FL 11_1,4.6,1.2,1088.64,136.08,2154,$349
+GeForce GTX 480,"March 26, 2010",GF100-375-A3,TSMC 40 nm,3000,529,15,480:60:48,701,1401,3696,21.0,42.0,1536,177.4,GDDR5,384,n/a,12 FL 11_1,4.6,1.2,1344.96,168.12,2504,$499
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)2,Processing power (GFLOPS)2,TDP (Watts)4,Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,TDP (Watts)4,Release Price (USD)
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,"Core config1,3",Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)2,Processing power (GFLOPS)2,TDP (Watts)6,Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,"Core config1,3",Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL8,Single precision,Double precision,TDP (Watts)6,Release Price (USD)
+GeForce 510,"September 29, 2011",GF119,TSMC 40 nm,292,79,PCIe 2.0 x16,1,48:8:4,523,1046,1800,2.1,4.5,10242048,14.4,DDR3,64,n/a,11.1,4.6,1.1,100.4,Un­known,25,OEM
+GeForce GT 520,"April 12, 2011",GF119,TSMC 40 nm,292,79,PCIe 2.0 x16PCIe 2.0 x1PCI,1,48:8:4,810,1620,1800,3.25,6.5,10242048,14.4,DDR3,64,n/a,11.1,4.6,1.1,155.5,Un­known,29,$59
+GeForce GT 530,"May 14, 2011",GF108? / GF118,TSMC 40 nm,~585,~116,PCIe 2.0 x16,2,96:16:4,700,1400,1800,2.8,11.2,10242048,28.8,DDR3,128,n/a,11.1,4.6,1.1,268.8,Un­known,50,OEM
+GeForce GT 545,"May 14, 2011",GF116,TSMC 40 nm,~1170,~238,PCIe 2.0 x16,3,144:24:16,720,1400,1800,11.52,17.28,15363072,43,DDR3,192,n/a,11.1,4.6,1.1,415.07,Un­known,70,$149
+GeForce GT 545,"May 14, 2011",GF116,TSMC 40 nm,~1170,~238,PCIe 2.0 x16,3,144:24:16,870,1740,1998,13.92,20.88,1024,64,GDDR5,128,n/a,11.1,4.6,1.1,501.12,Un­known,105,OEM
+GeForce GTX 550 Ti,"March 15, 2011",GF116-400,TSMC 40 nm,~1170,~238,PCIe 2.0 x16,4,192:32:24,900,1800,4104,21.6,28.8,768+2561536,65.7+32.898.5,GDDR5,128+649192,n/a,11.1,4.6,1.1,691.2,Un­known,116,$149
+GeForce GTX 555,"May 14, 2011",GF114,TSMC 40 nm,1950,332,PCIe 2.0 x16,6,288:48:24,736,1472,3828,17.6,35.3,1024,91.9,GDDR5,128+649,n/a,11.1,4.6,1.1,847.9,Un­known,150,OEM
+GeForce GTX 560 SE,"February 20, 2012",GF114-200-KB-A14,TSMC 40 nm,1950,332,PCIe 2.0 x16,6,288:48:24,736,1472,3828,17.6,35.3,1024,91.9,GDDR5,128+649,n/a,11.1,4.6,1.1,847.9,Un­known,150,OEM
+GeForce GTX 560,"May 17, 2011",GF114-325-A14,TSMC 40 nm,1950,332,PCIe 2.0 x16,7,336:56:32,810,1620,4008,25.92,45.36,1024 2048,128.1,GDDR5,256,n/a,11.1,4.6,1.1,1088.6,Un­known,150,$199
+GeForce GTX 560 Ti,"January 25, 2011",GF114-400-A14,TSMC 40 nm,1950,332,PCIe 2.0 x16,8,384:64:32,822,1645,4008,26.3,52.61,1024 2048,128.26,GDDR5,256,n/a,11.1,4.6,1.1,1263.4,110,170,$249
+GeForce GTX 560 Ti,"May 30, 2011",GF1105,TSMC 40 nm,3000,520,PCIe 2.0 x16,11,352:44:40,732,1464,3800,29.28,32.21,12802560,152,GDDR5,320,n/a,11.1,4.6,1.1,1030.7,128.83,2106,OEM
+GeForce GTX 560 Ti 448 Cores,"November 29, 2011",GF110-270-A15,TSMC 40 nm,3000,520,PCIe 2.0 x16,14,448:56:40,732,1464,3800,29.28,40.99,1280,152,GDDR5,320,n/a,11.1,4.6,1.1,1311.7,163.97,2106,$289
+GeForce GTX 570,"December 7, 2010",GF110-275-A15,TSMC 40 nm,3000,520,PCIe 2.0 x16,15,480:60:40,732,1464,3800,29.28,43.92,1280 2560,152,GDDR5,320,n/a,11.1,4.6,1.1,1405.4,175.68,2196,$349
+GeForce GTX 580,"November 9, 2010",GF110-375-A15,TSMC 40 nm,3000,520,PCIe 2.0 x16,16,512:64:48,772,1544,4008,37.05,49.41,153630727,192.384,GDDR5,384,n/a,11.1,4.6,1.1,1581.1,197.63,2446,$499
+GeForce GTX 590,"March 24, 2011",2x GF110-351-A1,TSMC 40 nm,2x 3000,2x 520,PCIe 2.0 x16,2x16,2x 512:64:48,607,1215,3414,2x29.14,2x38.85,2x 1536,2x163.87,GDDR5,2x384,n/a,11.1,4.6,1.1,2488.3,311.04,365,$699
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,"Core config1,3",Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)2,Processing power (GFLOPS)2,TDP (Watts)6,Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,"Core config1,3",Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL8,Single precision,Double precision,TDP (Watts)6,Release Price (USD)
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,Core config1,Clock rate,Clock rate,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)10,Processing power (GFLOPS)10,TDP (Watts),Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,Core config1,Core (MHz),Average Boost (MHz),Max Boost (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL,Single precision,Double precision,TDP (Watts),Release Price (USD)
+GeForce 6052,"April 3, 2012",GF119,TSMC 40 nm,292,79,PCIe 2.0 x16,1,48:8:4,523,N/A,N/A,1046,898(1796),1.05,4.2,512 1024,14.4,DDR3,64,n/a,12,4.6,1.2,100.4,Un­known,25,OEM
+GeForce GT 6103,"May 15, 2012",GF119-300-A1,TSMC 40 nm,292,79,"PCIe 2.0 x16, PCIe x1, PCI",1,48:8:4,810,N/A,N/A,1620,10001800,1.62,6.5,51210242048,814.4,DDR3,64,n/a,12,4.6,1.2,155.5,Un­known,29,Retail
+GeForce GT 6204,"April 3, 2012",GF119,TSMC 40 nm,292,79,PCIe 2.0 x16,1,48:8:4,810,N/A,N/A,1620,898(1796),1.62,6.5,5121024,14.4,DDR3,64,n/a,12,4.6,1.2,155.5,Un­known,30,OEM
+GeForce GT 6204,"May 15, 2012",GF108-100-KB-A1,TSMC 40 nm,585,116,PCIe 2.0 x16,2,96:16:4,700,N/A,N/A,1400,1000-1800,2.8,11.2,10242048,8-14.4,DDR3,64,n/a,12,4.6,1.2,268.8,Un­known,49,Retail
+GeForce GT 625,"February 19, 2013",GF119,TSMC 40 nm,292,79,PCIe 2.0 x16,1,48:8:4,810,N/A,N/A,1620,898(1796),3.24,6.5,512 1024,14.4,DDR3,64,n/a,12,4.6,1.2,155.5,Un­known,30,OEM
+GeForce GT 630,"April 24, 2012",GK107,TSMC 28 nm,1300,118,PCIe 3.0 x16,1,192:16:16,875,N/A,N/A,875,891(1782),14,14,10242048,28.5,DDR3,128,1.0,12,4.6,1.2,336,14,50,OEM
+GeForce GT 630,"May 15, 2012",GF108-400-A1,TSMC 40 nm,585,116,PCIe 2.0 x16,2,96:16:4,700,N/A,N/A,1620,1600-1800,2.8,11.2,102420484096,25.6-28.8,DDR3,128,n/a,12,4.6,1.2,311,Un­known,49,Retail
+GeForce GT 630,"May 15, 2012",GF108,TSMC 40 nm,585,116,PCIe 2.0 x16,2,96:16:4,810,N/A,N/A,1620,800(3200),3.2,13,1024,51.2,GDDR5,128,n/a,12,4.6,1.2,311,Un­known,65,Retail
+GeForce GT 630,"May 29, 2013",GK208-301-A1,TSMC 28 nm,1020,79,PCIe 2.0 x8,1,384:16:8,902,N/A,N/A,902,900(1800),7.22,14.44,10242048,14.4,DDR3,64,1.0,12,4.6,1.2,692.7,Un­known,25,
+GeForce GT 635,"February 19, 2013",GK208,TSMC 28 nm,1020,79,PCIe 3.0 x8,1,384:16:8,967,N/A,N/A,967,1001(2002),7.74,15.5,10242048,16,DDR3,64,1.0,12,4.6,1.2,742.7,Un­known,35,OEM
+GeForce GT 6408,"April 24, 2012",GF116,TSMC 40 nm,1170,238,PCIe 2.0 x16,3,144:24:24,720,N/A,N/A,1440,891(1782),17.3,17.3,15363072,42.8,DDR3,192,n/a,12,4.6,1.2,414.7,Un­known,75,OEM
+GeForce GT 6408,"April 24, 2012",GK107,TSMC 28 nm,1300,118,PCIe 3.0 x16,2,384:32:16,797,N/A,N/A,797,891(1782),12.8,25.5,10242048,28.5,DDR3,128,1.0,12,4.6,1.2,612.1,25.50,50,OEM
+GeForce GT 6408,"June 5, 2012",GK107,TSMC 28 nm,1300,118,PCIe 3.0 x16,2,384:32:16,900,N/A,N/A,900,891(1782),14.4,28.8,20484096,28.5,DDR3,128,1.0,12,4.6,1.2,691.2,28.8,65,$100
+GeForce GT 6408,"April 24, 2012",GK107,TSMC 28 nm,1300,118,PCIe 3.0 x16,2,384:32:16,950,N/A,N/A,950,1250(5000),15.2,30.4,10242048,80,GDDR5,128,1.0,12,4.6,1.2,729.6,30.40,75,OEM
+GeForce GT 6408,"May 29, 2013",GK208-400-A1,TSMC 28 nm,1020,79,PCIe 2.0 x8,2,384:16:8,1046,N/A,N/A,1046,1252(5008),8.37,16.7,1024,40.1,GDDR5,64,1.0,12,4.6,1.2,803.3,Un­known,49,
+GeForce GT 6459,"April 24, 2012",GF114-400-A1,TSMC 40 nm,1950,332,PCIe 2.0 x16,6,288:48:24,776,N/A,N/A,1552,1914,18.6,37.3,1024,91.9,GDDR5,192,n/a,12,4.6,1.2,894,Un­known,140,OEM
+GeForce GTX 645,"April 22, 2013",GK106,TSMC 28 nm,2540,221,PCIe 3.0 x16,3,576:48:16,823.5,888.5,N/A,823,1000(4000),14.16,39.5,1024,64,GDDR5,128,1.0,12,4.6,1.2,948.1,39.53,64,OEM
+GeForce GTX 650,"September 13, 2012",GK107-450-A2,TSMC 28 nm,1300,118,PCIe 3.0 x16,2,384:32:16,1058,N/A,N/A,1058,1250(5000),16.9,33.8,10242048,80,GDDR5,128,1.0,12,4.6,1.2,812.54,33.86,64,$110
+GeForce GTX 650 Ti,"October 9, 2012",GK106-220-A1,TSMC 28 nm,2540,221,PCIe 3.0 x16,4,768:64:16,928,N/A,N/A,928,1350(5400),14.8,59.4,10242048,86.4,GDDR5,128,1.0,12,4.6,1.2,1425.41,59.39,110,$150 (130)
+GeForce GTX 650 Ti Boost,"March 26, 2013",GK106-240-A1,TSMC 28 nm,2540,221,PCIe 3.0 x16,4,768:64:24,980,1032,N/A,980,1502(6008),23.5,62.7,10242048,144.2,GDDR5,192,1.0,12,4.6,1.2,1505.28,62.72,134,$170 (150)
+GeForce GTX 660,"September 13, 2012",GK106-400-A1,TSMC 28 nm,2540,221,PCIe 3.0 x16,5,960:80:24,980,1032,1084,980,1502(6008),23.5,78.4,20483072,96.1+48.1144.2,GDDR5,128+64192,1.0,12,4.6,1.2,1881.6,78.40,140,$230 (180)
+GeForce GTX 660,"August 22, 2012",GK104-200-KD-A2,TSMC 28 nm,3540,294,PCIe 3.0 x16,6,1152:96:241152:96:32,823.5,888.5,899,823,1450(5800),19.8,79,1536 2048 3072,134,GDDR5,192256,1.0,12,4.6,1.2,2108.6,79.06,130,OEM
+GeForce GTX 660 Ti,"August 16, 2012",GK104-300-KD-A2,TSMC 28 nm,3540,294,PCIe 3.0 x16,7,1344:112:24,915,980,1058,915,1502(6008),22.0,102.5,2048,96.1+48.1144.2,GDDR5,128+64192,1.0,12,4.6,1.2,2459.52,102.48,150,$300
+GeForce GTX 670,"May 10, 2012",GK104-325-A2,TSMC 28 nm,3540,294,PCIe 3.0 x16,7,1344:112:32,915,980,1084,915,1502(6008),29.3,102.5,20484096,192.256,GDDR5,256,1.0,12,4.6,1.2,2459.52,102.48,170,$400
+GeForce GTX 680,"March 22, 2012",GK104-400-A2,TSMC 28 nm,3540,294,PCIe 3.0 x16,8,1536:128:32,1006,1058,1110,1006,1502(6008),32.2,128.8,20484096,192.256,GDDR5,256,1.0,12,4.6,1.2,3090.43,128.77,195,$500
+GeForce GTX 690,"April 29, 2012",2x GK104-355-A2,TSMC 28 nm,2x 3540,2x 294,PCIe 3.0 x16,2x 8,2x 1536:128:32,915,1019,1058,915,1502(6008),2x 29.28,2x 117.12,2x 2048,2x 192.256,GDDR5,2x 256,1.0,12,4.6,1.2,2x 2810.88,2x 117.12,300,$1000
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,Core config1,Clock rate,Clock rate,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)10,Processing power (GFLOPS)10,TDP (Watts),Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,Core config1,Core (MHz),Average Boost (MHz),Max Boost (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL,Single precision,Double precision,TDP (Watts),Release Price (USD)
+
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Clock rate,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)9,Processing power (GFLOPS)9,TDP (Watts),Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Base (MHz),Average Boost (MHz),Max Boost2 (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D3,OpenGL,OpenCL,Single precision,Double precision,TDP (Watts),Release Price (USD)
+GeForce GT 7054,"March 27, 2014",GF119-300-A1,TSMC 40 nm,292,79,PCIe 2.0 x16,1,48:8:4,810,N/A,N/A,898(1796),3.24,6.5,5121024,14.4,DDR3,64,n/a,12,4.6,1.1,155.5,19.4,29,OEM
+GeForce GT 710,"March 27, 2014",GK208-301-A1,TSMC 28 nm,1020,79,PCIe 2.0 x8,1,192:16:8,823,N/A,N/A,900 (1800),6.6,13.2,512,14.4,DDR3,64,1.0,12,4.6,1.2,316.0,13.2,,OEM
+GeForce GT 710,"January 26, 2016",GK208-203-B1,TSMC 28 nm,1020,79,"PCIe 2.0 x8, PCIe x1",1,192:16:8,954,N/A,N/A,900 (1800)1253 (5010),7.6,15.3,10242048,14.440.0,DDR3 GDDR5,64,1.0,12,4.6,1.2,366,15.3,19,$35-45
+GeForce GT 720,"March 27, 2014",GK208-201-B1,TSMC 28 nm,1020,79,PCIe 2.0 x8,1,192:16:8,797,N/A,N/A,900 (1800)1253 (5010),6.4,12.8,10242048,14.440.0,DDR3 GDDR5,64,1.0,12,4.6,1.2,306,12.8,19,$49-59
+"GeForce GT 7305","June 18, 2014",GK208-301-A1,TSMC 28 nm,1020,79,PCIe 2.0 x8,2,384:16:8,902,N/A,N/A,900(1800),7.22,14.44,102420484096,14.4,DDR3,64,1.0,12,4.6,1.2,692.7,28.9,23,$69-79
+"GeForce GT 7305","June 18, 2014",GK208-400-A1,TSMC 28 nm,1020,79,PCIe 2.0 x8,2,384:16:8,902,N/A,N/A,1250(5000),7.22,14.44,10242048,40.0,GDDR5,64,1.0,12,4.6,1.2,692.7,28.9,25,$69-79
+"GeForce GT 7305","June 18, 2014",GF108,TSMC 40 nm,585,116,PCIe 2.0 x16,2,96:16:4,700,N/A,N/A,900(1800),2.8,11.0,102420484096,28.8,DDR3,128,n/a,12,4.6,1.1,268.8,33.6,49,$69-79
+GeForce GT 7407,"May 29, 2014",GK107-425-A2,TSMC28HP,1270,118,PCIe 3.0 x16,2,384:32:16,993,N/A,N/A,891(1782),15.9,31.8,102420484096,28.5,DDR3,128,1.0,12,4.6,1.2,762.6,31.8,64,$89-99
+GeForce GT 7407,"May 29, 2014",GK107-425-A2,TSMC28HP,1270,118,PCIe 3.0 x16,2,384:32:16,993,N/A,N/A,1252(5008),15.9,31.8,102420484096,80.1,GDDR5,128,1.0,12,4.6,1.2,762.6,31.8,64,$89-99
+GeForce GTX 745,"February 18, 2014",GM107-220-A2,TSMC28HP,1870,148,PCIe 3.0 x16,3,384:24:16,1033,Un­known,Un­known,900(1800),16.5,24.8,10244096,28.8,DDR3,128,1.0,12,4.6,1.2,793.3,24.8,55,OEM
+GeForce GTX 750,"February 18, 2014",GM107-300-A2,TSMC28HP,1870,148,PCIe 3.0 x16,4,512:32:16,1020,1085,1163,1250(5000),16.3,32.6,10242048 4096,80,GDDR5,128,1.0,12,4.6,1.2,1044.5,32.6,55,$119
+GeForce GTX 750 Ti,"February 18, 2014",GM107-400-A2,TSMC28HP,1870,148,PCIe 3.0 x16,5,640:40:16,1020,1085,1200,1350(5400),16.3,40.8,102420484096,86.4,GDDR5,128,1.0,12,4.6,1.2,1305.6,40.8,60,$149
+GeForce GTX 760 192-bit,"October 17, 2013",GK104-200-KD-A2,TSMC28HP,3540,294,PCIe 3.0 x16,6,1152:96:24,824,888,889,1450(5800),19.8,79.1,15363072,134.4,GDDR5,192,1.0,12,4.6,1.2,1896.2,79.0,130,OEM
+GeForce GTX 760,"June 25, 2013",GK104-225-A2,TSMC28HP,3540,294,PCIe 3.0 x16,6,1152:96:32,980,1033,1124,1502(6008),31.410,94,20484096,192.3,GDDR5,256,1.0,12,4.6,1.2,2257.9,94.1,170,$249 ($219)
+GeForce GTX 760 Ti8,"September 27, 2013",GK104,TSMC28HP,3540,294,PCIe 3.0 x16,7,1344:112:32,915,980,1084,1502(6008),29.3,102.5,2048,192.3,GDDR5,256,1.0,12,4.6,1.2,2459.5,102.5,170,OEM
+GeForce GTX 770,"May 30, 2013",GK104-425-A2,TSMC28HP,3540,294,PCIe 3.0 x16,8,1536:128:32,1046,1085,1130,1752.5(7010),33.5,134,2048 4096,224,GDDR5,256,1.0,12,4.6,1.2,3213.3,133.9,230,$399 ($329)
+GeForce GTX 780,"May 23, 2013",GK110-300-A1,TSMC28HP,7080,561,PCIe 3.0 x16,12,2304:192:48,863,900,1002,1502(6008),41.410,160.5,3072 6144,288.4,GDDR5,384,1.0,12,4.6,1.2,3976.7,165.7,230,$649 ($499)
+GeForce GTX 780 Ti,"November 7, 2013",GK110-425-B1,TSMC28HP,7080,561,PCIe 3.0 x16,15,2880:240:48,876,928,1019,1752.5(7010),42.010,210.2,3072,336.5,GDDR5,384,1.0,12,4.6,1.2,5045.7,210.2,230,$699
+GeForce GTX TITAN,"February 21, 2013",GK110-400-A1,TSMC28HP,7080,561,PCIe 3.0 x16,14,2688:224:48,837,876,993,1502(6008),40.2,187.5,6144,288.4,GDDR5,384,1.0,12,4.6,1.2,4499.7,1300-1499.9,230,$999
+GeForce GTX TITAN Black,"February 18, 2014",GK110-430-B1,TSMC28HP,7080,561,PCIe 3.0 x16,15,2880:240:48,889,980,1058,1752.5(7010),42.7,213.4,6144,336.5,GDDR5,384,1.0,12,4.6,1.2,5120.6,1706.9,230,$999
+GeForce GTX TITAN Z,"March 25, 2014",2x GK110-350-B1,TSMC28HP,2x 7080,2x 561,PCIe 3.0 x16,2x 15,2x 2880:240:48,705,876,Un­known,1752.5(7010),2x 33.8,2x 169,2x 6144,2x 336.5,GDDR5,2x 384,1.0,12,4.5,1.2,5046x2,1682x2,375,$2999
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Clock rate,Clock rate,Clock rate,Clock rate,Fillrate,Fillrate,Memory configuration,Memory configuration,Memory configuration,Memory configuration,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)8,Processing power (GFLOPS)8,TDP (Watts),Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Base (MHz),Average Boost (MHz),Max Boost2 (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D3,OpenGL,OpenCL,Single precision,Double precision,TDP (Watts),Release Price (USD)
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache (MB),Clock Speeds,Clock Speeds,Clock Speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (GFLOPS),Processing power (GFLOPS),TDP (Watts),SLI support,Release price (USD)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache (MB),Base (MHz),Boost (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,TDP (Watts),SLI support,MSRP
+GeForce GT 945A,"February, 2016",GM108,TSMC28HP,Un­known,Un­known,512:24:8 (4),PCIe 3.0 x8,?,1072,1176,1800,1 / 2,14.4,DDR3 / GDDR5,64,8.59.4,25.728.2,1097.7-1204.2,34.3-37.6,33,No,OEM
+GeForce GTX 950,"August 20, 2015",GM206-250,TSMC28HP,2.94,227,768:48:32 (6),PCIe 3.0 x16,1,1024,1188,6600,2,105.7,GDDR5,128,32.738.0,49.157.0,1572.8-1824.7,49.1-57.0,90 (75),2-way SLI,$159
+GeForce GTX 950 (OEM),Un­known,GM206,TSMC28HP,2.94,227,1024:64:32 (8),PCIe 3.0 x16,1,935,Un­known,5000,2,80.0,GDDR5,128,29.9,59.8,1914.9,59.8-,Un­known,2-way SLI,OEM
+GeForce GTX 960,"January 22, 2015",GM206-300,TSMC28HP,2.94,227,1024:64:32 (8),PCIe 3.0 x16,1,1127,1178,7000,24,112.1,GDDR5,128,36.037.6,72.175.3,2308.0-2412.5,72.1-75.3,120,2-way SLI,$199
+GeForce GTX 960 (OEM),Un­known,GM204,TSMC28HP,5.2,398,1280:80:48 (10),PCIe 3.0 x16,1,924,Un­known,5000,3,120.0,GDDR5,192,44.3,73.9,2365.4,73.9,Un­known,2-way SLI,OEM
+GeForce GTX 970,"September 18, 2014",GM204-200,TSMC28HP,5.2,398,1664:104:56 (13),PCIe 3.0 x16,1.75,1050,1178,7000,3.5 +0.5,196.3 +28.0,GDDR5,224 +32,58.865.9,109.2122.5,3494.4-3920.3,109.2-122.5,145,4-way SLI,$329
+GeForce GTX 980,"September 18, 2014",GM204-400,TSMC28HP,5.2,398,2048:128:64 (16),PCIe 3.0 x16,2,1126,1216,7000,4,224.3,GDDR5,256,72.077.8,144.1155.6,4612.0-4980.7,144.1-155.6,165,4-way SLI,$549
+GeForce GTX 980 Ti,"June 1, 2015",GM200-310,TSMC28HP,8,601,2816:176:96 (22),PCIe 3.0 x16,3,1000,1075,7000,6,336.5,GDDR5,384,96.0103.2,176.0189.2,5632.0-6054.4,176.0-189.2,250,4-way SLI,$649
+GeForce GTX TITAN X,"March 17, 2015",GM200-400,TSMC28HP,8,601,3072:192:96 (24),PCIe 3.0 x16,3,1000,1075,7000,12,336.5,GDDR5,384,96.0103.2,192.0206.4,6144.0-6604.8,192.0-206.4,250,4-way SLI,$999
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache (MB),Clock speeds,Clock speeds,Clock speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),TDP (Watts),SLI support,Release price (USD),Release price (USD)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache (MB),Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,TDP (Watts),SLI support,MSRP,Founders Edition
+GeForce GT 1010,"January 13, 2021",GP108,Samsung14LPP,1.8,74,256:16:16,PCIe 3.0 x16,0.25,1228,1468,5000,2,40.1,GDDR5,64,23.5,23.5,751.6,23.5,?,30,No,Un­known,N/A
+GeForce GT 1030,"March 12, 2018",GP108-310-A1,Samsung14LPP,1.8,74,384:24:16 (3) (1),PCIe 3.0 x4,?,1152,1379,2100,2,16.8,DDR4,64,18.422.0,27.633.0,884.71-059.0,27.6-33.0,13.816.5,20,No,$79,N/A
+GeForce GT 1030,"May 17, 2017",GP108-300-A1,Samsung14LPP,1.8,74,384:24:16 (3) (1),PCIe 3.0 x4,.5,1227,1468,6000,2,48.0,GDDR5,64,19.623.4,29.435.2,942.31-127.4,29.4-35.2,14.717.6,30,No,$70,N/A
+GeForce GTX 1050,"October 25, 2016",GP107-300-A1,Samsung14LPP,3.3,132,640:40:32 (5) (2),PCIe 3.0 x16,1,1354,1455,7000,2,112.0,GDDR5,128,43.346.6,54.158.8,1733.1-1862.4,54.1-58.2,27.029.1,75(Retailup to120),No,$109,N/A
+GeForce GTX 1050,"May 21, 2018",GP107-301-A1,Samsung14LPP,3.3,132,768:48:24 (6) (2),PCIe 3.0 x16,.75,1392,1518,7000,3,84.0,GDDR5,96,33.436.4,66.872.9,2138.1-2331.6,66.8-72.9,33.436.4,75(Retailup to120),No,Un­known,N/A
+GeForce GTX 1050 Ti,"October 25, 2016",GP107-400-A1,Samsung14LPP,3.3,132,768:48:32 (6) (2),PCIe 3.0 x16,1,1290,1392,7000,4,112.0,GDDR5,128,41.244.5,61.966.8,1981.4-2138.1,61.9-66.8,30.933.4,75(Retailup to120),No,$139,N/A
+GeForce GTX 1060,"December 25, 2016",GP104-140-A1,TSMC16FF,7.2,314,1152:72:48 (9) (2),PCIe 3.0 x16,1.5?,1506,1708,8000,3,192.0,GDDR5,192,72.281.9,108.4122.9,3469.8-3935.2,108.4-122.9,54.261.4,120(Retailup to200),No,$199,N/A
+GeForce GTX 1060,"August 18, 2016",GP106-300-A1,TSMC16FF,4.4,200,1152:72:48 (9) (2),PCIe 3.0 x16,1.5,1506,1708,8000,3,192.0,GDDR5,192,72.281.9,108.4122.9,3469.8-3935.2,108.4-122.9,54.261.4,120(Retailup to200),No,$199,N/A
+GeForce GTX 1060,"December 26, 2017",GP106-350-K3-A1,TSMC16FF,4.4,200,1280:80:48 (10) (2),PCIe 3.0 x16,1.25,1506,1708,8000,5,160.0,GDDR5,160,60.268.3,120.4136.7,3855.3-4375.0,120.4-136.7,60.268.3,120(Retailup to200),No,OEM,N/A
+GeForce GTX 1060,"March 8, 2018",GP104-150-A1,TSMC16FF,7.2,314,1280:80:48 (10) (2),PCIe 3.0 x16,1.5,1506,1708,8000,6,192.0,GDDR5,192,72.282.0,120.4136.7,3855.3-4375.0,120.4-136.7,60.268.3,120(Retailup to200),No,Un­known,N/A
+GeForce GTX 1060,"December, 2018",GP104-150-KA-A1,TSMC16FF,7.2,314,1280:80:48 (10) (2),PCIe 3.0 x16,1.5,1506,1708,8000,6,192.0,GDDR5X,192,72.282.0,120.4136.7,3855.3-4375.0,120.4-136.7,60.268.3,120(Retailup to200),No,Un­known,N/A
+GeForce GTX 1060,"July 19, 2016",GP106-400-A1,TSMC16FF,4.4,200,1280:80:48 (10) (2),PCIe 3.0 x16,1.5?,1506,1708,8000,6,192.0,GDDR5,192,72.282.0,120.4136.7,3855.3-4375.0,120.4-136.7,60.268.3,120(Retailup to200),No,$249,$299
+GeForce GTX 1060,"April 20, 2017",GP106-410-A1,TSMC16FF,4.4,200,1280:80:48 (10) (2),PCIe 3.0 x16,1.5?,1506,1708,9000,6,216.0,GDDR5,192,72.282.0,120.4136.7,3855.3-4375.0,120.4-136.7,60.268.3,120(Retailup to200),No,$299,N/A
+GeForce GTX 1070,"June 10, 2016 /Dec. 2018",GP104-200-A1,TSMC16FF,7.2,314,1920:120:64 (15) (3),PCIe 3.0 x16,2,1506,1683,8000,8,256.0,GDDR5 / GDDR5X,256,96.3107.7,180.7201.9,5783.0-6462.7,180.7-201.9,90.3100.9,150(Retailup to250),4-way SLI or 2-way SLI HB,$379,$449 ($399)
+GeForce GTX 1070 Ti,"November 2, 2017",GP104-300-A1,TSMC16FF,7.2,314,2432:152:64 (19) (4),PCIe 3.0 x16,2,1607,1683,8000,8,256.0,GDDR5,256,102.8107.7,244256,7816.4-8186.1,244.2-255.8,122.1127.9,180(Retailup to300),4-way SLI or 2-way SLI HB,$449,$449
+GeForce GTX 1080,"May 27, 2016",GP104-400-A1,TSMC16FF,7.2,314,2560:160:64 (20) (4),PCIe 3.0 x16,2,1607,1733,10000,8,320.0,GDDR5X,256,102.8110.9,257.1277.2,8227.8-8872.9,257.1-277.2,128.5138.6,180(Retailup to300),4-way SLI or 2-way SLI HB,$599 ($499),$699 ($549)
+GeForce GTX 1080,"April 20, 2017",GP104-410-A1,TSMC16FF,7.2,314,2560:160:64 (20) (4),PCIe 3.0 x16,2,1607,1733,11000,8,352.0,GDDR5X,256,102.8110.9,257.1277.2,8227.8-8872.9,257.1-277.2,128.5138.6,180(Retailup to300),4-way SLI or 2-way SLI HB,$599 ($499),$699 ($549)
+GeForce GTX 1080 Ti,"March 5, 2017",GP102-350-K1-A1,TSMC16FF,12,471,3584:224:88 (28) (6),PCIe 3.0 x16,2.75,1480,1582,11000,11,484.0,GDDR5X,352,130.2139.2,331.5354.3,10608.6-11339.7,331.5-354.3,165.7177.1,250,4-way SLI or 2-way SLI HB,$699,$699
+Nvidia TITAN X,"August 2, 2016",GP102-400-A1,TSMC16FF,12,471,3584:224:96 (28) (6),PCIe 3.0 x16,3,1417,1531,10000,12,480.0,GDDR5X,384,136.0146.9,317.4342.9,10157.0-10974.2,317.4-342.9,158.7171.4,250,4-way SLI or 2-way SLI HB,$1200,N/A
+Nvidia TITAN Xp,"April 6, 2017",GP102-450-A1,TSMC16FF,12,471,3840:240:96 (30) (6),PCIe 3.0 x16,3,1405,1480,11400,12,547.7,GDDR5X,384,134.8142.0,337.2355.2,10790.4-11366.4,337.2-355.2,168.6177.6,250,4-way SLI or 2-way SLI HB,$1200,N/A
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache (MB),Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,TDP (Watts),SLI support,MSRP,Founders Edition
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache (MB),Clock speeds,Clock speeds,Clock speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),TDP (Watts),SLI support,Release price (USD),Release price (USD)
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus Interface,L2 Cache (MB),Clock speeds,Clock speeds,Clock speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),TDP (Watts),NVLink Support,Release price (USD),Release price (USD)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus Interface,L2 Cache (MB),Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute + Single precision,TDP (Watts),NVLink Support,MSRP,Founders Edition
+Nvidia TITAN V,"December 7, 2017",GV100-400-A1,TSMC12FFN,21.1,815,5120:320:96:640 (80) (6),PCIe 3.0 x16,4.5,1200,1455,1700,12,652.8,HBM2,3072,153.6186.2,384.0465.6,12288.0-14899.2,6144.0-7449.6,24 576.029 798.4,110 592.0134 092.8,250,No,$2999,N/A
+Nvidia TITAN VCEO Edition,"June 21, 2018",GV-100-???-A1,TSMC12FFN,21.1,815,5120:320:128:640 (80) (6),PCIe 3.0 x16,6,1200,1455,1700,32,870.4,HBM2,4096,153.6186.2,384.0465.6,12288.0-14899.2,6144.0-7449.6,24 576.029 798.4,110 592.0134 092.8,250,Yes,N/A,N/A
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache  (MB),Clock speeds,Clock speeds,Clock speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),TDP (Watts),NVLink support,Release price (USD)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache  (MB),Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,TDP (Watts),NVLink support,Release price (USD)
+GeForce GTX 1650,"April 23, 2019",TU117-300-A1,TSMC12FFN,4.7,200,896:56:32:1792:0 (14) (2),PCIe 3.0 x16,1,1485,1665,8000,4,128.0,GDDR5,128,47.52,83.16,2661.00-2984.00,83.16-93.24,5 322.00 5 967.00,75,No,$149
+GeForce GTX 1650,"April 3, 2020",TU117,TSMC12FFN,4.7,200,896:56:32:1792:0 (14) (2),PCIe 3.0 x16,1,1410,1590,12000,4,192.0,GDDR6,128,45.12,78.96,2526.72-2849.28,78.96-89.04,5 053.44 5 698.56,75,No,$149
+GeForce GTX 1650 Super,"November 22, 2019",TU116-250-KA-A1,TSMC12FFN,6.6,284,1280:80:32:2560:0 (20) (3),PCIe 3.0 x16,1.5,1530,1725,12000,4,192.0,GDDR6,128,48.96,122.40,3916.80-4416.00,122.40-138.00,7 833.60 8 832.00,100,No,$159
+GeForce GTX 1660,"March 14, 2019",TU116-300-A1,TSMC12FFN,6.6,284,1408:88:48:2816:0 (22) (3),PCIe 3.0 x16,1.5,1530,1785,8000,6,192.0,GDDR5,192,73.44,134.64,4308.00-5027.00,134.64-157.08,8 616.00 10 053.00,120,No,$219
+GeForce GTX 1660 Super,"October 29, 2019",TU116-300-A1,TSMC12FFN,6.6,284,1408:88:48:2816:0 (22) (3),PCIe 3.0 x16,1.5,1530,1785,14000,6,336.0,GDDR6,192,73.44,134.64,4308.00-5027.00,134.64-157.08,8 616.00 10 053.00,125,No,$229
+GeForce GTX 1660 Ti,"February 21, 2019",TU116-400-A1,TSMC12FFN,6.6,284,1536:96:48:3072:0 (24) (3),PCIe 3.0 x16,1.5,1500,1770,12000,6,288.0,GDDR6,192,72.00,144.00,4608.00-5437.44,144.00-169.92,9 216.0010 874.88,120,No,$279
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache(MB),Clock speeds,Clock speeds,Clock speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Ray-tracing Performance,Ray-tracing Performance,TDP (Watts),NVLink support,Release price (USD),Release price (USD)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache(MB),Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),TDP (Watts),NVLink support,MSRP,Founders Edition
+GeForce RTX 2060,"January 15, 2019",TU106-200-KA-A1,TSMC12FFN,10.8,445,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,1365,1680,14000,6,336.0,GDDR6,192,65.5280.64,163.80201.60,5241.60-6451.20,163.80-201.60,10 483.2012 902.40,41 932.8051 609.60,5,37,160,No,$349,
+GeForce RTX 2060,"January 10, 2020",TU104-150-KC-A1,TSMC12FFN,13.6,545,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,1365,1680,14000,6,336.0,GDDR6,192,65.5280.64,163.80201.60,5241.60-6451.20,163.80-201.60,10 483.2012 902.40,41 932.8051 609.60,5,37,160,No,$299,
+GeForce RTX 2060 Super,"July 9, 2019",TU106-410-A1,TSMC12FFN,10.8,445,2176:136:64:272:34 (34) (3),PCIe 3.0 x16,4,1470,1650,14000,8,448.0,GDDR6,256,94.08 105.60,199.92 224.40,6400.00-7180.00,199.00-224.00,12 800.00 14 360.00,51 200.00 57 440.00,6,41,175,No,$399,$399
+GeForce RTX 2070,"October 17, 2018",TU106-400-A1,TSMC12FFN,10.8,445,2304:144:64:288:36 (36) (3),PCIe 3.0 x16,4,1410,1620,14000,8,448.0,GDDR6,256,90.24103.68,203.04233.28,6497.28-7464.96,203.04-233.28,12 994.5614 929.92,51 978.2459 719.68,6,42,175,No,$499,$599
+GeForce RTX 2070 Super,"July 9, 2019",TU104-410-A1,TSMC12FFN,13.6,545,2560:160:64:320:40 (40) (5),PCIe 3.0 x16,4,1605,1770,14000,8,448.0,GDDR6,256,102.70 113.28,256.80 283.20,8220.00-9060.00,256.80-283.20,16 440.00 18 120.00,65 760.00 72 480.00,7,52,215,2-way NVLink,$499,$499
+GeForce RTX 2080,"September 20, 2018",TU104-400-A1,TSMC12FFN,13.6,545,2944:184:64:368:46 (46) (6),PCIe 3.0 x16,4,1515,1710,14000,8,448.0,GDDR6,256,96.96109.44,278.76314.64,8920.32-10068.48,278.76-314.64,17 840.6420 136.96,71 362.5680 547.84,8,57,215,2-way NVLink,$699,$799
+GeForce RTX 2080 Super,"July 23, 2019",TU104-450-A1,TSMC12FFN,13.6,545,3072:192:64:384:48 (48) (6),PCIe 3.0 x16,4,1650,1815,15500,8,496.0,GDDR6,256,105.60 116.16,316.80 348.48,10140.00-11150.00,316.80-348.50,20 280.00 22 300.00,81 120.00 89 200.00,8,63,250,2-way NVLink,$699,$699
+GeForce RTX 2080 Ti,"September 27, 2018",TU102-300-K1-A1,TSMC12FFN,18.6,754,4352:272:88:544:68 (68) (6),PCIe 3.0 x16,5.5,1350,1545,14000,11,616.0,GDDR6,352,118.80135.96,367.20420.24,11750.40-13447.68,367.20-420.24,23 500.8026 895.36,94 003.20107 581.44,10,76,250,2-way NVLink,$999,"$1,199"
+Nvidia TITAN RTX,"December 18, 2018",TU102-400-A1,TSMC12FFN,18.6,754,4608:288:96:576:72 (72) (6),PCIe 3.0 x16,6,1350,1770,14000,24,672.0,GDDR6,384,129.60169.92,388.80509.76,12441.60-16312.32,388.80-509.76,24 883.2032 624.64,99 532.80130 498.56,11,84,250,2-way NVLink,N/A,"$2,499"
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache(MB),Clock speeds,Clock speeds,Clock speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (TFLOPS),Processing power (TFLOPS),Processing power (TFLOPS),Processing power (TFLOPS),Ray-tracing Performance,Ray-tracing Performance,Ray-tracing Performance,TDP (Watts),NVLink support,Release price (USD),Release price (USD)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache(MB),Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute (FP16) (2:1 sparse),Rays/s (Billions),RTX OPS/s (Trillions),Ray Perf TFLOPS,TDP (Watts),NVLink support,MSRP,Founders Edition
+GeForce RTX 3060,"February 25, 2021",GA106-300-A1,Samsung8N,13.25,300,3584:112:48:112:28(28) (3),PCIe 4.0 x16,3,1320,1777,15000,12,360.0,GDDR6,192,63.4 85.3,147.8 199.0,9.46-12.74,0.148-0.199,9.46 12.74,,,,25,170,No,,$329
+GeForce RTX 3060,"September 1, 2021",GA104-150-A1,Samsung8N,17.4,392.5,3584:112:48:112:28(28) (3),PCIe 4.0 x16,3,1320,1777,15000,12,360.0,GDDR6,192,63.4 85.3,147.8 199.0,9.46-12.74,0.148-0.199,9.46 12.74,,,,25,170,No,,$329
+GeForce RTX 3060 Ti,"December 2, 2020",GA104-200-A1,Samsung8N,17.4,392.5,4864:152:80:152:38(38) (6),PCIe 4.0 x16,4,1410,1665,14000,8,448.0,GDDR6,256,112.8 133.2,214.3 253.1,13.72-16.20,0.214-0.253,13.70 16.20,? 129.6,,,,200,No,,$399
+GeForce RTX 3070,"October 29, 2020",GA104-300-A1,Samsung8N,17.4,392.5,5888:184:96:184:46(46) (6),PCIe 4.0 x16,4,1500,1725,14000,8,448.0,GDDR6,256,144.0 165.6,276.0 317.4,17.66-20.31,0.276-0.318,17.66 20.37,141.31 162.98,,,40,220,No,,$499
+GeForce RTX 3070 Ti,"June 10, 2021",GA104-400-A1,Samsung8N,17.4,392.5,6144:192:96:192:48(48) (6),PCIe 4.0 x16,4,1575,1770,19000,8,608.3,GDDR6X,256,151.18 169.9,302.36 339.8,19.35-21.75,0.302-0.340,19.35 21.75,,,,,290,No,,$599
+GeForce RTX 3080,"September 17, 2020",GA102-200-KD-A1,Samsung8N,28.3,628.4,8704:272:96:272:68(68) (7),PCIe 4.0 x16,5,1440,1710,19000,10,760.0,GDDR6X,320,138.2 164.2,391.68 465.12,25.07-29.77,0.392-0.465,25.06 29.76,200.54 238.14,,,,320,No,,$699
+GeForce RTX 3080 Ti,"June 3, 2021",GA102-225-A1,Samsung8N,28.3,628.4,10240:320:112:320:80(80) (7),PCIe 4.0 x16,6,1395,1665,19000,12,912.4,GDDR6X,384,153.5 186.5,438.5 532.8,28.57-34.71,0.438-0.533,28.06 34.10,,,,,350,,$1199
+GeForce RTX 3090,"September 24, 2020",GA102-300-A1,Samsung8N,28.3,628.4,10496:328:112:328:82(82) (7),PCIe 4.0 x16,6,1395,1695,19500,24,935.8,GDDR6X,384,156.2 189.8,457.6 555.96,29.28-35.58,0.459-0.558,29.38 35.68,235.08 285.48,,,69,350,2-way NVLink,,$1499
+
+Model,Launch,Code name,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce2 Go 100,"February 6, 2001",NV11M,AGP 4x,125,332,2:0:4:2,250,250,500,0,"8, 16",1.328,DDR,32
+GeForce2 Go,"November 11, 2000",NV11M,AGP 4x,143,166332,2:0:4:2,286,286,572,0,"16, 32",2.656,SDRDDR,12864
+GeForce2 Go 200,"February 6, 2001",NV11M,AGP 4x,143,332,2:0:4:2,286,286,572,0,"16, 32",2.656,DDR,64
+
+Model,Launch,Code name,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory,API support,API support
+Model,Launch,Code name,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+GeForce4 Go 410,"February 6, 2002",NV17M,AGP 8x,200,200,2:0:4:2,400,400,800,0,16,1.6,SDR,64,8.0a,1.3
+GeForce4 Go 420,"February 6, 2002",NV17M,AGP 8x,200,400,2:0:4:2,400,400,800,0,32,3.2,DDR,64,8.0a,1.3
+GeForce4 Go 440,"February 6, 2002",NV17M,AGP 8x,220,440,2:0:4:2,440,440,880,0,64,7.04,DDR,128,8.0a,1.3
+GeForce4 Go 460,"October 14, 2002",NV17M,AGP 8x,250,500,2:0:4:2,500,500,1000,0,64,8,DDR,128,8.0a,1.3
+GeForce4 Go 488,,NV18M,AGP 8x,300,550,2:0:4:2,600,600,1200,0,64,8.8,DDR,128,8.0a,1.3
+GeForce4 Go 4200,"November 14, 2002",NV28M,AGP 8x,200,400,4:2:8:4,800,800,1600,100,64,6.4,DDR,128,8.0a,1.3
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Supported API version,TDP (Watts)
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenGL,TDP (Watts)
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,Hardware,Drivers (Software),TDP (Watts)
+GeForce FX Go 5100*,March 2003,NV34M,150,AGP 8x,200,400,4:2:4:4,0.8,0.8,64,3.2,DDR,64,9.0,1.5,2.1**,Un­known
+GeForce FX Go 5500*,March 2003,NV34M,150,AGP 8x,300,600,4:2:4:4,1.2,1.2,3264,9.6,DDR,128,9.0,1.5,2.1**,Un­known
+GeForce FX Go 5600*,March 2003,NV31M,130,AGP 8x,350,600,4:2:4:4,1.4,1.4,32,9.6,DDR,128,9.0,1.5,2.1**,Un­known
+GeForce FX Go 5650*,March 2003,NV31M,130,AGP 8x,350,600,4:2:4:4,1.4,1.4,32,9.6,DDR,128,9.0,1.5,2.1**,Un­known
+GeForce FX Go 5700*,"February 1, 2005",NV36M,130,AGP 8x,450,550,4:3:4:4,1.8,1.8,32,8.8,DDR,128,9.0,1.5,2.1**,Un­known
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Fillrate,Fillrate,Memory,Memory,Memory,Memory
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce Go 6100 + nForce Go 430,Un­known,C51M,110,HyperTransport,425,System memory,2:1:2:1,850,425,850,106.25,Up to 128 MB system,System memory,DDR2,64/128
+GeForce Go 6150 + nForce Go 430,Un­known,C51M,110,HyperTransport,425,System memory,2:1:2:1,850,425,850,106.25,Up to 128 MB system,System memory,DDR2,64/128
+GeForce Go 6200,Un­known,NV44M,110,PCIe x16,300,600,4:3:4:2,1200,600,1200,225,16,2.4,DDR,32
+GeForce Go 6400,Un­known,NV44M,110,PCIe x16,400,700,4:3:4:2,1600,800,1600,250,16,5.6,DDR,64
+GeForce Go 6600,Un­known,NV43M,110,PCIe x16,300,700,8:3:8:4,3000,1500,3000,281.25,128,11.2,DDR,128
+GeForce Go 6800,"November 8, 2004",NV41M,130,PCIe x16,300,7001100,12:5:12:12,3000,1500,3000,375,128,22.435.2,"DDR, DDR2DDR3",256
+GeForce Go 6800 Ultra,"February 24, 2005",NV41M,130,PCIe x16,450,7001100,12:5:12:12,5400,3600,5400,562.5,256,22.435.2,"DDR, DDR2DDR3",256
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts),Features
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts),Features
+GeForce 7000M,"February 1, 2006",MCP67MV,90,Hyper Transport,350,System memory,1:2:2:2,0.7,0.7,Up to 256 from system memory,System memory,DDR2,64/128,9.0c,2.1,Un­known,
+GeForce 7150M,"February 1, 2006",MCP67M,90,Hyper Transport,425,System memory,1:2:2:2,0.85,0.85,Up to 256 from system memory,System memory,DDR2,64/128,9.0c,2.1,Un­known,
+GeForce Go 72002,January 2006,G72M,90,PCIe x16,450,700,3:4:4:1,0.45,1.8,64,2.8,GDDR3,32,9.0c,2.1,Un­known,Transparency Anti-Aliasing
+GeForce Go 73002,January 2006,G72M,90,PCIe x16,350,700,3:4:4:2,0.7,1.4,"128, 256, 512",5.60,GDDR3,64,9.0c,2.1,Un­known,Transparency Anti-Aliasing
+GeForce Go 74002,January 2006,G72M,90,PCIe x16,450,900,3:4:4:2,0.9,1.8,"64, 256",7.20,GDDR3,64,9.0c,2.1,Un­known,Transparency Anti-Aliasing
+GeForce Go 7600,March 2006,G73M,90,PCIe x16,450,1000,5:8:8:8,3.6,3.6,"256, 512",16,GDDR3,128,9.0c,2.1,Un­known,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+GeForce Go 7600 GT,2006,G73M,90,PCIe x16,500,1200,5:12:12:8,4,6,256,19.2,GDDR3,128,9.0c,2.1,Un­known,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+GeForce Go 7700,2006,G73-N-B1,80,PCIe x16,450,1000,5:12:12:8,3.6,5.4,512,16,GDDR3,128,9.0c,2.1,Un­known,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+GeForce Go 7800,"March 3, 2006",G70M,110,PCIe x16,400,1100,6:16:16:8,3.2,6.4,256,35.2,GDDR3,256,9.0c,2.1,35,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+GeForce Go 7800 GTX,October 2005,G70M,110,PCIe x16,400,1100,8:24:24:16,6.4,9.6,256,35.2,GDDR3,256,9.0c,2.1,65,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+GeForce Go 7900 GS,April 2006,G71M,90,PCIe x16,375,1000,7:20:20:16,6,7.5,256,32.0,GDDR3,256,9.0c,2.1,20,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+GeForce Go 7900 GTX,April 2006,G71M,90,PCIe x16,500,1200,8:24:24:16,8,12,256 512,38.4,GDDR3,256,9.0c,2.1,45,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+GeForce Go 7950 GTX,October 2006,G71M,90,PCIe x16,575,1400,8:24:24:16,9.2,13.8,512,44.8,GDDR3,256,9.0c,2.1,45,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS),TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TDP (Watts),Notes
+GeForce 8200M G,June 2008,"MCP77MV, MCP79MVL",80,Integrated (PCIe 2.0 x16),8:8:4,400,800,8001066(system memory),1.6,3.2,Up to 256 from system memory,12.817.056,DDR2DDR3,128,10.0,3.3,19.2,Un­known,"PureVideo HD with VP3, Full H.264 / VC-1 / MPEG-2 HW Decode"
+GeForce 8400M G,May 2007,NB8M(G86),80,PCIe x16,8:8:4,400,800,800,1.6,3.2,128 / 256,6.4,DDR2 / GDDR3,64,10.0,3.3,19.2,10,"PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8400M GS,May 2007,NB8M(G86),80,PCIe x16,16:8:4,400,800,800,1.6,3.2,128 / 256,6.4,DDR2 / GDDR3,64,10.0,3.3,38.4,11,"PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8400M GT,May 2007,NB8M(G86),80,PCIe x16,16:8:4,450,900,1200,1.8,3.6,256 / 512,19.2,DDR2 / GDDR3,128,10.0,3.3,43.2,14,"PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8600M GS,May 2007,NB8P(G84),80,PCIe x16,16:8:4,600,1200,1400,2.4,4.8,256 / 512,22.4,DDR2 / GDDR3,128,10.0,3.3,57.6,20,"PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8600M GT,May 2007,NB8P(G84),80,PCIe x16,32:16:8,475,950,800 / 1400,3.8,7.6,256 / 512,12.8 / 22.4,DDR2 / GDDR3,128,10.0,3.3,91.2,20,"PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8700M GT,June 2007,NB8P(G84),80,PCIe x16,32:16:8,625,1250,1600,5,10,256 / 512,25.6,GDDR3,128,10.0,3.3,120,29,"Scalable Link Interface, PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8800M GTS,November 2007,NB8P(G92),65,PCIe 2.0 x16,64:32:16,500,1250,1600,8,16,512,51.2,GDDR3,256,10.0,3.3,240,50,"Scalable Link Interface, PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8800M GTX,November 2007,NB8P(G92),65,PCIe 2.0 x16,96:48:16,500,1250,1600,8,24,512,51.2,GDDR3,256,10.0,3.3,360,65,"Scalable Link Interface, PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS),TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TDP (Watts),Notes
+GeForce 9100M G mGPU,2008,"MCP77MH, MCP79MH",65,Integrated (PCIe 2.0 x16),8:8:4,450,1100,1066(system memory),1.8,3.6,Up to 256 from system memory,17.056,DDR3,128,10.0,3.3,26.4,12,Similar to 8400M G
+GeForce 9200M GS,2008,NB9M-GE(G98),65,PCIe 2.0 x16,8:8:4,550,1300,1400,2.2,4.4,256,11.2,DDR2/GDDR3,64,10.0,3.3,31.2,13,
+GeForce 9300M G,2008,NB9M-GE(G86),80,PCIe 2.0 x16,16:8:4,400,800,1200,1.6,3.2,256/512,9.6,DDR2/GDDR3,64,10.0,3.3,38.4,13,
+GeForce 9300M GS,2008,NB9M-GE(G98),65,PCIe 2.0 x16,8:8:4,550,1400,1400,2.2,4.4,256/512,11.2,DDR2/GDDR3,64,10.0,3.3,33.6,13,
+GeForce 9400M G,"October 15, 2008",MCP79MX,65,Integrated(PCIe 2.0 x16),16:8:4,450,1100,8001066(system memory),1.8,3.6,Up to 256 from system memory,12.817.056,DDR2DDR3,128,10.0,3.3,54,12,PureVideo HD with VP3. Known as the GeForce 9400M in Apple systems and Nvidia ION based systems
+GeForce 9500M G,2008,NB9P(G96),65,PCIe 2.0 x16,16:8:8,500,1250,1600,4,4,512,25.6,DDR2 / GDDR3,128,10.0,3.3,60,20,
+GeForce 9500M GS,2008,NB9P-GV(G96),80,PCIe x16,32:16:8,475,950,1400,3.8,7.6,512,22.4,DDR2 / GDDR3,128,10.0,3.3,91.2,20,Rebranded 8600M GT
+GeForce 9600M GS,2008,NB9P-GE2(G96),65,PCIe 2.0 x16,32:16:8,430,1075,8001600,3.44,6.88,1024,12.825.6,DDR2 / GDDR3,128,10.0,3.3,103.2,20,
+GeForce 9600M GT,2008,NB9P-GS(G96),65,PCIe 2.0 x16,32:16:8,500,1250,1600,4,8,512/1024,25.6,DDR2 / GDDR3,128,10.0,3.3,120,23,
+GeForce 9650M GS,2008,NB9P-GS1(G84),80,PCIe 2.0 x16,32:16:8,625,1250,1600,5,10,512,25.6,GDDR3,128,10.0,3.3,120,29,Rebranded 8700M GT
+GeForce 9650M GT,2008,NB9P-GT(G96),65/55,PCIe 2.0 x16,32:16:8,550,1325,1600,4.4,8.8,1024,25.6,GDDR3,128,10.0,3.3,127.2,23,
+GeForce 9700M GT,"July 29, 2008",NB9E-GE(G96),65,PCIe x16,32:16:8,625,1550,1600,5,10,512,25.6,GDDR3,128,10.0,3.3,148.8,45,
+GeForce 9700M GTS,"July 29, 2008",NB9E-GS(G94),65,PCIe 2.0 x16,48:24:16,530,1325,1600,8.48,12.7,512,51.2,GDDR3,256,10.0,3.3,190.8,60,
+GeForce 9800M GS,2008,NB9E-GT(G94),65,PCIe 2.0 x16,64:32:16,530,1325,1600,8.48,16.96,512,51.2,GDDR3,256,10.0,3.3,254,60,Down Clocked 9800M GTS Via Firmware
+GeForce 9800M GTS,"July 29, 2008",NB9E-GT(G94),65/55,PCIe 2.0 x16,64:32:16,600,1500,1600,9.6,19.2,512 / 1024,51.2,GDDR3,256,10.0,3.3,288,75,
+GeForce 9800M GT,"July 29, 2008",NB9E-GT2(G92),65/55,PCIe 2.0 x16,96:48:16,500,1250,1600,8,24,512,51.2,GDDR3,256,10.0,3.3,360,65,Rebranded 8800M GTX
+GeForce 9800M GTX,"July 29, 2008",NB9E-GTX(G92),65,PCIe 2.0 x16,112:56:16,500,1250,1600,8,28,1024,51.2,GDDR3,256,10.0,3.3,420,75,
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS),TDP (Watts),Notes
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS),TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TDP (Watts),Notes
+GeForce G 102M,"January 8, 2009",MCP79XT,65,Integrated(PCIe 1.0 x16),16:8:4,450?,1000,800(system memory),1.8,3.6,Up to 512 from system memory,6.4,DDR2,64,10.0,3.3,48,14,"PureVideo HD, CUDA, Hybrid SLI, based on GeForce 9400M G"
+GeForce G 103M,"January 1, 2009",N10M-GE2(G98),65,PCIe 2.0 x16,8:8:4,640,1600,1000,2.56,5.12,512,8,DDR2,64,10.0,3.3,38,14,"PureVideo HD, CUDA, Hybrid SLI, comparable to the GeForce 9300M GS"
+GeForce G 105M,"January 8, 2009",N10M-GE1(G98),65,PCIe 2.0 x16,8:8:4,640,1600,10001400,2.56,5.12,,811,GDDR2GDDR3,64,10.0,3.3,38,14,"PureVideo HD, CUDA, Hybrid SLI, comparable to the GeForce 9300M GS"
+GeForce G 110M,"January 8, 2009",N10M-GE1(G96b),55,PCIe 2.0 x16,16:8:4,400,1000,10001400,1.6,3.2,1024,811,DDR2GDDR3,64,10.0,3.3,48,14,"PureVideo HD, CUDA, Hybrid SLI"
+GeForce GT 120M,"February 11, 2009",N10P-GV1(G96b),55,PCIe 2.0 x16,32:16:8,500,1250,1000,4,8,1024,16,DDR2,128,10.0,3.3,110,23,"PureVideo HD, CUDA, Hybrid SLI, Comparable to the 9500M GT and 9600M GT DDR2 (500/1250/400)"
+GeForce GT 130M,"January 8, 2009",N10P-GE1(G96b),55,PCIe 2.0 x16,32:16:8,600,1500,10001600,4.8,9.6,1024,1625.6,DDR2GDDR3,128,10.0,3.3,144,23,"PureVideo HD, CUDA, Hybrid SLI, comparable to the 9650M GT"
+GeForce GTS 150M,"March 3, 2009",N10E-GE1(G94b),55,PCIe 2.0 x16,64:32:16,400,1000,1600,6.4,12.8,1024,51.2,GDDR3,256,10.0,3.3,192,Un­known,"PureVideo HD, CUDA, Hybrid SLI"
+GeForce GTS 160M,"March 3, 2009",N10E-GS1(G94b),55,PCIe 2.0 x16,64:32:16,600,1500,1600,9.6,19.2,1024,51.2,GDDR3,256,10.0,3.3,288,60,"PureVideo HD, CUDA, Hybrid SLI"
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS),TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TDP (Watts),Notes
+GeForce G210M,"June 15, 2009",GT218,40,PCIe 2.0 x16,16:8:4,625,1500,1600,2.5,5,512,12.8,GDDR3,64,10.1,3.3,72,14,Lower clocked versions of the GT218 core is also known as Nvidia ION 2
+GeForce GT 220M,2009,G96b,55,PCIe 2.0 x16,32:16:8,500,1250,10001600,4,8,1024,1625.6,DDR2GDDR3,128,10.1,3.3,120,14,rebranded 9600M GT @55 nm node shrink
+GeForce GT 230M,"June 15, 2009",GT216,40,PCIe 2.0 x16,48:16:8,500,1100,1600,4,8,1024,25.6,GDDR3,128,10.1,3.3,158,23,
+GeForce GT 240M,"June 15, 2009",GT216,40,PCIe 2.0 x16,48:16:8,550,1210,1600,4.4,8.8,1024,25.6,GDDR3,128,10.1,3.3,174,23,
+GeForce GTS 250M,"June 15, 2009",GT215,40,PCIe 2.0 x16,96:32:8,500,1250,3200,4,16,1024,51.2,GDDR5,128,10.1,3.3,360,28,
+GeForce GTS 260M,"June 15, 2009",GT215,40,PCIe 2.0 x16,96:32:8,550,1375,3600,4.4,17.6,1024,57.6,GDDR5,128,10.1,3.3,396,38,
+GeForce GTX 260M,"March 3, 2009",G92b,55,PCIe 2.0 x16,112:56:16,550,1375,1900,8.8,30.8,1024,60.8,GDDR3,256,10.1,3.3,462,65,
+GeForce GTX 280M,"March 3, 2009",G92b,55,PCIe 2.0 x16,128:64:16,585,1463,1900,9.36,37.44,1024,60.8,GDDR3,256,10.1,3.3,562,75,
+GeForce GTX 285M,February 2010,G92b,55,PCIe 2.0 x16,128:64:16,600,1500,2000,9.6,38.4,1024,64.0,GDDR3,256,10.1,3.3,576,75,Higher Clocked Version of GTX280M with new memory
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts)
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts)
+GeForce 305M,"January 10, 2010",GT218,40,PCIe 2.0 x16,16:8:4,525,1150,1400,2.1,4.2,512,11.2,DDR3GDDR3,64,10.1,3.3,55,14
+GeForce 310M,"January 10, 2010",GT218,40,PCIe 2.0 x16,16:8:4,625,1530,1600,2.5,5,512,12.8,DDR3GDDR3,64,10.1,3.3,73,14
+GeForce 315M,"January 5, 2011",GT218,40,PCIe 2.0 x16,16:8:4,606,1212,1600,2.42,4.85,512,12.8,DDR3GDDR3,64,10.1,3.3,58.18,14
+GeForce 320M,"April 1, 2010",MCP89,40,PCIe 2.0 x16,48:16:8,450,950,1066,3.6,7.2,256 (shared w/ system memory),17.056,DDR3,128,10.1,3.3,136.8,20
+GeForce GT 320M,"January 21, 2010",GT216,40,PCIe 2.0 x16,24:8:8,500,1100,1580,4,4,1024,25.3,DDR3GDDR3,128,10.1,3.3,90,14
+GeForce GT 325M,"January 10, 2010",GT216,40,PCIe 2.0 x16,48:16:8,450,990,1600,3.6,7.2,1024,25.6,DDR3GDDR3,128,10.1,3.3,142,23
+GeForce GT 330M,"January 10, 2010",GT216,40,PCIe 2.0 x16,48:16:8,575,1265,1600,4.6,9.2,1024,25.6,DDR3GDDR3,128,10.1,3.3,182,23
+GeForce GT 335M,"January 7, 2010",GT215,40,PCIe 2.0 x16,72:24:8,450,1080,1600,3.6,10.8,1024,25.6,DDR3GDDR3,128,10.1,3.3,233,28?
+GeForce GTS 350M,"January 7, 2010",GT215,40,PCIe 2.0 x16,96:32:8,500,1249,3200,4,16,1024,51.2,DDR3GDDR3GDDR5,128,10.1,3.3,360,28
+GeForce GTS 360M,"January 7, 2010",GT215,40,PCIe 2.0 x16,96:32:8,500,1436,3600,4.4,17.6,1024,57.6,DDR3GDDR3GDDR5,128,10.1,3.3,413,38
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Notes
+GeForce 410M,"January 5, 2011",GF119,40,PCIe 2.0 x16,48:83:4,575,1150,1600,2.3,4.6,512,12.8,DDR3,64,12,4.5,110.4,12,Similar to Desktop GT420 OEM
+GeForce GT 415M,"September 3, 2010",GF108,40,PCIe 2.0 x16,48:83:4,500,1000,1600,2,4,512,25.6,DDR3,128,12,4.5,96,<12(GPU only),Similar to Desktop GT420 OEM
+GeForce GT 420M,"September 3, 2010",GF108,40,PCIe 2.0 x16,96:163:4,500,1000,1600,2,8,512,25.6,DDR3,128,12,4.5,192,10-23(GPU only),Similar to Desktop GT430
+GeForce GT 425M,"September 3, 2010",GF108,40,PCIe 2.0 x16,96:163:4,560,1120,1600,2.24,8.96,1024,25.6,DDR3,128,12,4.5,215.04,20-23(GPU only),Similar to Desktop GT430
+GeForce GT 435M,"September 3, 2010",GF108,40,PCIe 2.0 x16,96:163:4,650,1300,1600,2.6,10.4,2048,25.6,DDR3,128,12,4.5,249.6,32-35(GPU only),Similar to Desktop GT430/440
+GeForce GT 445M,"September 3, 2010",GF106,40,PCIe 2.0 x16,144:243:16144:243:24,590,1180,16002500,9.4414.16,14.16,10241536,25.660,DDR3GDDR5,128192,12,4.5,339.84,30-35(GPU only),Similar to Desktop GTS450 OEM)
+GeForce GTX 460M,"September 3, 2010",GF106,40,PCIe 2.0 x16,192:323:24,675,1350,2500,16.2,21.6,1536,60,GDDR5,192,12,4.5,518.4,45-50(GPU only),Similar to Desktop GTX550 Ti
+GeForce GTX 470M,"September 3, 2010",GF104,40,PCIe 2.0 x16,288:483:24,550,1100,2500,13.2,26.4,1536,60,GDDR5,192,12,4.5,633.6,45-50(GPU only),Similar to Desktop GTX 460/560SE
+GeForce GTX 480M,"May 25, 2010",GF100,40,PCIe 2.0 x16,352:443:32,425,850,2400,13.6,18.7,2048,76.8,GDDR5,256,12,4.5,598.4,100(MXM module),Similar to Desktop GTX465
+GeForce GTX 485M,"January 5, 2011",GF104,40,PCIe 2.0 x16,384:643:32,575,1150,3000,18.4,36.8,2048,96.0,GDDR5,256,12,4.5,883.2,100(MXM module),Similar to Desktop GTX560 Ti
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Notes
+GeForce GT 520M,"January 5, 2011",GF119,40,PCIe 2.0 x16,48:8:4,740,1480,1600,2.96,5.92,1024,12.8,DDR3,64,12,4.6,142.08,12,Similar to Desktop 510/520
+GeForce GT 520M,,GF108,40,PCIe 2.0 x16,96:16:4,515,1030,1600,2.06,8.24,1024,12.8,DDR3,64,12,4.6,197.76,20,"Noticed in Lenovo laptops, similar to Desktop 530/430/440"
+GeForce GT 520MX,"May 30, 2011",GF119,40,PCIe 2.0 x16,48:8:4,900,1800,1800,3.6,7.2,1024,14.4,DDR3,64,12,4.6,172.8,20,Similar to Desktop 510 & GT520
+GeForce GT 525M,"January 5, 2011",GF108,40,PCIe 2.0 x16,96:16:4,600,1200,1800,2.4,9.6,1024,28.8,DDR3,128,12,4.6,230.4,20-23,Similar to Desktop GT 530/430/440
+GeForce GT 540M,"January 5, 2011",GF108,40,PCIe 2.0 x16,96:16:4,672,1344,1800,2.688,10.752,20481024,28.8,DDR3,128,12,4.6,258.048,32-35,Similar to Desktop GT 530/440
+GeForce GT 550M,"January 5, 2011",GF108GF1062,40,PCIe 2.0 x16,96:16:4144:24:162,740475,1480950,18001800,2.96,11.84,1024,28.8,DDR3,128,12,4.6,284.16312.6,32-35,Similar to Desktop GT 530/440
+GeForce GT 555M,"January 5, 2011",GF106GF108,40,PCIe 2.0 x16,144:24:24144:24:1696:16:4,590650753,118013001506,180018003138,14.610.43,14.615.612,153620481024,43.228.850.2,DDR3DDR3GDDR5,192128128,12,4.6,339.84374.4289.15,30-35,Similar to Desktop GT545
+GeForce GTX 560M,"May 30, 2011",GF116,40,PCIe 2.0 x16,192:32:16192:32:24,775,1550,2500,18.6,24.8,"20481536, 3072",40.060.0,GDDR5,128192,12,4.6,595.2,75,Similar to Desktop GTX 550Ti
+GeForce GTX 570M,"June 28, 2011",GF114,40,PCIe 2.0 x16,336:56:24,575,1150,3000,13.8,32.2,1536,72.0,GDDR5,192,12,4.6,772.8,75,Similar to Desktop GTX 560
+GeForce GTX 580M,"June 28, 2011",GF114,40,PCIe 2.0 x16,384:64:32,620,1240,3000,19.8,39.7,2048,96.0,GDDR5,256,12,4.6,952.3,100,Similar to Desktop GTX 560 Ti
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Notes
+GeForce 610M,December 2011,GF119 (N13M-GE),40,PCIe 2.0 x16,48:8:4,900,1800,1800,3.6,7.2,10242048,14.4,DDR3,64,12,4.5,142.08,12,OEM. Rebadged GT 520MX
+GeForce GT 620M,April 2012,GF117 (N13M-GS),28,PCIe 2.0 x16,96:16:4,625,1250,1800,2.5,10,10242048,14.428.8,DDR3,64128,12,4.5,240,15,OEM. Die-Shrink GF108
+GeForce GT 625M,October 2012,GF117 (N13M-GS),28,PCIe 2.0 x16,96:16:4,625,1250,1800,2.5,10,10242048,14.4,DDR3,64,12,4.5,240,15,OEM. Die-Shrink GF108
+GeForce GT 630M,April 2012,GF108 (N13P-GL)GF117,4028,PCIe 2.0 x16,96:16:4,660800,13201600,18004000,2.63.2,10.712.8,10242048,28.832.0,DDR3GDDR5,12864,12,4.5,258.0307.2,33,GF108: OEM. Rebadged GT 540MGF117: OEM Die-Shrink GF108
+GeForce GT 635M,April 2012,GF106 (N12E-GE2)GF116,40,PCIe 2.0 x16,144:24:24,675,1350,1800,16.2,16.2,20481536,28.843.2,DDR3,128192,12,4.5,289.2388.8,35,GF106: OEM. Rebadged GT 555MGF116: 94% of desktop GT640
+GeForce GT 640M LE,"March 22, 2012",GF108GK107 (N13P-LP),4028,PCIe 2.0 x16PCIe 3.0 x16,96:16:4384:32:16(2 SMX),762500,1524500,31301800,38,12.216,10242048,50.228.8,DDR3 GDDR5,128,12,4.5,292.6384,3220,GF108: 94% of desktop GT630GK107: 47% of desktop GTX650
+GeForce GT 640M,"March 22, 2012",GK107 (N13P-GS),28,PCIe 3.0 x16,384:32:16(2 SMX),625,625,18004000,10,20,10242048,28.864.0,DDR3 GDDR5,128,12,4.5,480,32,59% of desktop GTX650
+GeForce GT 645M,October 2012,GK107 (N13P-GS),28,PCIe 3.0 x16,384:32:16(2 SMX),710,710,18004000,11.36,22.72,10242048,28.864.0,DDR3 GDDR5,128,12,4.5,545,32,67% of desktop GTX650
+GeForce GT 650M,"March 22, 2012",GK107 (N13P-GT),28,PCIe 3.0 x16,384:32:16(2 SMX),835745900*,835745900*,180040005000*,13.411.914.4*,26.723.828.8*,102420484096,28.864.080.0*,DDR3 GDDR5,128,11.2,4.5,641.3572.2691.2*,45,79% of desktop GTX650
+GeForce GTX 660M,"March 22, 2012",GK107 (N13E-GE),28,PCIe 3.0 x16,384:32:16(2 SMX),950,950,5000,13.4,26.7,2048,80.0,GDDR5,128,11.2,4.5,730,50,79% of desktop GTX650
+GeForce GTX 670M,April 2012,GF114 (N13E-GS1-LP),40,PCIe 2.0 x16,336:56:24,620,1240,3000,14.35,33.5,15363072,72.0,GDDR5,192,12,4.5,833,75,73% of desktop GTX 560
+GeForce GTX 670MX,October 2012,GK104 (N13E-GR),28,PCIe 3.0 x16,960:80:24(5 SMX),615,615,2800,14.4,48.0,15363072,67.2,GDDR5,192,12,4.5,1181,75,61% of desktop GTX 660
+GeForce GTX 675M,April 2012,GF114 (N13E-GS1),40,PCIe 2.0 x16,384:64:32,632,1265,3000,19.8,39.7,2048,96.0,GDDR5,256,12,4.5,972,100,75% of desktop GTX 560Ti
+GeForce GTX 675MX,October 2012,GK104  (N13E-GSR),28,PCIe 3.0 x16,960:80:32(5 SMX),667,667,3600,19.2,48.0,4096,115.2,GDDR5,256,12,4.5,1281,100,61% of desktop GTX 660
+GeForce GTX 680M,"June 4, 2012",GK104 (N13E-GTX),28,PCIe 3.0 x16,1344:112:32(7 SMX),719,719,3600,23,80.6,4096,115.2,GDDR5,256,12,4.5,1933,100,78% of desktop GTX 670
+GeForce GTX 680MX,"October 23, 2012",GK104,28,PCIe 3.0 x16,1536:128:32(8 SMX),719,719,5000,23,92.2,4096,160,GDDR5,256,12,4.5,2209,122,72% of desktop GTX 680
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Notes
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Notes
+GeForce 710M,January 2013,GF117,28,PCIe 2.0 x16,96:16:4,800,1600,1800,3.2,12.8,10242048,14.4,DDR3,64,12,4.5,307.2,12,OEM. About 115% of Mobile 620 & Desktop 530
+GeForce GT 720M,"April 1, 2013",GF117,28,PCIe 2.0 x16,96:16:4,938,1876,2000,3.8,15.0,2048,16.0,DDR3,64,12,4.5,360.19,?,OEM. About 130% of Mobile 625/630 & Desktop 620
+GeForce GT 720M,"December 25, 2013",GK208,28,PCIe 2.0 x8,192:16:8,719,719,2000,3.032,12.13,2048,12.8,DDR3,64,12,4.5,291,22,"Kepler, similar to 730M with half of the cores disabled"
+GeForce GT 730M,January 2013,GK208,28,PCIe 3.0 x8,384:32:8(2 SMX),719,719,2000,5.8,23.0,2048,16.0,DDR3,128,12,4.5,552.2,33,"Kepler, similar to Desktop GT640"
+GeForce GT 735M,"April 1, 2013",GK208,28,PCIe 3.0 x8,384:32:8(2 SMX),889,889,2000,7.11,28.4,2048,16.0,DDR3,64,12,4.5,682.8,?,"Kepler, similar to Desktop GT640"
+GeForce GT 740M,"April 1, 2013",GK208,28,PCIe 3.0 x8,384:32:8(2 SMX),980,980,1800,7.84,31.4,2048,14.4,DDR3,64,12,4.5,752.6,?,"Kepler, similar to Desktop GT640."
+GeForce GT 740M,"April 1, 2013",GK107,28,PCIe 3.0 x16,384:32:16(2 SMX),810,810,18005000,12.96,25.92,2048,28.880,DDR3GDDR5,128,12,4.5,622.1,45,about 76% of Desktop GTX650
+GeForce GT 745M,"April 1, 2013",GK107,28,PCIe 3.0 x16,384:32:16(2 SMX),837,837,20005000,13.4,26.8,2048,3280,DDR3GDDR5,128,12,4.5,642.8,45,about 79% of Desktop GTX650
+GeForce GT 750M,"April 1, 2013",GK107,28,PCIe 3.0 x16,384:32:16(2 SMX),967,967,20005000,15.5,30.9,2048,3280,DDR3GDDR5,128,12,4.5,742.7,50,about 91% of Desktop GTX650
+GeForce GT 755M,?,GK107,28,PCIe 3.0 x16,384:32:16(2 SMX),1020,1020,5400,15.7,31.4,2048,86.4,GDDR5,128,12,4.5,783,50,about 93% of Desktop GTX650
+GeForce GTX 760M,May 2013,GK106,28,PCIe 3.0 x16,768:64:16(4 SMX),719,719,4000,10.5,42.1,2048,64,GDDR5,128,12,4.5,1104,55,about 71% of Desktop GTX 650Ti
+GeForce GTX 765M,May 2013,GK106,28,PCIe 3.0 x16,768:64:16(4 SMX),863,863,4000,13.6,54.4,2048,64,GDDR5,128,12,4.5,1326,65,about 92% of Desktop GTX 650Ti
+GeForce GTX 770M,May 2013,GK106,28,PCIe 3.0 x16,960:80:24(5 SMX),797,797,4000,19.5,64.9,3072,96,GDDR5,192,12,4.5,1530,75,about 83% of Desktop GTX660
+GeForce GTX 780M,May 2013,GK104,28,PCIe 3.0 x16,1536:128:32(8 SMX),797,797,5000,26.3,105.3,4096,160,GDDR5,256,12,4.5,2448,122,about 78% of Desktop GTX770
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Notes
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes (original research)
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Notes (original research)
+GeForce 810M,February 2014,GF117,28,PCIe 2.0 x16,48:8:4,738-888,1476-1776,1800,2.95-3.55,5.9-7.1,1,14.4,DDR3,64,12,4.5,141.7-170.5,15,
+GeForce 820M,February 2014,GF117,28,PCIe 2.0 x16,96:16:4,719-954,1438-1908,2000,2.9-3.8,11.5-15.3,2,16,DDR3,64,12,4.5,276.1-366.3,15,115% of 620 (Fermi)
+GeForce 825M,"January 27, 2014",GK208,28,PCIe 3.0 x8,384:16:8(2 SMX),850,850,1800,6.8,13.6,2,14.4,DDR3,64,12,4.5,652.8,33,94% of 630 (Kepler)
+GeForce 830M,"March 12, 2014",GM108,28,PCIe 3.0 x16,256:16:8(2 SMM),1029,1029,1800,8.2,16.5,2,14.4,DDR3,64,12,4.5,526.8,~25,50% of 750 (Maxwell)
+GeForce 840M,"March 12, 2014",GM108,28,PCIe 3.0 x16,384:24:8(3 SMM),1029,1029,2000,8.2,24.7,2-4,16,DDR3,64,12,4.5,790.3,30,50-80% of 745 (Maxwell)
+GeForce 845M,"February 7, 2015",GM108,28,PCIe 3.0 x16,384:32:16(3 SMM),1071-1150,1071-1150,5000,18.8,37.6,2,40,GDDR5,64,12,4.5,903.2,33,
+GeForce 845M,"August 16, 2015",GM107,28,PCIe 3.0 x16,512:32:16(4 SMM),863,863,2000,13.8,27.6,2,16,DDR3,64,12,4.5,883.7,45,
+GeForce GTX 850M,"March 12, 2014",GM107,28,PCIe 3.0 x16,640:40:16(5 SMM),876+Boost,876+Boost,5000,14.0,35.0,2-4,80.2,GDDR5,128,12,4.5,1121.3,40,80% of 750Ti
+GeForce GTX 850M,"March 12, 2014",GM107,28,PCIe 3.0 x16,640:40:16(5 SMM),936+Boost,936+Boost,2000,15.0,37.4,2-4,32,DDR3,128,12,4.5,1198.1,40,85% of 750Ti
+GeForce GTX 860M,"March 12, 2014",GM107,28,PCIe 3.0 x16,640:40:16(5 SMM),1029-1085,1029-1085,5000,16.5,41.2,2,80,GDDR5,128,12,4.5,1389,40-45,equal to 750Ti
+GeForce GTX 860M,"March 12, 2014",GK104,28,PCIe 3.0 x16,1152:96:16(6 SMX),797-915,797-915,5000,12.8,76.5,4,80,GDDR5,128,12,4.5,2108,75,similar to 660 OEM.
+GeForce GTX 870M,"March 12, 2014",GK104,28,PCIe 3.0 x16,1344:112:24(7 SMX),941-967,941-967,5000,22.6,105.4,"3, 6",120,GDDR5,192,12,4.5,2599,110,105% of 660Ti
+GeForce GTX 880M,"March 12, 2014",GK104,28,PCIe 3.0 x16,1536:128:32(8 SMX),954-993,954-993,5000,30.5,122.1,"4, 8",160,GDDR5,256,12,4.5,3104,130,90% of 770
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Notes
+
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,Processing power (GFLOPS)2,TDP (Watts),Notes
+GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 x16,384:32:8(2 SMX),954,Un­known,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.6,1.2,733,33,
+GeForce 930M,"March 12, 2015",GM108,28,PCIe 3.0 x16,384:24:8(3 SMM),928,941,1800,7.4,22.3,2,14.4,DDR3,64,12 (11_0),4.6,1.2,713,29,
+GeForce 940M,"March 12, 2015",GM108,28,PCIe 3.0 x16,384:24:8(3 SMM),1072,1176,2000,8.6,25.7,2,16,DDR3,64,12 (11_0),4.6,1.2,823,36,
+GeForce 940MX,"January, 2016",GM108,28,PCIe 3.0 x16,384:24:8(3 SMM),1004,1242,2000,9.9,29.8,2,16,DDR3,64,12 (11_0),4.6,1.2,954,23,
+GeForce 940MX,"June 28, 2016",GM107,28,PCIe 3.0 x16,512:32:8(4 SMM),795,861,5000,6.9,27.6,2,40,GDDR5,64,12 (11_0),4.6,1.2,882,23,
+GeForce GTX 950M,"March 12, 2015",GM107,28,PCIe 3.0 x16,640:40:16(5 SMM),914,Un­known,5000,14.6,36.6,"2, 4",80,GDDR5,128,12 (11_0),4.6,1.2,1170,Un­known,Similar core config to GTX 750 Ti (GM107-400-A2)
+GeForce GTX 950M,"March 12, 2015",GM107,28,PCIe 3.0 x16,640:40:16(5 SMM),914,Un­known,2000,14.6,36.6,"2, 4",32,DDR3,128,12 (11_0),4.6,1.2,1170,55,Similar core config to GTX 750 Ti (GM107-400-A2)
+GeForce GTX 960M,"March 12, 2015",GM107,28,PCIe 3.0 x16,640:40:16(5 SMM),1097,1176,5000,17.5,43.8,"2, 4",80,GDDR5,128,12 (11_0),4.6,1.2,1403,65,Similar core config to GTX 750 Ti (GM107-400-A2)
+GeForce GTX 965M,"January 5, 2015",GM204,28,PCIe 3.0 x16,1024:64:32(8 SMM),944,Un­known,5000,30.2,60.4,"2, 4",80,GDDR5,128,12 (12_1),4.6,1.2,1933,60,Similar core config to GTX 960 (GM206-300)
+GeForce GTX 970M,"October 7, 2014",GM204,28,PCIe 3.0 x16,1280:80:48(10 SMM),944,993,5000,44.4,73.9,"3, 6",120,GDDR5,192,12 (12_1),4.6,1.2,2365,75,Similar core config to GTX 960 OEM (GM204)
+GeForce GTX 980M,"October 7, 2014",GM204,28,PCIe 3.0 x16,1536:96:64(12 SMM),1038,1127,5000,66.4,99.6,"4, 8",160,GDDR5,256,12 (12_1),4.6,1.2,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
+GeForce GTX 980,"September 22, 2015",GM204,28,PCIe 3.0 x16,2048:128:64(16 SMM),1064,Un­known,7010,68.1,136.2,8,224,GDDR5,256,12 (12_1),4.6,1.2,4358,"165, oc to 200",Similar to Desktop GTX 980
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,Clock speed,Clock speed,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS)2,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,Processing power (GFLOPS)2,TDP (Watts),Notes
+
+Model,Launch,Code name,Fab (nm),Transistors (billion),Die size (mm2),Bus interface,Core config,Clock speeds,Clock speeds,Clock speeds,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),TDP (Watts),SLI support
+Model,Launch,Code name,Fab (nm),Transistors (billion),Die size (mm2),Bus interface,Core config,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),DirectX,OpenGL,OpenCL,Vulkan,Single precision,Double precision,Half precision,TDP (Watts),SLI support
+GeForce MX110,November 2017,GM108,28,Un­known,Un­known,64,256:16:8,965,993,Un­known,7.944,23.83,≤2,(variable),GDDR5/DDR3,64,12,4.5,1.0,1.2,762.6,23.83,Un­known,30,No
+GeForce MX130,November 2017,GM108,28,Un­known,Un­known,64,384:24:8,1122,1242,Un­known,9.936,29.81,≤2,(variable),GDDR5/DDR3,64,12,4.5,1.2,1.0,762.6,29.81,Un­known,30,No
+GeForce MX150,Mid 2017,GP108 (N17S-G1-A1),14,1.8,70,PCIe 3.0 x4,384:24:16,1468,1532,6008,23.5,35.2,2,48,GDDR5,64,12 (12_1),4.5,1.2,1.0 (1.2 via driver),1127-1177,18,9,25,No
+GeForce MX150,?,GP108 (N17S-LG-A1),14,1.8,70,PCIe 3.0 x4,384:24:16,937,1038,5012,15,22.5,2,40,GDDR5,64,12 (12_1),4.5,1.2,1.0 (1.2 via driver),720-797,11,6,10,No
+GeForce GTX 1050 (Notebook),"January 3, 2017",GP107(N17P-G0-A1),14,3.3,135,PCIe 3.0 x16,640:40:16,1354,1493,7000,21.7,54.2,4,112,GDDR5,128,12 (12_1),4.5,1.2,1.0 (1.2 via driver),1733-1911,27,14,53,No
+GeForce GTX 1050 Ti (Notebook),"January 3, 2017",GP107(N17P-G1-A1),14,3.3,135,PCIe 3.0 x16,768:48:32,1493,1620,7000,47.8,71.7,4,112,GDDR5,128,12 (12_1),4.5,1.2,1.0 (1.2 via driver),2293-2488,36,18,64,No
+GeForce GTX 1060 (Notebook),"August 16, 2016",GP106,16,4.4,200,PCIe 3.0 x16,1280:80:48,1404,1670,8000,67.4,112,6,192,GDDR5,192,12 (12_1),4.5,1.2,1.0 (1.2 via driver),3594-4275,112,56,80,No
+GeForce GTX 1060 Max-Q,May 2017,GP106,16,4.4,200,PCIe 3.0 x16,1280:80:48,1063,1480,8000,71.04,118.4,6,192,GDDR5,192,12 (12_1),4.5,1.2,1.0 (1.2 via driver),3789,118.4,59.20,80,No
+GeForce GTX 1060 Max-Q,May 2017,GP106B,16,4.4,200,PCIe 3.0 x16,1280:80:48,1265,1480,8000,71.04,118.4,6,192,GDDR5,192,12 (12_1),4.5,1.2,1.0 (1.2 via driver),3789,118.4,59.20,80,
+GeForce GTX 1070 (Notebook),"August 16, 2016",GP104/GP104B,16,7.2,314,PCIe 3.0 x16,2048:128:64,1442,1645,8000,92.3,185,8,256,GDDR5,256,12 (12_1),4.5,1.2,1.0 (1.2 via driver),5906-6738,185,92,115,Yes
+GeForce GTX 1070 Max-Q,May 2017,GP104/GP104B,16,7.2,314,PCIe 3.0 x16,2048:128:64,1101,1379,8000,88.26,176.5,8,256,GDDR5,256,12 (12_1),4.5,1.2,1.0 (1.2 via driver),5648,176.5,88.26,?,No
+GeForce GTX 1080 (Notebook),"August 16, 2016",GP104/GP104B,16,7.2,314,PCIe 3.0 x16,2560:160:64,1556,1733,10000,99.6,249,8,320,GDDR5X,256,12 (12_1),4.5,1.2,1.0 (1.2 via driver),7967-8873,249,124,150,Yes
+GeForce GTX 1080 Max-Q,May 2017,GP104/GP104B,16,7.2,314,PCIe 3.0 x16,2560:160:64,1101,1468,10000,93.95,234.9,8,320,GDDR5X,256,12 (12_1),4.5,1.2,1.0 (1.2 via driver),7516,234.9,117.4,?,No
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Bus interface,L2 Cache(MB),Core config,Clock speeds,Clock speeds,Memory (MT/s),Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,Supported API version,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),TDP (Watts)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Bus interface,L2 Cache(MB),Core config,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),DirectX,OpenGL,OpenCL,Vulkan,Single precision,Double precision,Half precision,TDP (Watts)
+GeForce GTX 1650 (Laptop),"April 23, 2019",TU117,TSMC 12FFN,4.7,200,PCIe 3.0 x16,1.0,1024:64:32,1395,1560,8000,49.92,99.84,2-4,128,GDDR5,128,12 (12_1),4.6,3.0,1.2,3195,99.84,6390,50
+GeForce GTX 1650 Max-Q,"April 23, 2019",TU117(N18P-G0-MP-A1),TSMC 12FFN,4.7,200,PCIe 3.0 x16,1.0,1024:64:32,1020,1245,8000,39.84,79.68,2-4,112,GDDR5,128,12 (12_1),4.6,3.0,1.2,2550,79.68,5100,30
+GeForce GTX 1650 Ti Max-Q,"April 2, 2020",TU117,TSMC 12FFN,4.7,200,PCIe 3.0 x16,1.0,1024:64:32,?,1200,12000,38.4,76.8,4,192,GDDR6,128,12 (12_1),4.6,3.0,1.2,2458,76.8,4915,35
+GeForce GTX 1650 Ti,"April 2, 2020",TU117(N18P-G62-A1),TSMC 12FFN,4.7,200,PCIe 3.0 x16,1.0,1024:64:32,1350,1485,12000,47.52,95.04,4,192,GDDR6,128,12 (12_1),4.6,3.0,1.2,3041,95.04,6083,55
+GeForce GTX 1660 (Laptop),?,TU116,TSMC 12FFN,6.6,284,PCIe 3.0 x16,1.5,1408:88:48,1455,1599,16000,76.32,127.2,6,384,GDDR6,192,12 (12_1),4.6,3.0,1.2,4070,127.2,8141,?
+GeForce GTX 1660 Ti Max-Q,"April 23, 2019",TU116,TSMC 12FFN,6.6,284,PCIe 3.0 x16,1.5,1536:96:46,1140,1335,12000,64.08,128.2,6,288,GDDR6,192,12 (12_1),4.6,3.0,1.2,4101,128.2,8202,60
+GeForce GTX 1660 Ti (Laptop),"April 23, 2019",TU116,TSMC 12FFN,6.6,284,PCIe 3.0 x16,1.5,1536:96:46,1455,1590,12000,76.32,152.6,6,288,GDDR6,192,12 (12_1),4.6,3.0,1.2,4884,152.6,9769,80
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache(MB),Clock speeds,Clock speeds,Clock speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Ray-tracing Performance,Ray-tracing Performance,TDP (Watts)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache(MB),Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),TDP (Watts)
+GeForce MX230,"February 20, 2019",GP108 (N17S-G0),14,1.8,70,256:16:16,PCIe 3.0 x4,0.5,1519,1531,7000,24,56,GDDR5,64,25.31,25.31,810.0,25.31,12.66,N/A,N/A,N/A,10
+GeForce MX250,"February 20, 2019",GP108 (N17S-G2),14,1.8,70,384:24:16,PCIe 3.0 x4,0.5,1518,1582,7000,24,56,GDDR5,64,24.3,36.4,1166,37.97,18.98,N/A,N/A,N/A,25
+GeForce MX250,"February 20, 2019",GP108B,14,1.8,70,384:24:16,PCIe 3.0 x4,0.5,937,1038,7000,24,48.06,GDDR5,64,16.61,24.91,797.2,24.91,12.46,N/A,N/A,N/A,10
+GeForce MX330,"February 12, 2020",GP108 (N17S-G3),14,1.8,70,384:24:16,PCIe 3.0 x4,0.5,1531,1594,7000,24,56,GDDR5,64,25.50,38.26,1224,38.26,19.13,N/A,N/A,N/A,25
+GeForce MX350,"February 12, 2020",GP107 (N17S-G5),14,3.3,135,640:32:16,PCIe 3.0 x4,0.5,1354,1468,7000,24,56,GDDR5,64,23.49,46.98,1879,58.72,29.36,N/A,N/A,N/A,20
+GeForce MX450,"August 1, 2020",TU117 (N18S-G5),TSMC12FFN,4.7,200,896:56:?,PCIe 4.0 x4,1,1395,1575,7000,2,56,GDDR5,64,64,,,,,N/A,N/A,N/A,25
+GeForce MX450,"August 1, 2020",TU117 (N18S-G5),TSMC12FFN,4.7,200,896:56:?,PCIe 4.0 x4,1,1395,1575,10000,2,80,GDDR6,64,64,,,,,N/A,N/A,N/A,25
+GeForce RTX 2060,"January 29, 2019",TU106,TSMC12FFN,10.8,445,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,960,1200,14000,6,336.0,GDDR6,192,57.6,144,4608,144.0,9216,,,,80
+GeForce RTX 2060 Max-Q,"January 29, 2019",TU106,TSMC12FFN,10.8,445,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,975,1175,11000,6,264.0,GDDR6,192,56.88,142.2,4550,142.2,9101,,,,65
+GeForce RTX 2070,"January 29, 2019",TU106,TSMC12FFN,10.8,445,2304:144:64:288:36 (36) (3),PCIe 3.0 x16,4,1215,1440,14000,8,448.0,GDDR6,256,92.16,207.4,6636,207.4,13270,,,,115
+GeForce RTX 2070 Max-Q,"January 29, 2019",TU106,TSMC12FFN,10.8,445,2304:144:64:288:36 (36) (3),PCIe 3.0 x16,4,885,1185,12000,8,448.0,GDDR6,256,75.84,170.6,5460,170.6,10920,,,,80
+GeForce RTX 2070 Super,"April 2, 2020",TU104,TSMC12FFN,13.6,545,2560:160:64:320:40 (40) (5),PCIe 3.0 x16,4,1140,1380,14000,8,448.0,GDDR6,256,88.3,220.8,7066,220.8,14130,,,,115
+GeForce RTX 2070 Super Max-Q,"April 2, 2020",TU104,TSMC12FFN,13.6,545,2560:160:64:320:40 (40) (5),PCIe 3.0 x16,4,930,1155,12000,8,448.0,GDDR6,256,69.1,172.8,5530,172.8,11060,,,,80
+GeForce RTX 2080,"January 29, 2019",TU104,TSMC12FFN,13.6,545,2944:184:64:368:46 (46) (6),PCIe 3.0 x16,4,1380,1590,14000,8,384.0,GDDR6,256,101.8,292.6,9362,292.6,18720,,,,150
+GeForce RTX 2080 Max-Q,"January 29, 2019",TU104,TSMC12FFN,13.6,545,2944:184:64:368:46 (46) (6),PCIe 3.0 x16,4,735,1095,12000,8,384.0,GDDR6,256,70.08,201.5,6447,201.5,12890,,,,80
+GeForce RTX 2080 Super,"April 2, 2020",TU104,TSMC12FFN,13.6,545,3072:192:64:384:48 (48) (6),PCIe 3.0 x16,4,1365,1560,14000,8,448.0,GDDR6,256,99.8,299.5,9585,299.5,19170,,,,150
+GeForce RTX 2080 Super Max-Q,"April 2, 2020",TU104,TSMC12FFN,13.6,545,3072:192:64:384:48 (48) (6),PCIe 3.0 x16,4,735,1080,11000,8,352.0,GDDR6,256,69.1,207.4,6636,207.4,13270,,,,80
+
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache(MB),Clock speeds,Clock speeds,Clock speeds,Memory,Memory,Memory,Memory,Fillrate,Fillrate,Processing power (TFLOPS),Processing power (TFLOPS),Processing power (TFLOPS),Processing power (TFLOPS),Ray-tracing Performance,Ray-tracing Performance,TDP (Watts)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config,Bus interface,L2 Cache(MB),Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),TDP (Watts)
+GeForce RTX 3050,"May 11, 2021",GA107,Samsung 8N,,,2048:64:40:64:16(16) (3),PCIe 4.0 x16,2,713-1530,1057-1740,14000,4,224,GDDR6,128,60,96,2.92-6.27-4.33-7.13,0.016-0.098-0.068-0.111,2.92-6.27-4.33-7.13,,,,35-80
+GeForce RTX 3050 Ti,"May 11, 2021",GA107,Samsung 8N,,,2560:80:48:80:20(20) (3),PCIe 4.0 x16,2,735-1463,1035-1695,14000,4,224,GDDR6,128,71.28,118.8,3.76-7.49-5.30-8.68,0.059-0.117-0.083-0.136,3.76-7.49-5.30-8.68,,,,35-80
+GeForce RTX 3060,"February 25, 2021",GA106,Samsung 8N,13.25,276,3840:120:48:120:30(30) (3),PCIe 4.0 x16,3,900-1387,1283-1703,14000,6,336,GDDR6,192,68.4,171.0,6.91-10.65-9.85-13.08,0.108-0.166-0.154-0.204,6.91-10.65-9.85-13.08,,,,60-115
+GeForce RTX 3070,"January 12, 2021",GA104-770-A1,Samsung 8N,17.4,392,5120:160:80:160:40(40) (6),PCIe 4.0 x16,4,1110-1215,1290-1620,12000 14000,8,336 448,GDDR6,256,124.8,249.6,11.37-12.44-13.21-16.59,0.178-0.194-0.206-0.259,11.37-12.44-13.21-16.59,,,,80-125
+GeForce RTX 3080,"January 12, 2021",GA104-775-A1,Samsung 8N,17.4,392,6144:192:96:192:48(48) (6),PCIe 4.0 x16,4,1110-1350,1245-1710,12000 14000,8,336 448,GDDR6,256,148.3,296.6,13.64-16.59-15.30-21.01,0.213-0.259-0.239-0.328,13.64-16.59-15.30-21.01,,,,80-150
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts),Notes
+Quadro,NV10GL,220,AGP 4x,135,166,0:4:4:4,0.54,0.54,64,2.66,SDR,128,7,1.2,,
+Quadro DDR,NV10GL,220,AGP 4x,135,333,0:4:4:4,0.54,0.54,64,5.312,DDR,128,7,1.2,,
+Quadro2 MXR,NV11GL,180,AGP 4x,200,183,0:2:4:2,0.4,0.4,64,2.93,SDR,128,7,1.2,,
+Quadro2 EX,NV11GL,180,AGP 4x,175,166,0:2:4:2,0.35,0.35,64,2.7,SDR,128,7,1.2,,
+Quadro2 PRO,NV15GL,150,AGP 4x,250,400,0:4:8:4,1,2,64,6.4,DDR,128,7,1.2,,
+Quadro DCC,NV20GL,180,AGP 4x,200,460,1:4:8:4,0.8,1.6,128,7.4,DDR,128,8,1.4,,
+Quadro4 380XGL,NV18GL,150,AGP 8x,275,513,0:2:4:2,0.55,1.1,128,8.2,DDR,128,7,1.4,,
+Quadro4 500XGL,NV17GL,150,AGP 4x,250,166,0:2:4:2,0.5,1,128,2.7,SDR,128,7,1.4,,
+Quadro4 550XGL,NV17GL,150,AGP 4x,270,400,0:2:4:2,0.59,1.08,64,6.4,DDR,128,7,1.4,,
+Quadro4 580XGL,NV18GL,150,AGP 8x,300,400,0:2:4:2,0.6,1.2,64,6.4,DDR,128,7,1.4,,
+Quadro4 700XGL,NV25,150,AGP 4x,275,550,2:4:8:4,1.1,2.2,64,8.8,DDR,128,8,1.4,,
+Quadro4 750XGL,NV25,150,AGP 4x,275,550,2:4:8:4,1.1,2.2,128,8.8,DDR,128,8,1.5,,Stereo display
+Quadro4 900XGL,NV25,150,AGP 4x,300,650,2:4:8:4,1.2,2.4,128,10.4,DDR,128,8,1.4,,Stereo display
+Quadro4 980XGL,NV28GL,150,AGP 8x,300,650,2:4:8:4,1.2,2.4,128,10.4,DDR,128,8,1.4,,Stereo display
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts),Features
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts),Features
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1*,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1*,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts),Notes
+Quadro FX 500,NV34GL,150,AGP 8x,270,480,2:4:4:4,1.08,1.08,128,7.687,DDR,128,9.0,2.0,,Stereo display
+Quadro FX 600,NV34GL,150,PCI,350,800,2:4:4:4,1,1,256,7.8,DDR,128,9.0,2.0,,Stereo display
+Quadro FX 700,NV35GL,150,AGP 8x,275,550,3:4:8:4,1.1,2.2,128,8.8,DDR,128,9.0,2.0,,Stereo display
+Quadro FX 1000,NV30GL,130,AGP 8x,300,600,2:4:8:4,1.2,2.4,128,9.6,GDDR2,128,9.0,2.0,,Stereo display
+Quadro FX 1100,NV36GL,130,AGP 8x,425,648,3:4:4:4,1.7,1.7,128,10.1,DDR,128,9.0,2.0,,Stereo display
+Quadro FX 2000,NV30GL,130,AGP 8x,400,800,2:4:8:4,1.6,3.2,128,12.8,GDDR2,128,9.0,2.0,,Stereo display
+Quadro FX 3000,NV35GL,130,AGP 8x,400,850,3:4:8:4,1.6,3.2,256,27.2,DDR,256,9.0,2.0,,Stereo display
+Quadro FX 3000G,NV35GL,130,AGP 8x,400,850,3:4:8:4,1.6,3.2,256,27.2,DDR,256,9.0,2.0,,"Stereo display, Genlock"
+Quadro FX 4000,NV40GL,130,AGP 8x,375,1000,6:12:12:12,4.5,4.5,256,32.0,GDDR3,256,9.0c,2.1,142,Stereo display
+Quadro FX 4000 SDI,NV40GL,130,AGP 8x,375,1000,6:12:12:12,4.5,4.5,256,32.0,GDDR3,256,9.0c,2.1,,"Stereo display, Genlock"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts)
+Quadro FX 330,NV37GL,150,PCIe x16,250,400,2:4:4:4,1,1,64,3.2,DDR,128,9.0,2.0,21
+Quadro FX 1300,NV38,130,PCIe x16,350,550,3:4:8:4,1.4,2.8,128,17.6,DDR,256,9.0,2.1,55
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts),Notes
+Quadro FX 540,NV43GL,90,PCIe x16,300,550,4:8:8:8,2.4,2.4,128,8.8,GDDR3,128,9.0c,2.1,35,
+Quadro FX 1400,NV41,130,PCIe x16,350,600,5:8:8:8,2.8,2.8,128,19.2,DDR,256,9.0c,2.1,75,"Stereo display, SLI"
+Quadro FX 3400,NV45GL/ NV40,130,PCIe x16,350,900,5:12:12:12,4.2,4.2,256,28.8,GDDR3,256,9.0c,2.1,101,"Stereo display, SLI"
+Quadro FX 3450,NV41,110,PCIe x16,425,1000,5:12:12:12,5.1,5.1,256,32.0,GDDR3,256,9.0c,2.1,83,"Stereo display, SLI"
+Quadro FX 4400,NV45GL A3/ NV40,130,PCIe x16,400,1050,6:16:16:16,6.4,6.4,512,33.7,GDDR3,256,9.0c,2.1,110,"Stereo display, SLI"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts),Notes
+Quadro FX 350,G72,90,PCIe x16,550,400,3:4:4:2,1.1,2.2,128,6.4,DDR2,64,9.0c,2.1,21,
+Quadro FX 550,NV43,110,PCIe x16,360,400,4:8:8:8,2.88,2.88,128,12.8,GDDR3,128,9.0c,2.1,30,
+Quadro FX 1500,G71,90,PCIe x16,325,625,6:16:16:16,5.2,5.2,256,40.0,GDDR3,256,9.0c,2.1,65,
+Quadro FX 3500,G71,90,PCIe x16,450,660,7:20:20:16,7.2,9,256,42.2,GDDR3,256,9.0c,2.1,80,"Stereo display, SLI"
+Quadro FX 4500,G70,110,PCIe x16,430,525,8:24:24:16,6.88,10.3,512,33.6,GDDR3,256,9.0c,2.1,109,"Stereo display, SLI"
+Quadro FX 4500 SDI,G70,110,PCIe x16,430,525,8:24:24:16,6.88,10.3,512,33.6,GDDR3,256,9.0c,2.1,116,"Stereo display, Genlock"
+Quadro FX 4500X2,G71,90,PCIe x16,500,605,2x 8:24:24:16,2x 8,2x 12,2x 512,2x 38.7,GDDR3,2x 256,9.0c,2.1,145,"Stereo display, SLI, Genlock"
+Quadro FX 4500 rev. A2,G71,90,PCIe x16,650,800,8:24:24:16,10.4,15.6,512,51.2,GDDR3,256,9.0c,2.1,105,"Stereo display, SLI, Genlock"
+Quadro FX 5500,G71,90,PCIe x16,650,505,8:24:24:16,10.4,15.6,1024,32.3,DDR2,256,9.0c,2.1,96,"Stereo display, SLI, Genlock"
+Quadro FX 5500 SDI,G71,90,PCIe x16,650,505,8:24:24:16,10.4,15.6,1024,32.3,DDR2,256,9.0c,2.1,104,"Stereo display, SLI, Genlock"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,TDP (Watts),Notes
+Quadro FX 560,G73GL,90,PCIe x16,350,350,1200,5:12:12:8,2.8,4.2,128,19.2,GDDR3,128,,,9.0c,2.1,30,
+Quadro FX 46002,G80,90,PCIe x16,500,1200,1400,96:24:24,12,24,768,67.2,GDDR3,384,345,-,10.0,3.3,134,"Stereo display, SLI, Genlock"
+Quadro FX 4600 SDI2,G80,90,PCIe x16,500,1200,1400,96:24:24,12,24,768,67.2,GDDR3,384,345,-,10.0,3.3,154,"Stereo display, SLI, Genlock"
+Quadro FX 56002,G80,90,PCIe 2.0 x16,600,1350,1600,128:32:24,14.4,38.4,1536,76.8,GDDR3,384,518.4,-,10.0,3.3,171,"Stereo display, SLI, Genlock"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,TDP (Watts),Notes
+Quadro FX 370,G84,80,PCIe x16,360,720,1000,16:8:4,1.44,2.88,256,6.4,DDR2,64,34.56,-,10.0,3.3,35,
+Quadro FX 370 LP,G86,80,PCIe x16,540,1080,1000,8:8:4,2.16,4.32,256,8,DDR2,64,25.92,-,10.0,3.3,25,DMS-59 for two Single Link DVI
+Quadro FX 470,MCP7A-U,65,PCIe 2.0 x16(Integrated),580,1400,800(system memory),16:8:4,2.32,4.64,Up to 256MB from system memory.,12.8,DDR2,128,67.2,-,10.0,3.3,30,based on GeForce 9400 mGPU
+Quadro FX 570,G84GL,80,PCIe x16,460,920,800,16:8:8,3.68,3.68,256,12.8,DDR2,128,44.1,-,10.0,3.3,38,
+Quadro FX 1700,G84GL,80,PCIe x16,460,920,800,32:16:8,3.68,7.36,256,12.8,DDR2,128,88.32,-,10.0,3.3,42,
+Quadro FX 3700,G92,65,PCIe 2.0 x16,500,1250,1600,112:56:16,8,28,256,51.2,GDDR3,256,420,-,10.0,3.3,78,"Stereo display, SLI"
+Quadro FX 4700X2,2x G92,65,PCIe 2.0 x16,500,1250,1600,2x 128:64:16,2x 8,2x 32,2x 1024,2x 51.2,GDDR3,2x 256,2x 480,-,10.0,3.3,226,
+Quadro VX 200,G92,65,PCIe 2.0 x16,450,1125,1600,112:56:16,8,28,512,51.2,GDDR3,256,420,-,10.0,3.3,75,"2x Dual-link DVI, S-Video, optimised for Autodesk AutoCAD"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,TDP (Watts),Notes
+Quadro FX 380,G96,65,PCIe 2.0 x16,450,1100,1400,16:8:8,3.6,3.6,256,22.4,GDDR3,128,52.8,-,10.0,3.3,34,"Two Dual Link DVI, no DisplayPort"
+Quadro FX 380 LP,GT218GL,40,PCIe 2.0 x16,589,1402,1600,16:8:4,2.356,4.712,512,12.8,GDDR3,64,67.296,-,10.1,3.3,28,"DisplayPort, Dual Link DVI"
+Quadro FX 580,G96,65,PCIe 2.0 x16,450,1125,1600,32:16:8,3.6,7.2,512,25.6,GDDR3,128,108,-,10.0,3.3,40,"Dual DisplayPort, Dual Link DVI"
+Quadro FX 1800,G100GL-U(G94),65,PCIe 2.0 x16,550,1375,1600,64:32:12,6.6,17.6,768,38.4,GDDR3,192,264,-,10.0,3.3,59,"Stereo DP Dual Link DVI, Dual DisplayPort, SLI"
+Quadro FX 3800,GT200GL,55,PCIe 2.0 x16,602,1204,1600,192:64:16,9.632,38.528,1024,51.2,GDDR3,256,693.504,86.688,10.0,3.3,108,"Stereo DP Dual Link DVI, Dual DisplayPort, SLI"
+Quadro FX 4800,GT200GL,55,PCIe 2.0 x16,602,1204,1600,192:64:24,14.448,38.528,1536,76.8,GDDR3,384,693.504,86.688,10.0,3.3,150,"Stereo DP Dual Link DVI, Dual DisplayPort, SLI"
+Quadro FX 5800,GT200GL,55,PCIe 2.0 x16,648,1296,1600,240:80:32,20.736,51.840,4096,102.4,GDDR3,512,933.12,116.64,10.1,3.3,189,"Stereo DP Dual Link DVI, Dual DisplayPort, SLI"
+Quadro CX,GT200GL,55,PCIe 2.0 x16,602,1204,1600,192:64:24,14.448,38.528,1536,76.8,GDDR3,384,693.504,86.688,10.0,3.3,150,"Display Port and dual-link DVI Output, optimised for Adobe Creative Suite 4"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,TDP (Watts),Notes
+Quadro 400,GT216GL,40,PCIe 2.0 x16,450,1125,1540,48:16:4,1.8,7.2,512,12.3,DDR3,64,108,-,10.1,4.5,32,"DisplayPort, Dual Link DVI"
+Quadro 600,GF108GL,40,PCIe 2.0 x16,640,1280,1600,96:164:4,2.56,10.24,1024,25.6,DDR3,128,245.76,15,11.0,4.6,40,"DisplayPort, Dual Link DVI"
+Quadro 2000,GF106GL (GF106-875),40,PCIe 2.0 x16,625,1250,2600,192:324:16,10,20,1024,41.6,GDDR5,128,480,30,11.0,4.6,62,"Stereo DP Dual Link DVI, Dual DisplayPort"
+Quadro 4000,GF100,40,PCIe 2.0 x16,475,950,2800,256:324:32,15.2,15.2,2048,89.6,GDDR5,256,486.4,243,11.0,4.6,142,
+Quadro 5000,GF100,40,PCIe 2.0 x16,513,1026,3000,352:444:40,20.53,22.572,2560,120,GDDR5,320,722.304,359,11.0,4.6,152,
+Quadro 6000,GF100,40,PCIe 2.0 x16,574,1148,3000,448:564:48,27.552,32.144,6144,144,GDDR5,384,1028.608,515,11.0,4.6,204,
+Quadro 7000,GF110,40,PCIe 2.0 x16,651,1301,3696,512:644:48,31.248,41.7,6144,177,GDDR5,384,1332,667,11.0,4.6,204,
+Quadro Plex 7000,2x GF100,40,PCIe 2.0 x16,574,1148,3000,2x 512:644:48,2x 18.37,2x 36.74,2x 6144,2x 144,GDDR5,2x 384,2x 1176,2x 588,11.0,4.6,600,
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,CUDA,TDP (Watts),Notes
+Quadro 410,GK107,28,PCIe 2.0 x16,706,706,1800,192:16:8(1 SMX),5.65,11.3,512,14.4,DDR3,64,271.10,,11.0,4.6,3.0,38,
+Quadro K600,GK107,28,PCIe 2.0 x16,876,876,891(1782),192:16:16(1 SMX),14.0,14.0,1024,28.5,DDR3,128,336.38,,11.0,4.6,3.0,41,"6.3"" Card"
+Quadro K2000,GK107,28,PCIe 2.0 x16,954,954,1000(4000),384:32:16(2 SMX),15.2,30.5,2048,64,GDDR5,128,732.67,,11.0,4.6,3.0,51,"7.97"" Card"
+Quadro K2000D,GK107,28,PCIe 2.0 x16,954,954,1000(4000),384:32:16(2 SMX),15.2,30.5,2048,64,GDDR5,128,732.67,,11.0,4.6,3.0,51,"7.97"" Card"
+Quadro K4000,GK106,28,PCIe 2.0 x16,810.5,810.5,1404(5616),768:64:24(4 SMX),19.4,51.9,3072,134.8,GDDR5,192,1244.93,,11.0,4.6,3.0,80,"9.5"" Card"
+Quadro K5000,GK104,28,PCIe 2.0 x16,706,706,1350(5400),1536:128:32(8 SMX),22.6,90.4,4096,172.8,GDDR5,256,2168.83,90.4,11.0,4.6,3.0,122,"10.5"" Card"
+Quadro K6000,GK110,28,PCIe 3.0 x16,901.5,901.5,1502(6008),2880:240:48(15 SMX),54.1,216,12288,288,GDDR5,384,5196,1732,11.0,4.6,3.5,225,"10.5"" Card"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,CUDA,TDP (Watts),Notes
+Quadro K420,GK107,28,PCIe 2.0 x16,780,780,1800,192:16:16(1 SMX),12.48,12.48,1024 2048,29,DDR3,128,299.52,12.48,11.0,4.6,3.0,41,
+Quadro K620,GM107-850,28,PCIe 2.0 x16,1000,1000,900(1800),384:24:16(3 SMM),16.0,24.0,2048,28.8,DDR3,128,768.0,24.0,12.0,4.6,5.0,45,"6.3"" Card"
+Quadro K1200,GM107-860,28,PCIe 2.0 x16,954,,1253,512:32:16(4 SMM),15.3,30.5,4096,80.2,GDDR5,128,1083,,12.0,4.6,5.0,45,"7.97"" Card"
+Quadro K2200,GM107-875-A2,28,PCIe 2.0 x16,1046,1046,1253(5012),640:40:16(5 SMM),16.7,41.8,4096,80.2,GDDR5,128,1338.9,41.8,12.0,4.6,5.0,68,"7.97"" Card"
+Quadro K4200,GK104,28,PCIe 2.0 x16,780,780,1350(5400),1344:112:32(7 SMX),24.96,87.36,4096,172.8,GDDR5,256,2096.64,87.36,11.0,4.6,3.0,105,"9.5"" Card"
+Quadro K5200,GK110B,28,PCIe 3.0 x16,650,650,1500(6000),2304:192:32(12 SMX),20.8,124.8,8192,192,GDDR5,256,2995.2,124.8,11.0,4.6,3.5,150,"10.5"" Card"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,TDP (Watts),Notes
+Quadro M2000,GM206-875-A1,28,PCIe 3.0 x16,796,1163,1653(6612),768:48:32:6,37.8,56.6,4,105.8,GDDR5,128,1812.5,56.6,12.1,4.6,1.1,1.2,5.2,75,Four  DisplayPort 1.2a
+Quadro M4000,GM204-850-A1,28,PCIe 3.0 x16,773,773,1503(6012),1664:104:64:13,51.2,83.2,8,192.4,GDDR5,256,2662.4,83.2,12.1,4.6,1.1,1.2,5.2,120,Four  DisplayPort 1.2a
+Quadro M5000,GM204-875-A1,28,PCIe 3.0 x16,861,1038,1653(6612),2048:128:64:16,67.2,134.4,8,211.6,GDDR5,256,4300.8,134.4,12.1,4.6,1.1,1.2,5.2,150,"Four  DisplayPort 1.2a, One DVI-I"
+Quadro M6000,GM200GLGM200-880-A1,28,PCIe 3.0 x16,988,1114,1653(6612),3072:192:96:24,94.8,189.7,1224,317,GDDR5,384,6070,190,12.1,4.6,1.1,1.2,5.2,250,"Four  DisplayPort 1.2a, One DVI-I"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,TDP (Watts),Notes
+Quadro P400,GP107-825,14,PCIe 3.0 x16,1228,1252,1752(7008),256:16:16:2,17.1,17.1,2,32,GDDR5,64,641,20.0,12.1,4.6,1.1,1.2,6.1,30,Three Mini-DisplayPort 1.4
+Quadro P600,GP107-850,14,PCIe 3.0 x16,1329,1557,1003(4012),384:24:16:3,21.7,32.5,2,64,GDDR5,128,1195,37.3,12.1,4.6,1.1,1.2,6.1,40,Four Mini-DisplayPort 1.4
+Quadro P620,GP107-855,14,PCIe 3.0 x16,1266,1354,1003(4012),512:32:16:4,23.3,46.6,2,64,GDDR5,128,1490,46.6,12.1,4.6,1.1,1.2,6.1,40,Four Mini-DisplayPort 1.4
+Quadro P1000,GP107-860,14,PCIe 3.0 x16,1266,1481,1752(7008),640:40:32:5,43.3,54.2,4,82,GDDR5,128,1894,59.2,12.1,4.6,1.1,1.2,6.1,47,Four Mini-DisplayPort 1.4
+Quadro P2000,GP106-875,16,PCIe 3.0 x16,1076,1480,2002(8008),1024:64:40:8,54.8,87.7,5,140,GDDR5,160,3010,93.8,12.1,4.6,1.1,1.2,6.1,75,Four DisplayPort 1.4
+Quadro P2200,GP106-880-K1-A1,16,PCIe 3.0 x16,1000,1493,1251 (1008),1280:80:40:9,59.7,119.4,5,200,GDDR5X,160,3822,121.3,12.1,4.6,1.1,1.2,6.1,75,Four DisplayPort 1.4
+Quadro P4000,GP104-850-A1,16,PCIe 3.0 x16,1202,1480,1502(6008),1792:112:64:14,78.5,137.4,8,243,GDDR5,256,5300,165.6,12.1,4.6,1.1,1.2,6.1,105,Four DisplayPort 1.4
+Quadro P5000,GP104-875-A1,16,PCIe 3.0 x16,1607,1733,1126(9008),2560:160:64:20,102.8,257.1,16,288,GDDR5X,256,8873,277.3,12.1,4.6,1.1,1.2,6.1,180,"Four  DisplayPort 1.4, One DVI-D"
+Quadro P6000,GP102-875-A1,16,PCIe 3.0 x16,1506,1645,1126(9008),3840:240:96:30,136.0,340.0,24,432,GDDR5X,384,10882 (11758),~340,12.1,4.6,1.1,1.2,6.1,250,"Four  DisplayPort 1.4, One DVI-D"
+Quadro GP100,GP100,16,PCIe 3.0 x16,1304,1442,703 (1406),3584:224:96:28,138.4,323,16,720,HBM2,4096,10336,5168,12.1,4.6,1.1,1.2,6,235,NVLINK support
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,TDP (Watts),Notes
+Quadro GV100,GV100-875-A1,12,PCIe 3.0 x16,1132,1627,848 (1696),5120:320:128:80:640,208.4,521,32,870,HBM2,4096,14800,7400,12.1,4.6,1.2,3.0,7,250,"4x DisplayPort, NVLINK support"
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MT),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MT),Core config1,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,TDP (Watts),Notes
+Quadro T400,TU117,TSMC12FFN,PCIe 3.0 x16,1420,10000,384:24:16:6,22.8,34.2,2,80,GDDR6,64,1090,34.1,12.1,4.6,1.2,3.0,7.5,30,3x Mini-DisplayPort
+Quadro T600,TU117,TSMC12FFN,PCIe 3.0 x16,1330,10000,640:40:32:10,42.7,53.4,4,160,GDDR6,128,1700,53.1,12.1,4.6,1.2,3.0,7.5,40,4x Mini-DisplayPort
+Quadro T1000,TU117,TSMC12FFN,PCIe 3.0 x16,1400,10000,896:56:32:14,44.6,78.1,4,160,GDDR6,128,2500,78.1,12.1,4.6,1.2,3.0,7.5,50,4x Mini-DisplayPort
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,TDP (Watts),Notes
+Quadro RTX 4000,TU104-850-A1,12,PCIe 3.0 x16,1005,1545,1625(13000),2304:144:64:36:288,98.9,222.5,8,416,GDDR6,256,7119,222.5,12.2,4.6,1.2,3.0,7.5,100-125,3x DisplayPort 1x USB Type-C
+Quadro RTX 5000,TU104-875-A1,12,PCIe 3.0 x16,1620,1815,1750(14000),3072:192:64:48:384,116.2,348.5,16,448,GDDR6,256,11151,348.5,12.2,4.6,1.2,3.0,7.5,125-230,3x DisplayPort 1x USB Type-C
+Quadro RTX 6000,TU102-875-A1,12,PCIe 3.0 x16,1440,1770,1750(14000),4608:288:96:72:576,169.9,509.8,24,672,GDDR6,384,16312,509.8,12.2,4.6,1.2,3.0,7.5,100-260,3x DisplayPort 1x USB Type-C
+Quadro RTX 8000,TU102-875-A1,12,PCIe 3.0 x16,1395,1770,1750(14000),4608:288:96:72:576,169.9,509.8,48,672,GDDR6,384,16312,509.8,12.2,4.6,1.2,3.0,7.5,100-260,3x DisplayPort 1x USB Type-C
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Half precision,Single precision,Double precision,Tensor compute (FP16) (sparse),Direct3D,OpenGL,Vulkan,OpenCL,CUDA,TDP (Watts),Notes
+RTX A2000,GA106-???-???,8,PCIe 4.0 x16,562,1200,1500(12000),3328:104:48:26:104,57.6,124.8,6,288,GDDR6,192,7987,7987,124.8,63900,12.2,4.6,1.2,3.0,8.6,70,4x mini DisplayPort
+RTX A4000,GA104-???-??,8,PCIe 4.0 x16,735,1560,1750(14000),6144:192:96:48:192,149.8,299.5,16,448,GDDR6,256,19170,19170,599,153400,12.2,4.6,1.2,3.0,8.6,140,4x DisplayPort
+RTX A5000,GA102-???-??,8,PCIe 4.0 x16,1170,1695,2000(16000),8192:256:96:64:256,162.7,433.9,24,768,GDDR6,384,27770,27770,867.8,222200,12.2,4.6,1.2,3.0,8.6,230,4x DisplayPort
+RTX A6000,GA102-???-??,8,PCIe 4.0 x16,1410,1800,2000(16000),10752:336:112:84:336,208.3,625.0,48,768,GDDR6,384,38709.7,38709.7,1209.7,309700,12.2,4.6,1.2,3.0,8.6,300,4x DisplayPort
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12*,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12*,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,TDP (Watts),Notes
+NVS 50,NV18,150,AGP 4x/PCI,250,250,200,0:2:4:2,0.5,1.0,64,1.6,DDR,32,,7,1.2,,"DVI-I, S-Video"
+NVS 100,NV17,150,AGP 4x/PCI,200,,333,0:2:4:2,,,64,2.664,DDR,64,,7,1.2,,"2x DVI-I, VGA, S-Video"
+NVS 200,NV17,150,AGP 4x/PCI,250,250,250,0:2:4:2,0.5,1.0,64,8.0,DDR,128,,7,1.2,,LFH-60
+NVS 210S,MCP51,90,Integrated,425,,,1:2:2:1,0.425,0.850,Up to 256 from system memory,,DDR,128,,9.0c,1.2,,DVI + VGA
+NVS 280,NV34GL,150,PCIe x16/AGP 8x / PCI,275,275,250,0:2:4:2/1:2:2:2 *:4:4:4,0.55,1.1,64,8.0,DDR,128,,9.0,1.5,13,DMS-59
+NVS 285,NV44,110,PCIe x1/x16,275,275,275,3:4:4:2,0.55,1.1,128,8.8,DDR,128,,9.0,2.1,18,DMS-59
+NVS 290,G86,80,PCIe x1/x16,460,920,800,16:8:4,1.84,3.68,256,6.4,DDR2,64,44.16,10,3.3,21,DMS-59
+NVS 295,G98,65,PCIe x1/x16,550,1300,1400,8:8:4,2.2,4.4,256,11.2,GDDR3,64,31.2,10,3.3,23,2x DisplayPort or 2x DVI-D
+NVS 300,GT218,40,PCIe x1/x16,589,1402,1580,16:8:4,2.356,4.712,512,12.64,DDR3,64,67.3,10.1,3.3,17.5,DMS-59
+NVS 310,GF119,40,PCIe x16,523,1046,1750,48:8:4,2.092,4.184,512,14,DDR3,64,100.4,11.0,4.1,19.5,2x DisplayPort
+NVS 315,GF119,40,PCIe x16,523,1046,1750,48:8:4,2.092,4.184,1024,14,DDR3,64,100.4,11.0,4.1,19.5,DMS-59 Idle Power Consumption  7W
+NVS 400,2x NV17,150,PCI,220,220,343,2x 0:2:4:2,2x 0.44,2x 0.88,2x 64,2x 11.0,DDR,2x 128,2x 5.328,,,,DMS-59
+NVS 420,2xG98,65,PCIe x1/x16,550,1300,1400,2x 8:8:4,2x 2.2,2x 4.4,2x 256,2x 11.2,GDDR3,2x 64,2x 31.2,10,3.3,40,through VHDCI to (4x DisplayPort or 4x DVI-D)
+NVS 440,2xNV43,110,PCIe x1/x16,250,,,,,,2x 128,,DDR,,,,,31,2x DMS-59
+NVS 450,2xG98,65,PCIe x1/x16,550,1300,1400,2x 8:8:4,2x 2.2,2x 4.4,2x 256,2x 11.2,GDDR3,2x 64,2x 31.2,10,3.3,35,4x DisplayPort
+NVS 510,GK107,28,PCIe 2.0 x16,,,1800,192:16:8(1 SMX),,,2048,28.5,DDR3,128,,11.0,4.5,35,4x miniDisplayPort
+NVS 810,2x GM107,28,PCIe 3.0 x16,,,1800,2x 512:32:16,,,2x 2048,2 x 14.4,DDR3,2x 128,,11.0,4.5,68,8x miniDisplayPort
+
+Model,,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config12,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config12,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts),Notes
+Quadro2 Go,"August 14th, 2001",NV11 GLM,180,AGP 4x,143,130360,2:0:4:2,0.286,0.592,3264,2.95.8,SDRDDR,128,7.0,1.2,,"First mobile Quadro based on the GeForce2 Go, Dynamic core clock 100-143 MHz, dynamic voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia"
+Quadro4 500 Go GL,"April 23th, 2002",NV17 GLM,150,"AGP 4x,8x",220,220,2:0:4:2,0.44,0.88,64,7.0,DDR,128,7.0,1.3,,"Based on the GeForce4 Go, dynamic core clock 66-220 MHz, core voltage 1.35 V, uses DDR SDRAM according to Nvidia brochures"
+Quadro4 700 Go GL,"February 5th, 2003",NV28 GLM,150,"AGP 4x,8x",176,200,4:2:4:4,0.704,0.704,64,7.4?,DDR,128?,8.1,1.3,,"Based on GeForce4 Go 4200, uses DDR according to Nvidia brochures"
+Quadro FX Go 700,June 2003?,NV31 GLM,130,AGP 8x,295,590,4:2:4:4,1.18,1.18,128,9.44?,DDR,128,9.0,2.1?,,Slightly underclocked Geforce FX 5600 Go
+Quadro FX Go 1000,February 2004?,NV36 GLM,130?,AGP 8x,295,570,4:3:4:4,1.18,1.18,128,9.12?,DDR,128,9.0,2.1?,,Based on TSMC 130 nm process with one extra pixel shader?
+Quadro FX Go 1400,"February 25th, 2005",NV41 GLM,130,PCIe,275,590,12:5:12:12?,2.20,2.2,256,18.9?,DDR,256,9.0,2.1?,,"Last chip designated as a Quadro FX Go, uses PCIe instead of AGP 8x.  Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from GeForce Go 6800."
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Supported API version,Supported API version,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,TDP (Watts)
+Quadro FX 350M,G72GLM,90,PCIe 1.0 x16,450,900,3:4:4:2,0.9,1.8,256,14.4,GDDR3,128,9.0c,2.1,15
+Quadro FX 1500M,G71GLM,90,PCIe 1.0 x16,375,1000,8:24:24:16,6,9,512,32,GDDR3,256,9.0c,2.1,15
+Quadro FX 2500M,G71GLM,90,PCIe 1.0 x16,500,1200,8:24:24:16,8,12,512,38.4,GDDR3,256,9.0c,2.1,15
+Quadro FX 3500M,G71GLM,90,PCIe 1.0 x16,575,1200,8:24:24:16,9.2,13.8,512,38.4,GDDR3,256,9.0c,2.1,15
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,TDP (Watts),Notes
+Quadro FX 360M,G86M,80,PCIe 1.0 x16,400,800,1200,16:8:4,1.6,3.2,256,9.6,DDR2,64,38.4,10.0,3.3,17,Based on the GeForce 8400M GS
+Quadro FX 560M,G73GLM,90,PCIe 1.0 x16,500,500,1200,5:12:12:8,4,6,512,19.2,GDDR3,128,,9.0c,2.1,35?,7600GS based?
+Quadro FX 1600M,G84M,80,PCIe 1.0 x16,625,1250,1600,32:16:8,5,10,512,25.6,GDDR3,128,120,10.0,3.3,50?,
+Quadro FX 3600M,G92M,65,PCIe 1.0 x16,500,1250,1600,64:32:1696:48:16,88,1624,512,51.2,GDDR3,256,240360,10.0,3.3,70,Based on the GeForce 8800M GTX. Dell Precision M6300 uses 64 shader version of the FX 3600M
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,TDP (Watts)
+Quadro FX 370M,G98M,65,PCIe 1.0 x16,550,1400,1200,8:4:4,2.2,2.2,256,9.6,GDDR3,64,33.6,10.0,3.3,20
+Quadro FX 570M,G84M,80,PCIe 1.0 x16,475,950,1400,32:16:8,3.8,7.6,512,22.4,GDDR3,128,91.2,10.0,3.3,45
+Quadro FX 770M,G96M,65,PCIe 1.0 x16,500,1250,1600,32:16:8,4,8,512,25.6,GDDR3,128,119.0,10.0,3.3,35
+Quadro FX 1700M,G96M,65,PCIe 1.0 x16,625,1550,1600,32:16:8,5,10,512,25.6,GDDR3,128,148.8,10.0,3.3,50
+Quadro FX 2700M,G94M,65,PCIe 1.0 x16,530,1325,1600,48:24:16,8.48,12.72,512,51.2,GDDR3,256,190.8,10.0,3.3,65
+Quadro FX 3700M,G92M,65,PCIe 1.0 x16,530,1375,1600,128:64:16,8.8,35.2,1024,51.2,GDDR3,256,528,10.0,3.3,75
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,TDP (Watts)
+Quadro FX 380M,GT218M,40,PCIe 2.0 x16,625,1530,1600,16:8:4,2.5,5,512,12.8,GDDR3,64,73.44,10.1,3.3,25
+Quadro FX 880M,GT216M,40,PCIe 2.0 x16,550,1210,1600,48:16:8,4.4,8.8,1024,25.6,GDDR3,128,174.24,10.1,3.3,35
+Quadro FX 1800M,GT215M,40,PCIe 2.0 x16,450,1080,16002200,72:24:8,3.6,10.8,1024,25.635.2,GDDR3GDDR5,128,233.28,10.1,3.3,45
+Quadro FX 2800M,G92M,55,PCIe 2.0 x16,500,1250,2000,96:48:16,8,16,1024,64,GDDR3,256,360,10.0,3.3,75
+Quadro FX 3800M,G92M,55,PCIe 2.0 x16,675,1688,2000,128:64:16,10.8,43.2,1024,64,GDDR3,256,648.192,10.0,3.3,100
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,TDP (Watts),Notes
+Quadro 500M,GF108,40,PCIe 2.0 x16,700,1400,1800,96:16:4,2.8,11.2,1024,28.8,DDR3,128,268.8,11.0,4.5,35,
+Quadro 1000M,GF108,40,PCIe 2.0 x16,700,1400,1800,96:16:4,2.8,11.2,2048,28.8,DDR3,128,268.8,11.0,4.5,45,Dell Precision M4600
+Quadro 2000M,GF106,40,PCIe 2.0 x16,550,1100,1800,192:32:16,8.8,17.6,2048,28.8,DDR3,128,422.4,11.0,4.5,55,Dell Precision M4600
+Quadro 3000M,GF104,40,PCIe 2.0 x16,450,900,2500,240:40:32,14.4,18,2048,80,GDDR5,256,432,11.0,4.5,75,Dell Precision M6600
+Quadro 4000M,GF104,40,PCIe 2.0 x16,475,950,2500,336:56:32,15.2,26.6,2048,80,GDDR5,256,638.4,11.0,4.5,100,Dell Precision M6600
+Quadro 5000M,GF100,40,PCIe 2.0 x16,405,810,2400,320:40:32,12.96,16.2,2048,76.8,GDDR5,256,518.4,11.0,4.5,100,Dell Precision M6500
+Quadro 5010M,GF110,40,PCIe 2.0 x16,450,900,2600,384:48:32,14.4,21.6,4096,83.2,GDDR5,256,691.2,11.0,4.5,100,Dell Precision M6600
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,Nvidia Optimustechnology,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Nvidia Optimustechnology,TDP (Watts),Notes
+Quadro K500M,GK107,28,PCIe 3.0 x16,850,850,1600,192:16:8,6.8,13.6,1024,12.8,DDR3,64,326.4,11.0,4.5,Yes,35,
+Quadro K1000M,GK107,28,PCIe 3.0 x16,850,850,1800,192:16:16,13.6,13.6,2048,28.8,DDR3,128,326.4,11.0,4.5,Yes,45,Dell Precision M4700
+Quadro K2000M,GK107,28,PCIe 3.0 x16,745,745,1800,384:32:16,11.92,23.84,2048,28.8,DDR3,128,572.16,11.0,4.5,Yes,55,Dell Precision M4700
+Quadro K3000M,GK104,28,PCIe 3.0 x16,654,654,2800,576:48:32,20.93,31.39,2048,89.6,GDDR5,256,753.41,11.0,4.5,Yes,75,Dell Precision M6700
+Quadro K4000M,GK104,28,PCIe 3.0 x16,600,600,2800,960:80:32,19.2,48,4096,89.6,GDDR5,256,1152,11.0,4.5,Yes,100,Dell Precision M6700
+Quadro K5000M,GK104,28,PCIe 3.0 x16,706,706,3000,1344:112:32,22.59,79.07,4096,96,GDDR5,256,1897.73,11.0,4.5,Yes,100,Dell Precision M6700
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,Nvidia Optimustechnology,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Nvidia Optimustechnology,TDP (Watts),Notes
+Quadro K510M,GK208,28,PCIe 3.0 x8,850,850,1200(2400),192:16:8(1 SMX),6.8,13.6,1024,19.2,GDDR5,64,326.4,11.0,4.5,Yes,30,
+Quadro K610M,GK208,28,PCIe 3.0 x16,980,980,1300(2600),192:16:8(1 SMX),7.84,15.68,1024,20.8,GDDR5,64,376.32,11.0,4.5,Yes,30,
+Quadro K1100M,GK107,28,PCIe 3.0 x16,716,716,1400(2800),384:32:16(2 SMX),11.45,22.91,2048,44.8,GDDR5,128,549.89,11.0,4.5,Yes,45,Dell Precision M3800 and M4800
+Quadro K2100M,GK106,28,PCIe 3.0 x16,654,654,1500(3000),576:48:16(3 SMX),10.46,31.39,2048,48.0,GDDR5,128,753.41,11.0,4.5,Yes,55,Dell Precision M4800
+Quadro K3100M,GK104,28,PCIe 3.0 x16,680,680,800(3200),768:64:32(4 SMX),21.76,43.52,4096,102.4,GDDR5,256,1044.48,11.0,4.5,Yes,75,Dell Precision M6800
+Quadro K4100M,GK104,28,PCIe 3.0 x16,706,706,800(3200),1152:96:32(6 SMX),22.59,67.77,4096,102.4,GDDR5,256,1626.624,11.0,4.5,Yes,100,Dell Precision M6800
+Quadro K5100M,GK104,28,PCIe 3.0 x16,771,771,900(3600),1536:128:32(8 SMX),24.67,98.68,8192,115.2,GDDR5,256,2368.51,11.0,4.5,Yes,100,Dell Precision M6800
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Nvidia Optimustechnology,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Nvidia Optimustechnology,TDP (Watts)
+Quadro K2200M,GM107,28,PCIe 3.0 x16,1150,1150,1253(5012),640:40:16(5 SMM),18.4,46,2048,80.2,GDDR5,128,1472,46,12.1,4.5,Yes,65
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,Nvidia Optimustechnology,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,Nvidia Optimustechnology,TDP (Watts)
+Quadro M500M,GM108,28,PCIe 3.0 x16,1029,1124,900 (1800),384:24:8(3 SMM),8.992,17.98,2048,14.40,DDR3,64,863.2,26.98,12.1,4.5,1.0,Yes,25
+Quadro M600M,GM107,28,PCIe 3.0 x16,837,876,1253(5012),384:24:16(3 SMM),7.008,14.02,2048,80.2,GDDR5,128,672.8,21.02,12.1,4.5,1.0,Yes,30
+Quadro M1000M,GM107,28,PCIe 3.0 x16,993,,1253(5012),512:32:16(4 SMM),15.89,31.78,2048,80.2,GDDR5,128,1017,31.78,12.1,4.5,1.0,Yes,40
+Quadro M2000M,GM107,28,PCIe 3.0 x16,1029,1098,1253(5012),640:40:16(5 SMM),17.57,43.92,4096,80.2,GDDR5,128,1405,43.92,12.1,4.5,1.0,Yes,55
+Quadro M3000M,GM204,28,PCIe 3.0 x16,1050,,1253(5012),1024:64:32(8 SMM),33.60,67.20,4096,160.4,GDDR5,256,2150,67.20,12.1,4.5,1.0,Yes,75
+Quadro M4000M,GM204,28,PCIe 3.0 x16,975,,1253(5012),1280:80:48(10 SMM),62.40,78.00,4096,160.4,GDDR5,256,2496,78.00,12.1,4.5,1.0,Yes,100
+Quadro M5000M,GM204,28,PCIe 3.0 x16,962,,1253(5012),1536:96:64(12 SMM),62.40,93.60,8192,160.4,GDDR5,256,2955.3,93.60,12.1,4.5,1.0,Yes,100
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,Nvidia Optimustechnology,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Nvidia Optimustechnology,TDP (Watts)
+Quadro M520,GM108,28,PCIe 3.0 x16,,,,384:24:8(3 SMM),,,1024,40,GDDR5,64,840,12.1,4.5,Yes,25
+Quadro M620,GM107,28,PCIe 3.0 x16,,,,512:32:16(4 SMM),,,2048,80,GDDR5,128,1000,12.1,4.5,Yes,30
+Quadro M1200,GM107,28,PCIe 3.0 x16,,,,640:40:16(5 SMM),,,4096,80,GDDR5,128,1400,12.1,4.5,Yes,45
+Quadro M2200,GM206,28,PCIe 3.0 x16,,,,1024:64:32(8 SMM),,,4096,88.1,GDDR5,128,2100,12.1,4.5,Yes,55
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,Nvidia Optimustechnology,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Nvidia Optimustechnology,TDP (Watts)
+Quadro M5500,GM204,28,PCIe 3.0 x16,,,,2048:128:64(16 SMM),,,8096,211,GDDR5,256,4700,12.1,4.5,Yes,150
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,Nvidia Optimustechnology,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Nvidia Optimustechnology,TDP (Watts)
+Quadro P500,GP108,14,PCIe 3.0 x16,,,,256:16:16:2,,,2048,40,GDDR5,64,750,12.1,4.5,Yes,18
+Quadro P600,GP107,14,PCIe 3.0 x16,,,,384:24:16:3,,,2048,80,GDDR5,128,1200,12.1,4.5,Yes,25
+Quadro P1000,GP107(N18P-Q1-A1),14,PCIe 3.0 x16,,,,512:32:16:4,,,4096,96,GDDR5,128,1600,12.1,4.5,Yes,40
+Quadro P2000,GP107(N18P-Q3-A1),14,PCIe 3.0 x16,,,,768:64:32:6,,,5120,96,GDDR5,128,2400,12.1,4.5,Yes,50
+Quadro P3000,GP106,16,PCIe 3.0 x16,,,,1280:80:48:10,,,6144,168,GDDR5,192,3098,12.1,4.5,Yes,75
+Quadro P4000,GP104,16,PCIe 3.0 x16,,,,1792:112:64:14,,,8192,192,GDDR5,256,4398,12.1,4.5,Yes,100
+Quadro P4000 Max-Q,GP104,16,PCIe 3.0 x16,,,,1792:112:64:14,,,8192,192,GDDR5,256,,12.1,4.5,Yes,80
+Quadro P5000,GP104,16,PCIe 3.0 x16,,,,2048:128:64:16,,,16384,192,GDDR5,256,6197,12.1,4.5,Yes,100
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,Nvidia Optimustechnology,TDP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Nvidia Optimustechnology,TDP (Watts)
+Quadro P3200,GP104,16,PCIe 3.0 x16,,,,1792:112:64:14,,,6144,168,GDDR5,192,5300,12.1,4.5,Yes,78
+Quadro P4200,GP104,16,PCIe 3.0 x16,,,,2304:144:64:18,,,8192,168,GDDR5,256,7600,12.1,4.5,Yes,115
+Quadro P5200,GP104,16,PCIe 3.0 x16,,,,2560:160:64:20,,,16384,230,GDDR5,256,8900,12.1,4.5,Yes,150
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),L2 Cache (MB),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),Supported API version,Supported API version,Supported API version,Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),L2 Cache (MB),Core config1,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Memory clock (MHz),Bus type,Bus width (bit),Single precision,Half Precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,TDP (Watts),Notes
+Quadro T1000,TU117(N19P-Q1-A1),12,PCIe 3.0,1395,1455,1,768:48:32:12:1536,46.56,69.84,4,128,2000,GDDR5,128,2235,,69.84,12.1,4.6,1.2,3.0,7.5,40-50,
+Quadro T2000,TU117(N19P-Q3-A1),12,PCIe 3.0,1575,1785,1,1024:64:32:16:2048,57.1,114.2,4,128,,GDDR5,128,3500,,,12.1,4.6,1.2,3.0,7.5,60,
+Quadro T2000 Max-Q,TU117,12,PCIe 3.0,,,1,1024:64:32:16:2048,,,4,128,,GDDR5,128,,,,12.1,4.6,1.2,3.0,7.5,40,
+Quadro RTX 3000,TU106(N19E-Q1-KA-K1),12,PCIe 3.0,945,1380,4,2304:144:48:36:288,88.32,198.7,6,448,1750,GDDR6,256,6359,12720,198.7,12.1,4.6,1.2,3.0,7.5,60-80,
+Quadro RTX 3000 Max-Q,TU106,12,PCIe 3.0,600,1215,4,2304:144:48:36:288,77.76,175.0,6,416,1625,GDDR6,256,5599,11200,175.0,12.1,4.6,1.2,3.0,7.5,60,
+Quadro RTX 4000,TU104(N19E-Q3-A1),12,PCIe 3.0,1110,1560,4,2560:160:64:40:320,99.84,249.6,8,448,1750,GDDR6,256,7987,15970,249.6,12.1,4.6,1.2,3.0,7.5,110,
+Quadro RTX 4000 Max-Q,TU104,12,PCIe 3.0,780,1380,4,2560:160:64:40:320,88.32,220.8,8,416,1625,GDDR6,256,7066,14130,220.8,12.1,4.6,1.2,3.0,7.5,80,
+Quadro RTX 5000,TU104(N19E-Q5-A1),12,PCIe 3.0,,,4,3072:192:64:48:384,98.88,296.6,16,448,1750,GDDR6,256,9492,18980,296.6,12.1,4.6,1.2,3.0,7.5,110,
+Quadro RTX 5000 Max-Q,TU104,12,PCIe 3.0,600,1350,4,3072:192:64:48:384,86.40,259.2,16,448,1750,GDDR6,256,8294,15970,259.2,12.1,4.6,1.2,3.0,7.5,80,
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,TDP (Watts),Notes
+Quadro NVS 110M,G72M,90,PCIe 1.0 x16,300,300,600,3:4:4:2,0.6,1.2,Up to 512,4.8,DDR,64,,9.0c,2.1,10,
+Quadro NVS 120M,G72GLM,90,PCIe 1.0 x16,450,450,700,3:4:4:2,0.9,1.8,Up to 512,5.6,DDR2,64,,9.0c,2.1,10,
+Quadro NVS 130M,G86M,80,PCIe 2.0 x16,400?,800?,700,8:4:4,1.6?,1.6?,Up to 256,6.4?,DDR2,64,19.2,10.0,3.3,10,
+Quadro NVS 135M,G86M,80,PCIe 2.0 x16,400,800,1188,16:8:4,1.6,3.2,Up to 256,9.504,GDDR3,64,38.4,10.0,3.3,10,
+Quadro NVS 140M,G86M,80,PCIe 2.0 x16,400,800,1200,16:8:4,1.6,3.2,Up to 512,9.6,GDDR3,64,38.4,10.0,3.3,10,
+Quadro NVS 150M,G98M,65,PCIe 2.0 x16,530,1300,1400,8:4:4,2.12,2.12,Up to 256,11.2,GDDR3,64,31.2,10.0,3.3,10,
+Quadro NVS 160M,G98M,65,PCIe 2.0 x16,580,1450,1400,8:8:4,2.12,4.24,256,11.2,GDDR3,64,34.8,10.0,3.3,12,
+Quadro NVS 300M,G72GLM,90,PCIe 1.0 x16,450,450,1000,3:4:4:2,0.9,1.8,Up to 512,8,DDR2,64,,9.0c,2.1,16,
+Quadro NVS 320M,G84M,65,PCIe 2.0 x16,575,1150,1400,32:16:8,4.6,9.2,Up to 512,22.4,GDDR3,128,110.4,10.0,3.3,20,
+Quadro NVS 510M,G72GLM,90,PCIe 1.0 x16,500,500,1200,8:24:24:16,8,12,Up to 1024,38.4,GDDR3,256,,9.0c,2.1,45?,based on Go 7900 GTX
+
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,Fillrate,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Supported API version,Supported API version,TDP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,TDP (Watts),Notes
+NVS 2100M,GT218M,40,PCIe 2.0 x16,535,1230,1600,16:8:4,2.14,4.28,Up to 512,12.8,GDDR3,64,59.04,10.1,3.3,14,
+NVS 3100M,GT218M,40,PCIe 2.0 x16,600,1470,1600,16:8:4,2.4,4.8,Up to 512,12.8,GDDR3,64,70.56,10.1,3.3,14,based on G210M/310M
+NVS 4200M,GF119,40,PCIe 2.0 x16,810,1620,1600,48:8:4,3.24,6.48,Up to 1024,12.8,GDDR3,64,155.52,11,4.5,,based on GT 520M
+NVS 5100M,GT216M,40,PCIe 2.0 x16,550,1210,1600,48:16:8,4.4,8.8,Up to 1024,25.6,GDDR3,128,174.24,10.1,3.3,35,
+NVS 5200M,GF108,40/28,PCIe 2.0 x16,625,1250,1800,96:16:4,2.5,10,Up to 1024,14.4,GDDR3,64,240,11,4.5,35,
+NVS 5400M,GF108,40/28,PCIe 2.0 x16,660,1320,1800,96:16:4,2.64,10.56,Up to 1024,28.8,GDDR3,128,253.44,11,4.5,35,
+
+Model,Archi-tecture,Chips,Thread processors(total),Bus interface,Memory,Memory,TDP (Watts)
+Model,Archi-tecture,Chips,Thread processors(total),Bus interface,Bus type,Size (GB),TDP (Watts)
+GRID K1,Kepler,4x GK107,4x 192,PCIe 3.0 x16,DDR3,4x 4GB,130
+GRID K2,Kepler,2x GK104-895,2x 1536,PCIe 3.0 x16,GDDR5,2x 4GB,225
+GRID K340,Kepler,4x GK107,4x 384,PCIe 3.0 x16,GDDR5,4x 1GB,225
+GRID K520,Kepler,2x GK104,2x 1536,PCIe 3.0 x16,GDDR5,2x 4GB,225
+
+Model,Micro-architecture,Launch,Chips,Core clock(MHz),Shaders,Shaders,Shaders,Memory,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),CUDAcomputeability,TDP(watts),"Notes, form_factor"
+Model,Micro-architecture,Launch,Chips,Core clock(MHz),Cuda cores(total),Base clock (MHz),Max boostclock (MHz),Bus type,Bus width(bit),Size(GB),Clock(MT/s),Bandwidth(GB/s),Single precision(MAD+MUL),Single precision,Double precision,CUDAcomputeability,TDP(watts),"Notes, form_factor"
+C870 GPU Computing Module,Tesla,"May 2, 2007",1× G80,600,128,1350,N/A,GDDR3,384,1.5,1600,76.8,518.4,345.6,No,1.0,170.9,"Internal PCIe GPU (full-height, dual-slot)"
+D870 Deskside Computer,Tesla,"May 2, 2007",2× G80,600,256,1350,N/A,GDDR3,2× 384,2× 1.5,1600,2× 76.8,1036.8,691.2,No,1.0,520,Deskside or 3U rack-mount external GPUs
+S870 GPU Computing Server,Tesla,"May 2, 2007",4× G80,600,512,1350,N/A,GDDR3,4× 384,4× 1.5,1600,4× 76.8,2073.6,1382.4,No,1.0,,"1U rack-mount external GPUs, connect via 2× PCIe (×16)"
+C1060 GPU Computing Module,Tesla,"April 9, 2009",1× GT200,602,240,1296,N/A,GDDR3,512,4,1600,102.4,933.12,622.08,77.76,1.3,187.8,"Internal PCIe GPU (full-height, dual-slot)"
+S1075 GPU Computing Server,Tesla,"June 1, 2008",4× GT200,602,960,1440,N/A,GDDR3,4× 512,4× 4,1538.4,4× 98.5,4147.2,2764.8,345.6,1.3,,"1U rack-mount external GPUs, connect via 1× PCIe (×8 or ×16)"
+Quadro Plex 2200 D2 Visual Computing System,Tesla,,2× GT200GL,648,480,1296,N/A,GDDR3,2× 512,2× 4,1600,2× 102.4,1866.2,1244.2,155.5,1.3,,Deskside or 3U rack-mount external GPUs with 4 dual-link DVI outputs
+Quadro Plex 2200 S4 Visual Computing System,Tesla,,4× GT200GL,648,960,1296,N/A,GDDR3,4× 512,4× 4,1600,4× 102.4,3732.5,2488.3,311.0,1.3,1200,"1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
+C2050 GPU Computing Module,Fermi,"July 25, 2011",1× GF100,575,448,1150,N/A,GDDR5,384,3,3000,144,No,1030.4,515.2,2.0,247,"Internal PCIe GPU (full-height, dual-slot)"
+M2050 GPU Computing Module,Fermi,"July 25, 2011",1× GF100,575,448,1150,N/A,GDDR5,384,3,3092,148.4,No,1030.4,515.2,2.0,225,"Internal PCIe GPU (full-height, dual-slot)"
+C2070 GPU Computing Module,Fermi,"July 25, 2011",1× GF100,575,448,1150,N/A,GDDR5,384,6,3000,144,No,1030.4,515.2,2.0,247,"Internal PCIe GPU (full-height, dual-slot)"
+C2075 GPU Computing Module,Fermi,"July 25, 2011",1× GF100,575,448,1150,N/A,GDDR5,384,6,3000,144,No,1030.4,515.2,2.0,225,"Internal PCIe GPU (full-height, dual-slot)"
+M2070/M2070Q GPU Computing Module,Fermi,"July 25, 2011",1× GF100,575,448,1150,N/A,GDDR5,384,6,3132,150.336,No,1030.4,515.2,2.0,225,"Internal PCIe GPU (full-height, dual-slot)"
+M2090 GPU Computing Module,Fermi,"July 25, 2011",1× GF110,650,512,1300,N/A,GDDR5,384,6,3700,177.6,No,1331.2,665.6,2.0,225,"Internal PCIe GPU (full-height, dual-slot)"
+S2050 GPU Computing Server,Fermi,"July 25, 2011",4× GF100,575,1792,1150,N/A,GDDR5,4× 384,4× 3,3,4× 148.4,No,4121.6,2060.8,2.0,900,"1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
+S2070 GPU Computing Server,Fermi,,4× GF100,575,1792,1150,N/A,GDDR5,4× 384,4× 6,3,4× 148.4,No,4121.6,2060.8,2.0,900,"1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
+K10 GPU accelerator,Kepler,"May 1, 2012",2× GK104,N/A,3072,745,?,GDDR5,2× 256,2× 4,5000,2× 160,No,4577,190.7,3.0,225,"Internal PCIe GPU (full-height, dual-slot)"
+K20 GPU accelerator,Kepler,"November 12, 2012",1× GK110,N/A,2496,706,758,GDDR5,320,5,5200,208,No,3524,1175,3.5,225,"Internal PCIe GPU (full-height, dual-slot)"
+K20X GPU accelerator,Kepler,"November 12, 2012",1× GK110,N/A,2688,732,?,GDDR5,384,6,5200,250,No,3935,1312,3.5,235,"Internal PCIe GPU (full-height, dual-slot)"
+K40 GPU accelerator,Kepler,"October 8, 2013",1× GK110B,N/A,2880,745,875,GDDR5,384,12,6000,288,No,4291-5040,1430-1680,3.5,235,"Internal PCIe GPU (full-height, dual-slot)"
+K80 GPU accelerator,Kepler,"November 17, 2014",2× GK210,N/A,4992,560,875,GDDR5,2× 384,2× 12,5000,2× 240,No,5591-8736,1864-2912,3.7,300,"Internal PCIe GPU (full-height, dual-slot)"
+M4 GPU accelerator,Maxwell,"November 10, 2015",1× GM206,N/A,1024,872,1072,GDDR5,128,4,5500,88,No,1786-2195,55.81-68.61,5.2,50-75,"Internal PCIe GPU (half-height, single-slot)"
+M6 GPU accelerator,Maxwell,"August 30, 2015",1× GM204-995-A1,N/A,1536,722,1051,GDDR5,256,8,4600,147.2,No,2218-3229,69.3-100.9,5.2,75-100,Internal MXM GPU
+M10 GPU accelerator,Maxwell,,4× GM107,N/A,2560,1033,?,GDDR5,4× 128,4× 8,5188,4× 83,No,5289,165.3,5.2,225,"Internal PCIe GPU (full-height, dual-slot)"
+M40 GPU accelerator,Maxwell,"November 10, 2015",1× GM200,N/A,3072,948,1114,GDDR5,384,12,6000,288,No,5825-6844,182.0-213.9,5.2,250,"Internal PCIe GPU (full-height, dual-slot)"
+M60 GPU accelerator,Maxwell,"August 30, 2015",2× GM204-895-A1,N/A,4096,899,1178,GDDR5,2× 256,2× 8,5000,2× 160,No,7365-9650,230.1-301.6,5.2,225-300,"Internal PCIe GPU (full-height, dual-slot)"
+P4 GPU accelerator,Pascal,"September 13, 2016",1× GP104,N/A,2560,810,1063,GDDR5,256,8,6000,192.0,No,4147-5443,129.6-170.1,6.1,50-75,PCIe card
+P6 GPU accelerator,Pascal,"March 24, 2017",1× GP104-995-A1,N/A,2048,1012,1506,GDDR5,256,16,3003,192.2,No,6169,192.8,6.1,90,MXM card
+P40 GPU accelerator,Pascal,"September 13, 2016",1× GP102,N/A,3840,1303,1531,GDDR5,384,24,7200,345.6,No,10007-11758,312.7-367.4,6.1,250,PCIe card
+P100 GPU accelerator (mezzanine),Pascal,"April 5, 2016",1× GP100-890-A1,N/A,3584,1328,1480,HBM2,4096,16,1430,732,No,9519-10609,4760-5304,6.0,300,NVLink card
+P100 GPU accelerator (16 GB card),Pascal,"June 20, 2016",1× GP100,N/A,3584,1126,1303,HBM2,4096,16,1430,732,No,8071-9340,4036-4670,6.0,250,PCIe card
+P100 GPU accelerator (12 GB card),Pascal,"June 20, 2016",1× GP100,N/A,3584,1126,1303,HBM2,3072,12,1430,549,No,8071-9340,4036-4670,6.0,250,PCIe card
+V100 GPU accelerator (mezzanine),Volta,,1× GV100-895-A1,N/A,5120,Un­known,1455,HBM2,4096,16 or 32,1750,900,No,14899,7450,7.0,300,NVlink card
+V100 GPU accelerator (PCIe card),Volta,"June 21, 2017",1× GV100,N/A,5120,Un­known,1370,HBM2,4096,16 or 32,1750,900,No,14028,7014,7.0,250,PCIe card
+V100 GPU accelerator (PCIe FHHL card),Volta,"March 27, 2018",1× GV100,N/A,5120,937,1290,HBM2,4096,16,1620,829.44,No,13210,6605,7.0,250,PCIe FHHL card
+T4 GPU accelerator (PCIe card),Turing,"September 12, 2018",1× TU104-895-A1,N/A,2560,585,1590,GDDR6,256,16,Un­known,320,No,8100,Un­known,7.5,70,PCIe card
+A10 GPU accelerator (PCIe card),Ampere,"April 12th, 2021",1× GA102-890-A1,N/A,9216,885,1695,GDDR6,384,24,Un­known,600,No,31240,976,8.6,150,PCIe card (single-slot)
+A16 GPU accelerator (PCIe card),Ampere,"April 12th, 2021",4× GA107,N/A,10240,885,1695,GDDR6,4x 128,4x 16,Un­known,4x 231.9,No,34712,1084.8,8.6,250,PCIe card (dual-slot)
+A30 GPU accelerator (PCIe card),Ampere,"April 12th, 2021",1× GA100,N/A,3584,930,1440,HBM2,3072,24,Un­known,933.1,No,10320,5161,8.0,165,PCIe card (dual-slot)
+A40 GPU accelerator (PCIe card),Ampere,"October 5th, 2020",1× GA102,N/A,10752,1305,1740,GDDR6,384,48,Un­known,695.8,No,37420,1168,8.6,300,PCIe card (dual-slot)
+A100 GPU accelerator (PCIe card),Ampere,"May 14th, 2020",1× GA100-883AA-A1,N/A,6912,765,1410,HBM2,5120,40,Un­known,1555,No,19500,9700,8.0,250,PCIe card
+Model,Micro-architecture,Launch,Chips,Core clock(MHz),Shaders,Shaders,Shaders,Memory,Memory,Memory,Memory,Memory,Processing power (GFLOPS),Processing power (GFLOPS),Processing power (GFLOPS),CUDAcomputeability,TDP(watts),"Notes, form factor"
+Model,Micro-architecture,Launch,Chips,Core clock(MHz),Cuda cores(total),Base clock (MHz),Max boostclock (MHz),Bus type,Bus width(bit),Size(GB),Clock(MT/s),Bandwidth(total)(GB/s),Single precision(MAD+MUL),Single precision,Double precision,CUDAcomputeability,TDP(watts),"Notes, form factor"

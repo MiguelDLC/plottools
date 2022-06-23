@@ -126,12 +126,12 @@ files = ["cpu.txt", "cpu-mpi.txt", "out00-fp64.txt", "out00.txt"]
 names = ["Single\nprocess", "8 processes\nwith MPI", "GPU (FP64)", "GPU"]
 periter = np.array([gettime(fname) for fname in files])
 
-fig, axes = plt.subplots(1, 2, figsize=(8.5,4), gridspec_kw={'width_ratios': [4.4, 2.1]})
-plt.sca(axes[0])
+fig, ax = plt.subplots(1, 1, figsize=(8,4), gridspec_kw={'width_ratios': [4.4]})
+plt.sca(ax)
 plt.grid(color='k', alpha=0.1, axis='y')
 plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
-plt.bar(names, 1e3*periter, 0.6)
-plt.ylabel("Time per iteration [ms]")
+plt.bar(names, 1e3*periter, 0.5)
+plt.ylabel("Time per iteration [ms]", fontsize=14)
 plt.ylim([0., None])
 plt.xlim([-0.5, 3.5])
 plt.xticks(fontsize=14)
@@ -146,14 +146,17 @@ arrowc = mpatch.FancyArrowPatch(path=mpath.Path([(0.35,169),(2.5,166),(2.85,2)],
 plt.gca().add_patch(arrowc)
 
 plt.text(0.7, 120, r"$\div 5.05$", fontsize=14)
-plt.text(1.75, 20 , r"$\div 8.61$", fontsize=14)
+plt.text(1.5, 29 , r"$\div 8.61$", fontsize=14)
 plt.text(2.25, 115 , r"$\div 270$", fontsize=14)
 
 for i, t in enumerate(periter[0:2]):
     plt.text(i, 5 , "%s" % tlabel(t), ha="center", fontsize=14)
 
+plt.text(2.08, 7 , "%s" % tlabel(periter[2]), ha="center", fontsize=14)
+plt.text(3.08, 4 , "%s" % tlabel(periter[3]), ha="center", fontsize=14)
 
-plt.sca(axes[1])
+
+"""plt.sca(axes[1])
 plt.grid(color='k', alpha=0.1, axis='y')
 plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
 plt.bar(names[2:], 1e3*periter[2:], 0.6)
@@ -162,12 +165,9 @@ plt.ylim([0., None])
 plt.xlim([-0.5, 1.5])
 plt.xticks(fontsize=14)
 
-plt.text(0.75, 2.5, r"$\div 6.18$", fontsize=14)
-for i, t in enumerate(periter[2:]):
-    plt.text(i, 0.114 , "%s" % tlabel(t), ha="center", fontsize=14)
 
 arrow3 = mpatch.FancyArrowPatch(path=mpath.Path([(0.35,3.8),(0.7,3.3),(0.85,0.68)],[mpath.Path.MOVETO,mpath.Path.CURVE3,mpath.Path.CURVE3]),**kw)
-plt.gca().add_patch(arrow3)
+plt.gca().add_patch(arrow3)"""
 
 plt.tight_layout()
 figname = "../Figures/initial_speed_linear.pdf"

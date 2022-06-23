@@ -49,8 +49,10 @@ def addrec(x0, x1, cy, h, **kwargs):
     plt.gca().add_patch(rect)
 
 def addtxt(x0, x1, cy, s, **kwargs):
+    print(kwargs)
     cx = (x0+x1)/2
     ang = np.deg2rad(kwargs.get("rotation", 0))
+    print(ang)
     dx =  np.sin(ang) * 0.03
     dy = -np.cos(ang) * 0.03
     if 'fontsize' not in kwargs:
@@ -193,13 +195,13 @@ def plotev(df, i, y, axes, xxmax, **kwargs):
     xxmax = max(xxmax, end)
     color = getc(name)
     plt.sca(axes[0])
-    h = kwargs.get("h", 0.85)
-    mult = kwargs.get("mult", 2)
+    h = kwargs.pop("h", 0.85)
+    mult = kwargs.pop("mult", 2)
     y += 1-mult*rank
     addrec(start, end, y, h, linewidth=0.2, edgecolor='k', facecolor=color, alpha=0.8)
-    txt = kwargs.get("txt", "dudt")
+    txt = kwargs.pop("txt", "dudt")
     if end - start > 50 or txt != "dudt":
-        addtxt(start, end, y, r"\texttt{%s}" % txt)
+        addtxt(start, end, y, r"\texttt{%s}" % txt, **kwargs)
     return xxmax
 
 
@@ -348,5 +350,71 @@ def plot_mpi_2_stream(dbname, fname, tmin, tmax=1e500):
     plt.show()
 
 plot_mpi_2_stream("profile02.sqlite", "../Figures/mpi-2.pdf", 15.376288, 15.376525)
+
+#%%
+
+
+def plot_mpi_2_stream_0(dbname, fname, tmin, tmax=1e500):
+    xxmax = 0
+    kernels, memcpy, nvtx = load(dbname, tmin, tmax)
+    fig, axes = plt.subplots(nrows=1, ncols=1, sharex=True, sharey=True, figsize=(8,2.4))
+    axes = [axes]
+    addlegend(axes[0], colors[1], label="Vector sum")
+    addlegend(axes[0], colors[2], label="Gather/scatter")
+    addlegend(axes[0], colors[3], label="Memcopy")
+
+    for i in range(12):
+        start, end, name, rank, stream = kernels.iloc[i]
+        if rank != 0:
+            continue
+        sp = stream/7-1
+        if start > 135 : name = "dudt..   "
+        txt = name if "dudt" in name else ""
+        txt = "vsum" if "sum" in name else txt
+        txt = "gather" if "gather" in name else txt
+        txt = "scatter" if "scatter" in name else txt
+        r = 90 * (end - start < 15)
+        fontsize = 10 - 3*(end - start < 10)
+        xxmax = plotev(kernels, i, 1.5-sp+rank, axes, xxmax, mult=4, txt=txt, rotation=r, fontsize=fontsize)
+    for i in range(4):
+        start, end, name, rank, stream = memcpy.iloc[i]
+        if rank != 0:
+            continue
+        txt = "memcpy"
+        xxmax = plotev(memcpy, i, 0.5+rank, axes, xxmax, mult=4, txt=txt, rotation=90, fontsize=8)
+    for i in range(6):
+        start, end, name, rank, stream = nvtx.iloc[i]
+        if rank != 0:
+            continue
+        xxmax = plotev(nvtx, i, -0.5+rank, axes, xxmax, mult=4)
+
+
+
+    plt.xlim([-3, xxmax-5])
+    plt.ylim([0, 3])
+    plt.yticks([])
+    for ax in axes:
+        ax.xaxis.set_minor_locator(MultipleLocator(5))
+        ax.grid(color='k', alpha=0.1, axis='x')
+        ax.grid(which='minor', ls=":", color='k', alpha=0.1, axis='x')
+        # ax.legend(loc="lower right")
+        ax.spines['left'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+        #ax.axis('off')
+
+    axes[0].set_xlabel("Time $[\mu s]$")
+    xmax = xxmax - 30 + 3
+    plt.axhline(0, color="k", lw=0.7)
+    #plt.text(-xmax/3.3,  1.5, r"\textbf{Rank 0}", ha="center", va="center", fontsize=12, rotation=90)
+    plt.text(-5,  2.5, "Compute\nStream", ha="right", va="center", fontsize=12, rotation=0)
+    plt.text(-5,  1.5, "Communication\nStream", ha="right", va="center", fontsize=12, rotation=0)
+    plt.text(-5,  0.5, "MPI calls", ha="right", va="center", fontsize=12, rotation=0)
+
+    plt.tight_layout()
+    plt.savefig(fname)
+    os.system("pdfcrop %s %s" % (fname, fname))
+    plt.show()
+
+plot_mpi_2_stream_0("profile02.sqlite", "../Figures/mpi-2-0.pdf", 15.376288, 15.376525)
 
 #%%

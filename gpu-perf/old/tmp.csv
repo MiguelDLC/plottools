@@ -1,0 +1,9 @@
+Model,Launch,Architecture (Fab),Bus interface,Core (MHz),Memory (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,TDP (Watts),Notes
+Radeon E6465,,,,600,800,?:?:?:2,,,2,,GDDR5,64,192,,11,?,?,?,20,"PCIe (4× miniDP or 2× DP), or MXM Type A (4× DP/HDMI/DVI)"
+Radeon E8860,,GCN,,625,1125,?:?:?:10,,,2,,GDDR5,128,768,,12.0,4.5,1.2,?,37,"PCIe, MXM Type A, or MCM; with or w/o fan; miniDP, DVI+miniDP, or DP/HDMI/DVI"
+Radeon E8870,,,,1000,1500,?:?:?:12,,,4,,GDDR5,128,1500,,12.0,4.5,2.0,?,75,PCIe (4× DP) or MXM Type B (6× DP/HDMI/DVI)
+Radeon E9260,,Polaris,PCIe 3.0 x8,,,?:?:?:14,,,4,,GDDR5,128,2500,,12.0,4.5,2.0,?,50,PCIe (4× miniDP) or MXM Type A (5× DP/HDMI/DVI)
+Radeon E9390,,Polaris,PCIe 3.0 x16,1086,1250,?:?:?:28,,,8,,GDDR5,256,3900,,12.0,4.5,2.0,?,75,4× DisplayPort
+Radeon E9550,,Polaris,PCIe 3.0 x16,1243,1250,?:?:?:36,,,8,,GDDR5,256,5700,,12.0,4.5,2.0,?,95,MXM Type B6× DP/HDMI
+Radeon E9560,,Polaris,PCIe 3.0 x16,1243,1750,?:?:?:36,,,8,,GDDR5,256,5700,,12.0,4.5,2.0,?,130,4× DisplayPort
+Radeon E9565,,Polaris,PCIe 3.0 x16,1243,1750,?:?:?:36,,,16,,GDDR5,256,5700,,12.0,4.5,2.0,?,135,6× miniDP
