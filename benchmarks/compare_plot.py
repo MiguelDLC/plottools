@@ -185,10 +185,16 @@ periter = np.array([gettime(fname) for fname in files])
 plt.figure(figsize=(8,4))
 plt.grid(color='k', alpha=0.1, axis='y')
 plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
-plt.bar(names, reftime/periter, 0.6)
+plt.plot(names, reftime/periter, 'o-')
+plt.plot(names, 1e6*periter, 'o-')
+
 # plt.bar(names, 57*periter**0, 0.5, label="Vector sums")
-plt.ylabel("Speedup over CPU with 1 process")
-plt.ylim([0., None])
+plt.ylabel("Speedup over 1 CPU core")
+plt.ylim([100., 750])
+
+ax2 = plt.gca().twinx()
+plt.ylabel("Time per iteration $[\mu s]$")
+plt.ylim([100., 750])
 plt.xticks(fontsize=12, rotation=0)
 
 
@@ -197,7 +203,17 @@ plt.xticks(fontsize=12, rotation=0)
 #plt.text(2.7, 2, r"$\div 6.18$", fontsize=14)
 
 for i, t in enumerate(periter):
-    plt.text(i, (reftime/(t))/2 , "%s\n\n$%s%d$" % (tlabel(t), r"\times", np.ceil(reftime/t)), ha="center", va="center", fontsize=12, rotation=0)
+    if i != 2:
+        plt.text(i, (reftime/(t)) , "$%s%d$\n\n" % (r"\times", np.ceil(reftime/t)), ha="center", va="center", fontsize=12, rotation=0)
+    else:
+        plt.text(i, (reftime/(t)) , "\n\n$%s%d$" % (r"\times", np.ceil(reftime/t)), ha="center", va="center", fontsize=12, rotation=0)
+
+
+for i, t in enumerate(periter):
+    if i < 3:
+        plt.text(i, 1e6*t , "%s\n\n" % (tlabel(t)), ha="center", va="center", fontsize=12, rotation=0)
+    else:
+        plt.text(i, 1e6*t , "\n\n%s" % (tlabel(t)), ha="center", va="center", fontsize=12, rotation=0)
 
 figname = "../Figures/final_speed-fact.pdf"
 plt.savefig(figname)
