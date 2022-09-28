@@ -41,7 +41,7 @@ def tlabel(t):
     if 1e-3 <= t and t < 1e0:
         return "%.3g ms" % (t*1e3)
     if 1e-6 <= t and t < 1e-3:
-        return r"%.3g $\mu$s" % (t*1e6)
+        return r"%.3g$\mu$s" % (t*1e6)
     
 
 
@@ -84,8 +84,8 @@ plt.show()
 # %%
 
 
-files = ["out00.txt", "out01.txt", "out02.txt", "out03.txt", "out04.txt", "out05.txt"]
-names = ["Baseline", "Reordering", "Literals", r"\texttt{printf}", "Shared\nmemory", "Coalescence"]
+files = ["out00.txt", "out01.txt", "out02.txt", "out03.txt", "out04.txt", "out05.txt", "out06.txt"]
+names = ["Baseline", "Reordering", "Literals", r"\texttt{printf}", "Shared\nmemory", "Coalescence", "fastmath"]
 periter = np.array([gettime(fname) for fname in files])
 
 plt.figure(figsize=(8,4))
@@ -122,64 +122,9 @@ plt.show()
 
 # %%
 
-files = ["cpu.txt", "cpu-mpi.txt", "out00-fp64.txt", "out00.txt"]
-names = ["Single\nprocess", "8 processes\nwith MPI", "GPU (FP64)", "GPU"]
-periter = np.array([gettime(fname) for fname in files])
-
-fig, ax = plt.subplots(1, 1, figsize=(8,4), gridspec_kw={'width_ratios': [4.4]})
-plt.sca(ax)
-plt.grid(color='k', alpha=0.1, axis='y')
-plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
-plt.bar(names, 1e3*periter, 0.5)
-plt.ylabel("Time per iteration [ms]", fontsize=14)
-plt.ylim([0., None])
-plt.xlim([-0.5, 3.5])
-plt.xticks(fontsize=14)
-
-style = "simple,tail_width=0.3,head_width=5,head_length=6"
-kw = dict(arrowstyle=style,color="k")
-arrow1 = mpatch.FancyArrowPatch(path=mpath.Path([(0.35,166),(0.7,150),(0.85,36)],[mpath.Path.MOVETO,mpath.Path.CURVE3,mpath.Path.CURVE3]),**kw)
-plt.gca().add_patch(arrow1)
-arrow2 = mpatch.FancyArrowPatch(path=mpath.Path([(1.35,28),(1.7,25),(1.85,6)],[mpath.Path.MOVETO,mpath.Path.CURVE3,mpath.Path.CURVE3]),**kw)
-plt.gca().add_patch(arrow2)
-arrowc = mpatch.FancyArrowPatch(path=mpath.Path([(0.35,169),(2.5,166),(2.85,2)],[mpath.Path.MOVETO,mpath.Path.CURVE3,mpath.Path.CURVE3]),**kw)
-plt.gca().add_patch(arrowc)
-
-plt.text(0.7, 120, r"$\div 5.05$", fontsize=14)
-plt.text(1.5, 29 , r"$\div 8.61$", fontsize=14)
-plt.text(2.25, 115 , r"$\div 270$", fontsize=14)
-
-for i, t in enumerate(periter[0:2]):
-    plt.text(i, 5 , "%s" % tlabel(t), ha="center", fontsize=14)
-
-plt.text(2.08, 7 , "%s" % tlabel(periter[2]), ha="center", fontsize=14)
-plt.text(3.08, 4 , "%s" % tlabel(periter[3]), ha="center", fontsize=14)
-
-
-"""plt.sca(axes[1])
-plt.grid(color='k', alpha=0.1, axis='y')
-plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
-plt.bar(names[2:], 1e3*periter[2:], 0.6)
-plt.ylabel("Time per iteration [ms]")
-plt.ylim([0., None])
-plt.xlim([-0.5, 1.5])
-plt.xticks(fontsize=14)
-
-
-arrow3 = mpatch.FancyArrowPatch(path=mpath.Path([(0.35,3.8),(0.7,3.3),(0.85,0.68)],[mpath.Path.MOVETO,mpath.Path.CURVE3,mpath.Path.CURVE3]),**kw)
-plt.gca().add_patch(arrow3)"""
-
-plt.tight_layout()
-figname = "../Figures/initial_speed_linear.pdf"
-plt.savefig(figname)
-os.system("pdfcrop %s %s" % (figname, figname))
-
-plt.show()
-# %%
-
 reftime = gettime("cpu.txt")
-files = ["out00.txt", "out01.txt", "out02.txt", "out03.txt", "out04.txt", "out05.txt"]
-names = ["Baseline", "Reordering", "Literals", r"\texttt{printf}", "Shared\nmemory", "Coalescence"]
+files = ["out00.txt", "out01.txt", "out02.txt", "out03.txt", "out04.txt", "out05.txt", "ava-2080.txt"]
+names = ["Baseline", "Reordering", "Literals", r"\texttt{printf}", "Shared\nmemory", "Coalescence", "fastmath"]
 periter = np.array([gettime(fname) for fname in files])
 
 plt.figure(figsize=(8,4))
@@ -190,11 +135,11 @@ plt.plot(names, 1e6*periter, 'o-')
 
 # plt.bar(names, 57*periter**0, 0.5, label="Vector sums")
 plt.ylabel("Speedup over 1 CPU core")
-plt.ylim([100., 750])
+plt.ylim([100., 800])
 
 ax2 = plt.gca().twinx()
 plt.ylabel("Time per iteration $[\mu s]$")
-plt.ylim([100., 750])
+plt.ylim([100., 800])
 plt.xticks(fontsize=12, rotation=0)
 
 
@@ -216,6 +161,66 @@ for i, t in enumerate(periter):
         plt.text(i, 1e6*t , "\n\n%s" % (tlabel(t)), ha="center", va="center", fontsize=12, rotation=0)
 
 figname = "../Figures/final_speed-fact.pdf"
+plt.savefig(figname)
+os.system("pdfcrop %s %s" % (figname, figname))
+
+plt.show()
+
+# %%
+
+files = ["cpu.txt", "ava-cpu.txt", "cpu-mpi.txt", "ava-cpu-omp.txt", "ava-cpu-mpi.txt","ava-igpu.txt", "ava-2060m.txt", "ava-2080.txt"]
+names = ["Base\nsingle", "AVA\nsingle", "Base\n$8\\times$ MPI", "AVA\n$8\\times$ OMP", "AVA\n$8\\times$ MPI", "AVA-hip\nRX Vega 7", "AVA-cuda\nRTX2060M", "AVA-cuda\nRTX2080"]
+periter = np.array([gettime(fname) for fname in files])
+
+fig, ax = plt.subplots(1, 1, figsize=(12,6), gridspec_kw={'width_ratios': [4.4]})
+plt.sca(ax)
+plt.grid(color='k', alpha=0.1, axis='y')
+plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
+plt.bar(names, 1e3*periter, 0.5)
+plt.ylabel("Time per iteration [ms]", fontsize=14)
+plt.ylim([0., 199])
+plt.xlim([-0.5, None])
+plt.xticks(fontsize=14)
+
+style = "simple,tail_width=0.3,head_width=5,head_length=6"
+kw = dict(arrowstyle=style,color="k")
+
+#plt.text(0.7, 120, r"$\div 5.05$", fontsize=14)
+#plt.text(1.5, 29 , r"$\div 8.61$", fontsize=14)
+#plt.text(2.25, 115 , r"$\div 270$", fontsize=14)
+
+for i, t in enumerate(periter):
+    plt.text(i, 5 , "%s" % tlabel(t), ha="center", fontsize=14)
+
+for i, t in enumerate(periter[:-1]):
+    h1 = 1000*t
+    h2 = periter[i+1]*1000
+    arrow = mpatch.FancyArrowPatch(path=mpath.Path([(i+0.3,0.97*h1),(i+0.6,0.8*h1+0.2*h2+20),(i+0.8,h2)],[mpath.Path.MOVETO,mpath.Path.CURVE3,mpath.Path.CURVE3]),**kw)
+    plt.gca().add_patch(arrow)
+    plt.text(i+0.6, 0.8*h1+0.2*h2+12 , "$\div%.2f$" % (h1/h2), ha="center", fontsize=14)
+
+for i, t in enumerate(periter):
+    plt.text(i, 183 , "%.2f" % (periter[0]/t), ha="center", fontsize=14)
+
+#plt.text(2.08, 7 , "%s" % tlabel(periter[2]), ha="center", fontsize=14)
+#plt.text(3.08, 4 , "%s" % tlabel(periter[3]), ha="center", fontsize=14)
+
+
+"""plt.sca(axes[1])
+plt.grid(color='k', alpha=0.1, axis='y')
+plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
+plt.bar(names[2:], 1e3*periter[2:], 0.6)
+plt.ylabel("Time per iteration [ms]")
+plt.ylim([0., None])
+plt.xlim([-0.5, 1.5])
+plt.xticks(fontsize=14)
+
+
+arrow3 = mpatch.FancyArrowPatch(path=mpath.Path([(0.35,3.8),(0.7,3.3),(0.85,0.68)],[mpath.Path.MOVETO,mpath.Path.CURVE3,mpath.Path.CURVE3]),**kw)
+plt.gca().add_patch(arrow3)"""
+
+plt.tight_layout()
+figname = "../Figures/initial_speed_linear.pdf"
 plt.savefig(figname)
 os.system("pdfcrop %s %s" % (figname, figname))
 

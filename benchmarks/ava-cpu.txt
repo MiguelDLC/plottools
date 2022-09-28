@@ -1,0 +1,12 @@
+running "gcc -o /home/miguel/Documents/Repos/slim4/build/slim4/slimg/gpuslim.so /home/miguel/Documents/Repos/slim4/build/slim4/slimg/src/build/interface.c /home/miguel/Documents/Repos/slim4/build/slim4/slimg/src/build/sw2d.c /home/miguel/Documents/Repos/slim4/build/slim4/slimg/src/build/sw3d_uvw.c /home/miguel/Documents/Repos/slim4/build/slim4/slimg/src/build/sw3d_system.c /home/miguel/Documents/Repos/slim4/build/slim4/slimg/src/build/ava.c -mfma -flto -ffast-math -fPIC -DCOMMTYPE=GPU_AWARE_MPI -march=native -DCPU_MODE -DBS_H=1 -DBS_V=1 -shared -O3 -DOMPI_SKIP_MPICXX -DBLOCK_SIZE=128"
+rank 0, nelems = 105288
+iter 10/100, cputime=0.815s, ETA=9.78s, 81497.502 us/iter, fact=24.54
+iter 20/100, cputime=1.626s, ETA=9.76s, 81315.947 us/iter, fact=24.60
+iter 30/100, cputime=2.446s, ETA=9.78s, 81531.870 us/iter, fact=24.53
+iter 40/100, cputime=3.271s, ETA=9.82s, 81867.925 us/iter, fact=24.43
+iter 50/100, cputime=4.076s, ETA=9.79s, 81650.861 us/iter, fact=24.49
+iter 60/100, cputime=4.879s, ETA=9.76s, 81323.522 us/iter, fact=24.59
+iter 70/100, cputime=5.733s, ETA=9.84s, 82180.607 us/iter, fact=24.34
+iter 80/100, cputime=6.553s, ETA=9.84s, 82149.405 us/iter, fact=24.35
+iter 90/100, cputime=7.397s, ETA=9.87s, 82527.308 us/iter, fact=24.23
+iter 100/100, cputime=8.201s, ETA=9.84s, 82174.742 us/iter, fact=24.34
