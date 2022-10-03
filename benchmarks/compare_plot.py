@@ -77,7 +77,7 @@ for i, t in enumerate(periter[:-1]):
 for i, t in enumerate(periter):
     plt.text(i, 0.25 , "%s" % tlabel(t), ha="center", fontsize=14)
 
-figname = "../Figures/initial_speed.pdf"
+figname = "../Figures/final_speed_log.pdf"
 plt.savefig(figname)
 os.system("pdfcrop %s %s" % (figname, figname))
 
@@ -254,4 +254,49 @@ os.system("pdfcrop %s %s" % (figname, figname))
 
 plt.show()
 
+# %%
+# %%
+
+files = ["cpu-mpi.txt", "ava-cpu-omp.txt", "ava-cpu-mpi.txt","ava-igpu.txt", "ava-2060m.txt", "ava-2080.txt"]
+names = ["Old version\n$8\\times$ MPI", "New (CPU)\n$8\\times$ OMP", "New (CPU)\n$8\\times$ MPI", "New (AMD)\nRX Vega 7", "New (NVIDIA)\nRTX2060M", "New (NVIDIA)\nRTX2080"]
+periter = np.array([gettime(fname) for fname in files])
+
+fig, ax = plt.subplots(1, 1, figsize=(12,5), gridspec_kw={'width_ratios': [4.4]})
+plt.sca(ax)
+plt.grid(color='k', alpha=0.1, axis='y')
+plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
+plt.bar(names, 1e3*periter, 0.5)
+plt.ylabel("Time per iteration [ms]", fontsize=14)
+plt.ylim([0., 45])
+plt.xlim([-0.5, None])
+plt.xticks(fontsize=14)
+
+style = "simple,tail_width=0.3,head_width=5,head_length=6"
+kw = dict(arrowstyle=style,color="k")
+
+#plt.text(0.7, 120, r"$\div 5.05$", fontsize=14)
+#plt.text(1.5, 29 , r"$\div 8.61$", fontsize=14)
+#plt.text(2.25, 115 , r"$\div 270$", fontsize=14)
+
+for i, t in enumerate(periter):
+    plt.text(i, 1 , "%s" % tlabel(t), ha="center", fontsize=14)
+
+for i, t in enumerate(periter):
+    plt.text(i, 42 , "$\\bm{%.2f}$" % (periter[2]/t), ha="center", fontsize=14)
+
+for i, t in enumerate(periter[:-1]):
+    h1 = 1000*t
+    h2 = periter[i+1]*1000
+    arrow = mpatch.FancyArrowPatch(path=mpath.Path([(i+0.3,0.97*h1),(i+0.6,0.8*h1+0.2*h2+3),(i+0.77,h2)],[mpath.Path.MOVETO,mpath.Path.CURVE3,mpath.Path.CURVE3]),**kw)
+    plt.gca().add_patch(arrow)
+    plt.text(i+0.6, 0.8*h1+0.2*h2+2 , "$\div%.2f$" % (h1/h2), ha="center", fontsize=14)
+
+
+plt.title("\\textbf{Speed comparison of different SLIM versions}")
+plt.tight_layout()
+figname = "../Figures/new_speed_linear_nosingle.pdf"
+plt.savefig(figname)
+os.system("pdfcrop %s %s" % (figname, figname))
+
+plt.show()
 # %%

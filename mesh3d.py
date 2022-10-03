@@ -45,8 +45,7 @@ def isgood2(xy, i):
 
 # %%
 
-def prismplot(xyl, z, behind=True, color="w", alpha=0.8):
-    height = 0.5
+def prismplot(xyl, z, behind=True, color="w", alpha=0.8, height = 0.5, lalpha=1):
     xyl = xyl + [[0, z]]
     xyt = np.vstack([xyl, xyl+[[0, -height]]])
 
@@ -57,7 +56,7 @@ def prismplot(xyl, z, behind=True, color="w", alpha=0.8):
             if not goods[i]:
                 continue
             line = xyt[[i,i+3]]
-            plt.plot(line[:,0], line[:,1], "-k")
+            plt.plot(line[:,0], line[:,1], "-k", alpha=lalpha)
 
         #lower loop
         goods = [not isgood2(xyl, i) for i in range(3)]
@@ -65,7 +64,7 @@ def prismplot(xyl, z, behind=True, color="w", alpha=0.8):
             if not goods[i]:
                 continue
             line = xyt[[(i+1)%3+3, (i+2)%3+3]]
-            plt.plot(line[:,0], line[:,1],  ".-k")
+            plt.plot(line[:,0], line[:,1],  ".-k", alpha=lalpha)
     
     # solid
     hull = ch(xyt)
@@ -74,7 +73,7 @@ def prismplot(xyl, z, behind=True, color="w", alpha=0.8):
     plt.gca().add_patch(poly)
     
     # upper loop
-    plt.plot(loop(xyl[:,0]), loop(xyl[:,1]), ".-k")
+    plt.plot(loop(xyl[:,0]), loop(xyl[:,1]), ".-k", alpha=lalpha)
 
     #vertical bars
     goods = [isgood(xyl, i) for i in range(3)]
@@ -82,7 +81,7 @@ def prismplot(xyl, z, behind=True, color="w", alpha=0.8):
         if not goods[i]:
             continue
         line = xyt[[i,i+3]]
-        plt.plot(line[:,0], line[:,1], "-k")
+        plt.plot(line[:,0], line[:,1], "-k", alpha=lalpha)
 
     #lower loop
     goods = [isgood2(xyl, i) for i in range(3)]
@@ -90,7 +89,7 @@ def prismplot(xyl, z, behind=True, color="w", alpha=0.8):
         if not goods[i]:
             continue
         line = xyt[[(i+1)%3+3, (i+2)%3+3]]
-        plt.plot(line[:,0], line[:,1],  ".-k")
+        plt.plot(line[:,0], line[:,1],  ".-k", alpha=lalpha)
 
 
 # %%
@@ -189,4 +188,57 @@ for part in range(2):
     os.system("pdfcrop %s %s" % (fname, fname))
     plt.show()
 
+# %%
+
+for alay in range(7):
+    plt.figure(figsize=(6, 9))
+    nlayers = [6, 6, 4, 2, 2, 4]
+    for i, tri in enumerate(triangles):
+        mid = np.mean(xy[tri], axis = 0)
+        # plt.text(*mid, str(i), ha="center", va="center")
+        xyl = inset(xy[tri])
+        for l in np.arange(nlayers[i]-1, -1, -1):
+            z = -0.55*l
+            if l == alay:
+                prismplot(xyl, z, True, color=colors[1], alpha=0.97)
+            else:
+                prismplot(xyl, z, True, alpha=0.97)
+    
+    plt.gca().set_aspect(1)
+    plt.axis('off')
+    fname = "Figures/bloc_struct_lz-%d.pdf" % alay
+    plt.tight_layout()
+    plt.savefig(fname)
+    os.system("pdfcrop %s %s" % (fname, fname))
+    plt.show()
+# %%
+
+
+for time in range(22):
+    plt.figure(figsize=(6, 9))
+    nlayers = [6, 6, 4, 2, 2, 4]
+    for i, tri in enumerate(triangles):
+        mid = np.mean(xy[tri], axis = 0)
+        # plt.text(*mid, str(i), ha="center", va="center")
+        xyl = inset(xy[tri])
+        
+        
+        surf = - time/20
+        h = 0.5
+        for l in np.arange(nlayers[i]-1, -1, -1):
+            z = -0.55*l
+            b = z - h
+            t = min(z, surf)
+
+            if t + 1e-10 >=  b:
+                prismplot(xyl, t, True, alpha=0.97, height=t-b)
+        prismplot(xyl, 0, True, alpha=0., lalpha=1e-3, height=h)
+
+    plt.gca().set_aspect(1)
+    plt.axis('off')
+    fname = "Figures/bloc_struct_lzwd-%d.pdf" % time
+    plt.tight_layout()
+    plt.savefig(fname)
+    os.system("pdfcrop %s %s" % (fname, fname))
+    plt.show()
 # %%

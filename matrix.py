@@ -145,3 +145,26 @@ plt.savefig(fname)
 os.system("pdfcrop %s %s" % (fname, fname))
 plt.show()
 # %%
+
+i, j = np.meshgrid(np.arange(n*6), np.arange(n*6), indexing='ij')
+
+plt.figure(figsize=(8,8))
+plt.spy(Abad, marker=".", ms=5, color="k")
+plt.spy(Ahor + Aloc, marker="s", ms=11)
+plt.axis("off")
+#plt.plot([18+8.5, 18+8.5, 12-8.5, 12-8.5, 18+8.5], [17.5, 11.5, 11.5, 17.5, 17.5], "k", zorder=5)
+#for i in range(10):
+#    plt.axhline(6*i-0.5+0.02, color="k", lw=1,  zorder=-1)
+
+plt.ylim([ 20, 9])
+plt.xlim([ 1, 6*n-2])
+rect = mpl.patches.Rectangle((-1, -1), 36, 12.5, zorder=10, alpha=0.8, color=u"#f0f0f0")
+plt.gca().add_patch(rect)
+rect = mpl.patches.Rectangle((9, 17.5), 36, 12.5, zorder=10, alpha=0.8, color=u"#f0f0f0")
+plt.gca().add_patch(rect)
+
+fname = "Figures/matopt-3.pdf"
+plt.savefig(fname)
+os.system("pdfcrop %s %s" % (fname, fname))
+plt.show()
+# %%
