@@ -26,22 +26,36 @@ nvi32 = nvi[np.maximum.accumulate(nvi["fp32"]) <= nvi["fp32"]]; nvi32 = nvi32[nv
 amd64 = amd[np.maximum.accumulate(amd["fp64"]) <= amd["fp64"]]; amd64 = amd64[amd64["fp64"] > 0]
 amd32 = amd[np.maximum.accumulate(amd["fp32"]) <= amd["fp32"]]; amd32 = amd32[amd32["fp32"] > 0]
 
+def get_prefix(n):
+    if n < 2**10:
+        return "%.3g " % (n / 1)
+    if n < 2**20:
+        return "%.3g K" % (n / 2**10)
+    if n < 2**30:
+        return "%.3g M" % (n / 2**20)
+    if n < 2**40:
+        return "%.3g G" % (n / 2**30)
+    if n < 2**50:
+        return "%.3g T" % (n / 2**40)
+    return "%.3g P" % (n / 2**50)
+
 # %%
 
-plt.figure(figsize=(6,6))
-plt.semilogy(nvi32["launch"], nvi32["fp32"], ".-" , c=colors[2], label=r"NVIDIA \texttt{fp32}")
-plt.semilogy(nvi64["launch"], nvi64["fp64"], ".--", c=colors[2], label=r"NVIDIA \texttt{fp64}")
-plt.semilogy(amd32["launch"], amd32["fp32"], ".-" , c=colors[3], label=r"AMD \texttt{fp32}")
-plt.semilogy(amd64["launch"], amd64["fp64"], ".--", c=colors[3], label=r"AMD \texttt{fp64}")
+plt.figure(figsize=(5,5))
+plt.semilogy(nvi32["launch"], nvi32["fp32"], ".-", c=colors[2], label=r"NVIDIA \texttt{FP32}")
+plt.semilogy(nvi64["launch"], nvi64["fp64"], ".:", c=colors[2], label=r"NVIDIA \texttt{FP64}")
+plt.semilogy(amd32["launch"], amd32["fp32"], ".-", c=colors[3], label=r"AMD \texttt{FP32}")
+plt.semilogy(amd64["launch"], amd64["fp64"], ".:", c=colors[3], label=r"AMD \texttt{FP64}")
 plt.yticks(2**np.arange(8, 17), 2**np.arange(8, 17))
-plt.yticks(2**np.arange(8, 17), 2**np.arange(8, 17))
+plt.yticks(2**np.arange(8, 17), labels=[get_prefix(p)+"Flops" for p in 2.0**(np.arange(8, 17) + 30)])
 plt.minorticks_off()
 plt.xticks(rotation=45)
 plt.legend()
-plt.xlabel("Launch date", fontsize=14)
-plt.ylabel("Peak performance (Gflops)", fontsize=14)
+#plt.xlabel("Launch date", fontsize=14)
+# plt.ylabel("Peak performance", fontsize=14)
+plt.tight_layout()
 plt.grid(which='major')
-plt.savefig("gpuperf2.pdf")
-os.system("pdfcrop gpuperf2.pdf gpuperf2.pdf")
+plt.savefig("gpuperf3.pdf")
+os.system("pdfcrop gpuperf3.pdf gpuperf3.pdf")
 plt.show()
 # %%

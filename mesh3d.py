@@ -223,6 +223,7 @@ for time in range(22):
         xyl = inset(xy[tri])
         
         
+        prismplot(xyl, 0, True, alpha=0., lalpha=1e-3, height=h)
         surf = - time/20
         h = 0.5
         for l in np.arange(nlayers[i]-1, -1, -1):
@@ -232,7 +233,6 @@ for time in range(22):
 
             if t + 1e-10 >=  b:
                 prismplot(xyl, t, True, alpha=0.97, height=t-b)
-        prismplot(xyl, 0, True, alpha=0., lalpha=1e-3, height=h)
 
     plt.gca().set_aspect(1)
     plt.axis('off')
