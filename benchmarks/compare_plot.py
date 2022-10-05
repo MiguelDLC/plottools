@@ -300,3 +300,54 @@ os.system("pdfcrop %s %s" % (figname, figname))
 
 plt.show()
 # %%
+
+
+reftime = gettime("cpu.txt")
+files = ["out00.txt", "out02.txt", "out04.txt", "ava-2080.txt"]
+names = ["Baseline", "Reordering", "Shared\nmemory", "Coalescence"]
+periter = np.array([gettime(fname) for fname in files])
+
+plt.figure(figsize=(5.5,5))
+plt.grid(color='k', alpha=0.1, axis='y')
+plt.grid(which='minor', ls=":", color='k', alpha=0.1, axis='y')
+plt.plot(names, reftime/periter, 'o-')
+plt.plot(names, 1e6*periter, 'o-')
+plt.xlim([-0.25,3.25])
+# plt.bar(names, 57*periter**0, 0.5, label="Vector sums")
+plt.ylabel("Speedup over 1 CPU core")
+plt.ylim([100., 850])
+tck = np.arange(1,9)*100
+plt.yticks(tck, ["$\\times%d$" % n for n in tck])
+
+ax2 = plt.gca().twinx()
+plt.ylabel("Time per iteration $[\mu s]$")
+plt.ylim([100., 850])
+plt.xticks(fontsize=12, rotation=0)
+plt.yticks(tck, ["$%d\mu s$" % n for n in tck])
+
+
+#plt.text(0.7, 120, r"$\div 5.05$", fontsize=14)
+#plt.text(1.72, 12 , r"$\div 8.61$", fontsize=14)
+#plt.text(2.7, 2, r"$\div 6.18$", fontsize=14)
+
+for i, t in enumerate(periter):
+    if i != 1:
+        plt.text(i, (reftime/(t)) , "$%s%d$\n\n" % (r"\times", np.ceil(reftime/t)), ha="center", va="center", fontsize=12, rotation=0)
+    else:
+        plt.text(i, (reftime/(t)) , "\n\n$%s%d$" % (r"\times", np.ceil(reftime/t)), ha="center", va="center", fontsize=12, rotation=0)
+
+
+for i, t in enumerate(periter):
+    if i < 3:
+        plt.text(i, 1e6*t , "%s\n\n" % (tlabel(t)), ha="center", va="center", fontsize=12, rotation=0)
+    else:
+        plt.text(i, 1e6*t , "\n\n%s" % (tlabel(t)), ha="center", va="center", fontsize=12, rotation=0)
+
+plt.tight_layout()
+figname = "../Figures/speed-fact-reduced.pdf"
+plt.savefig(figname)
+os.system("pdfcrop %s %s" % (figname, figname))
+
+plt.show()
+
+# %%
